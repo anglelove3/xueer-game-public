@@ -1,0 +1,537 @@
+{"frame":7,"time":"2026-10-19T04:04:05.904Z","type":"phase","data":"P0 序章"}
+{"frame":8,"time":"2026-10-19T04:04:05.921Z","type":"pass","data":{"name":"进入 Map004","actual":true,"expected":true}}
+{"frame":9,"time":"2026-10-19T04:04:05.929Z","type":"pass","data":{"name":"Map004 情绪初始为 55","actual":true,"expected":true}}
+{"frame":10,"time":"2026-10-19T04:04:06.204Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"set","args":{"value":"55"},"mapId":4}}
+{"frame":10,"time":"2026-10-19T04:04:06.205Z","type":"text","data":"\\C[3]不知道为什么，雪儿最近总感觉自己有什么东西忘记了，现在的一切"}
+{"frame":10,"time":"2026-10-19T04:04:06.205Z","type":"text","data":"变得和从前不一样了……"}
+{"frame":11,"time":"2026-10-19T04:04:06.208Z","type":"pass","data":{"name":"Map004 开场独白已播放","actual":true,"expected":true}}
+{"frame":38,"time":"2026-10-19T04:04:06.699Z","type":"pass","data":{"name":"序章自动转场到 Map005","actual":true,"expected":true}}
+{"frame":41,"time":"2026-10-19T04:04:06.815Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"set","args":{"value":"55"},"mapId":5}}
+{"frame":101,"time":"2026-10-19T04:04:07.767Z","type":"text","data":"\\C[4]这到底是哪里，我怎么会在这里！"}
+{"frame":276,"time":"2026-10-19T04:04:10.552Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":5,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":false,"msgOpen":false,"choiceOpen":false}}}
+{"frame":378,"time":"2026-10-19T04:04:12.248Z","type":"text","data":"怎么会有飞在天空中的城堡？这瀑布怎么是从天上"}
+{"frame":378,"time":"2026-10-19T04:04:12.248Z","type":"text","data":"往下流的……我到底来到哪儿了。"}
+{"frame":448,"time":"2026-10-19T04:04:13.437Z","type":"text","data":"算了。我先不想那么多，往前探索吧。"}
+{"frame":649,"time":"2026-10-19T04:04:16.631Z","type":"pass","data":{"name":"序章结束后情绪为 55","actual":55,"expected":55}}
+{"frame":649,"time":"2026-10-19T04:04:16.635Z","type":"shotState","data":{"name":"b5_01_prologue_map5.png","mapId":5,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[-45,-45,-35,60],"pictures":[null,null],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":0,"frame":0,"busy":false}}}
+{"frame":649,"time":"2026-10-19T04:04:16.706Z","type":"screenshot","data":{"name":"b5_01_prologue_map5.png","bytes":1005031,"via":"canvas","canvas":"816x624"}}
+{"frame":649,"time":"2026-10-19T04:04:16.707Z","type":"phase","data":"P1 第一章收尾：心锁1/2、妈妈、第1夜"}
+{"frame":650,"time":"2026-10-19T04:04:16.713Z","type":"transfer","data":{"mapId":7,"x":22,"y":12,"direction":2}}
+{"frame":687,"time":"2026-10-19T04:04:17.447Z","type":"pass","data":{"name":"进入 Map007","actual":true,"expected":true}}
+{"frame":706,"time":"2026-10-19T04:04:17.751Z","type":"pass","data":{"name":"第一章起点 Map007","actual":7,"expected":7}}
+{"frame":706,"time":"2026-10-19T04:04:17.752Z","type":"pass","data":{"name":"初始 V24=1","actual":1,"expected":1}}
+{"frame":706,"time":"2026-10-19T04:04:17.752Z","type":"injectItem","data":{"id":103,"count":1}}
+{"frame":706,"time":"2026-10-19T04:04:17.753Z","type":"injectVar","data":{"id":15,"value":3}}
+{"frame":707,"time":"2026-10-19T04:04:17.766Z","type":"transfer","data":{"mapId":2,"x":10,"y":14,"direction":8}}
+{"frame":745,"time":"2026-10-19T04:04:18.454Z","type":"pass","data":{"name":"进入 Map002 井边","actual":true,"expected":true}}
+{"frame":765,"time":"2026-10-19T04:04:18.776Z","type":"startEvent","data":{"mapId":2,"eventId":21,"label":"井·心锁1","page":1}}
+{"frame":765,"time":"2026-10-19T04:04:18.792Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"1","images":"Memory_1","silent":"false"},"mapId":2}}
+{"frame":768,"time":"2026-10-19T04:04:18.827Z","type":"pass","data":{"name":"心锁 1 开始播放","actual":true,"expected":true}}
+{"frame":768,"time":"2026-10-19T04:04:18.828Z","type":"pass","data":{"name":"当前播放段号=1","actual":1,"expected":1}}
+{"frame":868,"time":"2026-10-19T04:04:20.438Z","type":"pass","data":{"name":"心锁 1 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":868,"time":"2026-10-19T04:04:20.440Z","type":"shotState","data":{"name":"b5_02_memlock01_well.png","mapId":2,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[0,0,0,180],"pictures":[{"name":"记忆底框_4x3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0},{"name":"Memory_1","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":1,"frame":103,"busy":true}}}
+{"frame":868,"time":"2026-10-19T04:04:20.490Z","type":"screenshot","data":{"name":"b5_02_memlock01_well.png","bytes":410565,"via":"canvas","canvas":"816x624"}}
+{"frame":1005,"time":"2026-10-19T04:04:22.710Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":2,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":true,"msgOpen":false,"choiceOpen":false}}}
+{"frame":1255,"time":"2026-10-19T04:04:27.252Z","type":"pass","data":{"name":"心锁 1 播放完毕","actual":true,"expected":true}}
+{"frame":1255,"time":"2026-10-19T04:04:27.253Z","type":"pass","data":{"name":"心锁 1 已记录 S21","actual":true,"expected":true}}
+{"frame":1255,"time":"2026-10-19T04:04:27.254Z","type":"pass","data":{"name":"心锁计数 V18=1","actual":1,"expected":1}}
+{"frame":1255,"time":"2026-10-19T04:04:27.256Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-1"},"mapId":2}}
+{"frame":1285,"time":"2026-10-19T04:04:27.800Z","type":"pass","data":{"name":"心锁1 后 S21=ON","actual":true,"expected":true}}
+{"frame":1285,"time":"2026-10-19T04:04:27.800Z","type":"pass","data":{"name":"心锁1 后仍在 Map002","actual":2,"expected":2}}
+{"frame":1286,"time":"2026-10-19T04:04:27.819Z","type":"startEvent","data":{"mapId":2,"eventId":21,"label":"井·门禁回归","page":1}}
+{"frame":1286,"time":"2026-10-19T04:04:27.821Z","type":"text","data":"（井边很安静。）"}
+{"frame":1316,"time":"2026-10-19T04:04:28.358Z","type":"pass","data":{"name":"未过第1夜不能下井","actual":2,"expected":2}}
+{"frame":1316,"time":"2026-10-19T04:04:28.358Z","type":"pass","data":{"name":"井边门禁提示","actual":true,"expected":true}}
+{"frame":1321,"time":"2026-10-19T04:04:28.445Z","type":"transfer","data":{"mapId":7,"x":21,"y":8,"direction":8}}
+{"frame":1359,"time":"2026-10-19T04:04:29.126Z","type":"pass","data":{"name":"回到 Map007 窗前","actual":true,"expected":true}}
+{"frame":1379,"time":"2026-10-19T04:04:29.446Z","type":"startEvent","data":{"mapId":7,"eventId":17,"label":"窗前·心锁2","page":1}}
+{"frame":1379,"time":"2026-10-19T04:04:29.462Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"2","images":"Memory_2","silent":"false"},"mapId":7}}
+{"frame":1382,"time":"2026-10-19T04:04:29.494Z","type":"pass","data":{"name":"心锁 2 开始播放","actual":true,"expected":true}}
+{"frame":1382,"time":"2026-10-19T04:04:29.494Z","type":"pass","data":{"name":"当前播放段号=2","actual":2,"expected":2}}
+{"frame":1482,"time":"2026-10-19T04:04:31.110Z","type":"pass","data":{"name":"心锁 2 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":1482,"time":"2026-10-19T04:04:31.112Z","type":"shotState","data":{"name":"b5_03_memlock02_window.png","mapId":7,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[0,0,0,180],"pictures":[{"name":"记忆底框_4x3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0},{"name":"Memory_2","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":2,"frame":103,"busy":true}}}
+{"frame":1482,"time":"2026-10-19T04:04:31.148Z","type":"screenshot","data":{"name":"b5_03_memlock02_window.png","bytes":356154,"via":"canvas","canvas":"816x624"}}
+{"frame":1619,"time":"2026-10-19T04:04:33.318Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":7,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":true,"msgOpen":false,"choiceOpen":false}}}
+{"frame":1869,"time":"2026-10-19T04:04:37.622Z","type":"pass","data":{"name":"心锁 2 播放完毕","actual":true,"expected":true}}
+{"frame":1869,"time":"2026-10-19T04:04:37.622Z","type":"pass","data":{"name":"心锁 2 已记录 S22","actual":true,"expected":true}}
+{"frame":1869,"time":"2026-10-19T04:04:37.623Z","type":"pass","data":{"name":"心锁计数 V18=2","actual":2,"expected":2}}
+{"frame":1869,"time":"2026-10-19T04:04:37.638Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-1"},"mapId":7}}
+{"frame":1869,"time":"2026-10-19T04:04:37.638Z","type":"text","data":"（窗外的天，灰得像一张旧照片。）"}
+{"frame":1909,"time":"2026-10-19T04:04:38.262Z","type":"pass","data":{"name":"心锁2 后 S22=ON","actual":true,"expected":true}}
+{"frame":1910,"time":"2026-10-19T04:04:38.278Z","type":"startEvent","data":{"mapId":7,"eventId":2,"label":"穆妈","page":1}}
+{"frame":1910,"time":"2026-10-19T04:04:38.294Z","type":"text","data":"妈，我刚才做了一个梦，梦里有两个人不停地在追我。"}
+{"frame":1920,"time":"2026-10-19T04:04:38.454Z","type":"text","data":"乖，又做噩梦了吧！没事，有妈妈在。先去吃饭吧。"}
+{"frame":1946,"time":"2026-10-19T04:04:38.874Z","type":"text","data":"妈，你好肉麻啊。不过正好，我肚子饿了。"}
+{"frame":1997,"time":"2026-10-19T04:04:39.671Z","type":"pass","data":{"name":"与妈妈说话后 V24=2","actual":2,"expected":2}}
+{"frame":1997,"time":"2026-10-19T04:04:39.671Z","type":"pass","data":{"name":"与妈妈说话后 V25=1","actual":1,"expected":1}}
+{"frame":1997,"time":"2026-10-19T04:04:39.671Z","type":"pass","data":{"name":"与妈妈说话不会误开心锁5开关","actual":false,"expected":false}}
+{"frame":1997,"time":"2026-10-19T04:04:39.672Z","type":"pass","data":{"name":"妈妈对话出现","actual":true,"expected":true}}
+{"frame":1998,"time":"2026-10-19T04:04:39.687Z","type":"startEvent","data":{"mapId":7,"eventId":16,"label":"床·第1夜","page":1}}
+{"frame":1998,"time":"2026-10-19T04:04:39.702Z","type":"text","data":"（被子叠得很整齐。）"}
+{"frame":2026,"time":"2026-10-19T04:04:40.136Z","type":"choice","data":{"index":0,"text":"睡吧","choices":["睡吧","还不困"]}}
+{"frame":2026,"time":"2026-10-19T04:04:40.150Z","type":"plugin","data":{"pluginName":"XueEr_Monologue","commandName":"night","args":{"night":"1","variant":"1"},"mapId":7}}
+{"frame":2028,"time":"2026-10-19T04:04:40.214Z","type":"pass","data":{"name":"第 1 夜独白打开","actual":true,"expected":true}}
+{"frame":2088,"time":"2026-10-19T04:04:41.175Z","type":"shotState","data":{"name":"b5_04_night1.png","mapId":7,"scene":"Scene_Monologue","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[-45,-45,-35,60],"pictures":[null,null],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":2,"frame":490,"busy":false}}}
+{"frame":2088,"time":"2026-10-19T04:04:41.221Z","type":"screenshot","data":{"name":"b5_04_night1.png","bytes":540172,"via":"canvas","canvas":"816x624"}}
+{"frame":2110,"time":"2026-10-19T04:04:41.611Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"3"},"mapId":7}}
+{"frame":2110,"time":"2026-10-19T04:04:41.611Z","type":"text","data":"（再醒来的时候，天已经亮了。）"}
+{"frame":2114,"time":"2026-10-19T04:04:41.654Z","type":"pass","data":{"name":"第 1 夜已读 S33","actual":true,"expected":true}}
+{"frame":2120,"time":"2026-10-19T04:04:41.766Z","type":"text","data":"（村口的水井边，好像有风从下面吹上来。）"}
+{"frame":2146,"time":"2026-10-19T04:04:42.184Z","type":"fadeTrace","data":{"dir":"out","duration":24,"mapId":7,"eventId":16,"brightness":255,"stack":["    at Game_Screen.startFadeOut (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:74:73)","    at Game_Interpreter.command221 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10639:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":2170,"time":"2026-10-19T04:04:42.550Z","type":"brightnessEdge","data":{"from":10.625,"to":0,"mapId":7,"eventId":16,"brightness":0,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":2198,"time":"2026-10-19T04:04:43.100Z","type":"fadeTrace","data":{"dir":"in","duration":24,"mapId":7,"eventId":16,"brightness":0,"stack":["    at Game_Screen.startFadeIn (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:79:72)","    at Game_Interpreter.command222 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10649:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":2199,"time":"2026-10-19T04:04:43.100Z","type":"brightnessEdge","data":{"from":0,"to":10.625,"mapId":7,"eventId":16,"brightness":10.625,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":2262,"time":"2026-10-19T04:04:44.102Z","type":"pass","data":{"name":"第1夜后 S33=ON","actual":true,"expected":true}}
+{"frame":2262,"time":"2026-10-19T04:04:44.102Z","type":"pass","data":{"name":"第1夜后 S44=ON","actual":true,"expected":true}}
+{"frame":2262,"time":"2026-10-19T04:04:44.103Z","type":"pass","data":{"name":"第1夜后 V25=0","actual":0,"expected":0}}
+{"frame":2262,"time":"2026-10-19T04:04:44.103Z","type":"pass","data":{"name":"第1夜后 V24 仍为 2","actual":2,"expected":2}}
+{"frame":2262,"time":"2026-10-19T04:04:44.104Z","type":"pass","data":{"name":"第1夜变体1","actual":true,"expected":true}}
+{"frame":2263,"time":"2026-10-19T04:04:44.118Z","type":"transfer","data":{"mapId":2,"x":10,"y":14,"direction":8}}
+{"frame":2301,"time":"2026-10-19T04:04:44.806Z","type":"pass","data":{"name":"回到 Map002 井边","actual":true,"expected":true}}
+{"frame":2321,"time":"2026-10-19T04:04:45.128Z","type":"startEvent","data":{"mapId":2,"eventId":21,"label":"井·下井","page":2}}
+{"frame":2321,"time":"2026-10-19T04:04:45.143Z","type":"text","data":"（井水黑得像没有底。）"}
+{"frame":2331,"time":"2026-10-19T04:04:45.288Z","type":"choice","data":{"index":0,"text":"下到井里","choices":["下到井里","算了"]}}
+{"frame":2331,"time":"2026-10-19T04:04:45.302Z","type":"text","data":"（她顺着井壁的石头，慢慢往下爬。）"}
+{"frame":2347,"time":"2026-10-19T04:04:45.558Z","type":"fadeTrace","data":{"dir":"out","duration":24,"mapId":2,"eventId":21,"brightness":255,"stack":["    at Game_Screen.startFadeOut (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:74:73)","    at Game_Interpreter.command221 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10639:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":2371,"time":"2026-10-19T04:04:45.926Z","type":"brightnessEdge","data":{"from":10.625,"to":0,"mapId":2,"eventId":21,"brightness":0,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":2399,"time":"2026-10-19T04:04:46.401Z","type":"pass","data":{"name":"下井进入 Map013","actual":true,"expected":true}}
+{"frame":2400,"time":"2026-10-19T04:04:46.459Z","type":"fadeTrace","data":{"dir":"in","duration":24,"mapId":13,"eventId":21,"brightness":0,"stack":["    at Game_Screen.startFadeIn (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:79:72)","    at Game_Interpreter.command222 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10649:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":2401,"time":"2026-10-19T04:04:46.459Z","type":"brightnessEdge","data":{"from":0,"to":10.625,"mapId":13,"eventId":21,"brightness":10.625,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":2454,"time":"2026-10-19T04:04:47.303Z","type":"pass","data":{"name":"迷宫 Map013","actual":13,"expected":13}}
+{"frame":2454,"time":"2026-10-19T04:04:47.304Z","type":"phase","data":"P2 第二章：迷宫、心锁3、森林、心锁4、第2夜"}
+{"frame":2455,"time":"2026-10-19T04:04:47.318Z","type":"startEvent","data":{"mapId":13,"eventId":1,"label":"树枝 1","page":1}}
+{"frame":2455,"time":"2026-10-19T04:04:47.334Z","type":"text","data":"（树枝……\\V[2]/5 了。）"}
+{"frame":2490,"time":"2026-10-19T04:04:47.878Z","type":"startEvent","data":{"mapId":13,"eventId":4,"label":"树枝 4","page":1}}
+{"frame":2490,"time":"2026-10-19T04:04:47.894Z","type":"text","data":"（树枝……\\V[2]/5 了。）"}
+{"frame":2525,"time":"2026-10-19T04:04:48.438Z","type":"startEvent","data":{"mapId":13,"eventId":5,"label":"树枝 5","page":1}}
+{"frame":2525,"time":"2026-10-19T04:04:48.455Z","type":"text","data":"（树枝……\\V[2]/5 了。）"}
+{"frame":2560,"time":"2026-10-19T04:04:48.999Z","type":"startEvent","data":{"mapId":13,"eventId":6,"label":"树枝 6","page":1}}
+{"frame":2560,"time":"2026-10-19T04:04:49.015Z","type":"text","data":"（树枝……\\V[2]/5 了。）"}
+{"frame":2595,"time":"2026-10-19T04:04:49.559Z","type":"startEvent","data":{"mapId":13,"eventId":7,"label":"树枝 7","page":1}}
+{"frame":2595,"time":"2026-10-19T04:04:49.574Z","type":"text","data":"（树枝……\\V[2]/5 了。）"}
+{"frame":2630,"time":"2026-10-19T04:04:50.118Z","type":"startEvent","data":{"mapId":13,"eventId":2,"label":"叶子 2","page":1}}
+{"frame":2630,"time":"2026-10-19T04:04:50.135Z","type":"text","data":"（叶子……\\V[3]/4 了。）"}
+{"frame":2665,"time":"2026-10-19T04:04:50.678Z","type":"startEvent","data":{"mapId":13,"eventId":8,"label":"叶子 8","page":1}}
+{"frame":2665,"time":"2026-10-19T04:04:50.695Z","type":"text","data":"（叶子……\\V[3]/4 了。）"}
+{"frame":2700,"time":"2026-10-19T04:04:51.238Z","type":"startEvent","data":{"mapId":13,"eventId":9,"label":"叶子 9","page":1}}
+{"frame":2700,"time":"2026-10-19T04:04:51.254Z","type":"text","data":"（叶子……\\V[3]/4 了。）"}
+{"frame":2735,"time":"2026-10-19T04:04:51.798Z","type":"startEvent","data":{"mapId":13,"eventId":10,"label":"叶子 10","page":1}}
+{"frame":2735,"time":"2026-10-19T04:04:51.814Z","type":"text","data":"（叶子……\\V[3]/4 了。）"}
+{"frame":2770,"time":"2026-10-19T04:04:52.361Z","type":"startEvent","data":{"mapId":13,"eventId":3,"label":"菌类 3","page":1}}
+{"frame":2770,"time":"2026-10-19T04:04:52.375Z","type":"text","data":"（菌类……\\V[4]/3 了。）"}
+{"frame":2805,"time":"2026-10-19T04:04:52.919Z","type":"startEvent","data":{"mapId":13,"eventId":11,"label":"菌类 11","page":1}}
+{"frame":2805,"time":"2026-10-19T04:04:52.934Z","type":"text","data":"（菌类……\\V[4]/3 了。）"}
+{"frame":2840,"time":"2026-10-19T04:04:53.478Z","type":"startEvent","data":{"mapId":13,"eventId":12,"label":"菌类 12","page":1}}
+{"frame":2840,"time":"2026-10-19T04:04:53.494Z","type":"text","data":"（菌类……\\V[4]/3 了。）"}
+{"frame":2865,"time":"2026-10-19T04:04:53.878Z","type":"pass","data":{"name":"树枝 V2=5","actual":5,"expected":5}}
+{"frame":2865,"time":"2026-10-19T04:04:53.878Z","type":"pass","data":{"name":"叶子 V3=4","actual":4,"expected":4}}
+{"frame":2865,"time":"2026-10-19T04:04:53.879Z","type":"pass","data":{"name":"菌类 V4=3","actual":3,"expected":3}}
+{"frame":2875,"time":"2026-10-19T04:04:54.039Z","type":"startEvent","data":{"mapId":13,"eventId":14,"label":"收集检查","page":1}}
+{"frame":2878,"time":"2026-10-19T04:04:54.088Z","type":"pass","data":{"name":"收集齐全后 S1=ON","actual":true,"expected":true}}
+{"frame":2878,"time":"2026-10-19T04:04:54.089Z","type":"pass","data":{"name":"收集齐全后 S2=ON","actual":true,"expected":true}}
+{"frame":2879,"time":"2026-10-19T04:04:54.108Z","type":"startEvent","data":{"mapId":13,"eventId":13,"label":"迷宫出口·心锁3","page":1}}
+{"frame":2879,"time":"2026-10-19T04:04:54.120Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"3","images":"Memory_3","silent":"false"},"mapId":13}}
+{"frame":2882,"time":"2026-10-19T04:04:54.152Z","type":"pass","data":{"name":"心锁 3 开始播放","actual":true,"expected":true}}
+{"frame":2882,"time":"2026-10-19T04:04:54.152Z","type":"pass","data":{"name":"当前播放段号=3","actual":3,"expected":3}}
+{"frame":2982,"time":"2026-10-19T04:04:55.751Z","type":"pass","data":{"name":"心锁 3 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":2982,"time":"2026-10-19T04:04:55.754Z","type":"shotState","data":{"name":"b5_05_memlock03_maze.png","mapId":13,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[0,0,0,180],"pictures":[{"name":"记忆底框_4x3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0},{"name":"Memory_3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":3,"frame":103,"busy":true}}}
+{"frame":2982,"time":"2026-10-19T04:04:55.817Z","type":"screenshot","data":{"name":"b5_05_memlock03_maze.png","bytes":382315,"via":"canvas","canvas":"816x624"}}
+{"frame":3119,"time":"2026-10-19T04:04:58.023Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":13,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":true,"msgOpen":false,"choiceOpen":false}}}
+{"frame":3369,"time":"2026-10-19T04:05:02.097Z","type":"pass","data":{"name":"心锁 3 播放完毕","actual":true,"expected":true}}
+{"frame":3369,"time":"2026-10-19T04:05:02.098Z","type":"pass","data":{"name":"心锁 3 已记录 S23","actual":true,"expected":true}}
+{"frame":3369,"time":"2026-10-19T04:05:02.099Z","type":"pass","data":{"name":"心锁计数 V18=3","actual":3,"expected":3}}
+{"frame":3369,"time":"2026-10-19T04:05:02.114Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-3"},"mapId":13}}
+{"frame":3369,"time":"2026-10-19T04:05:02.115Z","type":"text","data":"天已经黑了一半。"}
+{"frame":3379,"time":"2026-10-19T04:05:02.266Z","type":"fadeTrace","data":{"dir":"out","duration":24,"mapId":13,"eventId":13,"brightness":255,"stack":["    at Game_Screen.startFadeOut (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:74:73)","    at Game_Interpreter.command221 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10639:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":3403,"time":"2026-10-19T04:05:02.630Z","type":"brightnessEdge","data":{"from":10.625,"to":0,"mapId":13,"eventId":13,"brightness":0,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":3430,"time":"2026-10-19T04:05:03.096Z","type":"pass","data":{"name":"心锁3 后进入 Map014","actual":true,"expected":true}}
+{"frame":3432,"time":"2026-10-19T04:05:03.196Z","type":"fadeTrace","data":{"dir":"in","duration":24,"mapId":14,"eventId":13,"brightness":0,"stack":["    at Game_Screen.startFadeIn (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:79:72)","    at Game_Interpreter.command222 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10649:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":3433,"time":"2026-10-19T04:05:03.197Z","type":"brightnessEdge","data":{"from":0,"to":10.625,"mapId":14,"eventId":13,"brightness":10.625,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":3486,"time":"2026-10-19T04:05:04.040Z","type":"pass","data":{"name":"森林 Map014","actual":14,"expected":14}}
+{"frame":3487,"time":"2026-10-19T04:05:04.055Z","type":"startEvent","data":{"mapId":14,"eventId":1,"label":"林中·心锁4","page":1}}
+{"frame":3487,"time":"2026-10-19T04:05:04.073Z","type":"text","data":"（她在林子中间站住。）……我刚才是不是来过这儿。"}
+{"frame":3497,"time":"2026-10-19T04:05:04.229Z","type":"text","data":"（树都一样。路也一样。）"}
+{"frame":3727,"time":"2026-10-19T04:05:07.895Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":14,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":false,"msgOpen":false,"choiceOpen":false}}}
+{"frame":3823,"time":"2026-10-19T04:05:09.446Z","type":"text","data":"（她站起来。）……走吧。"}
+{"frame":3833,"time":"2026-10-19T04:05:09.605Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"4","images":"Memory_4","silent":"false"},"mapId":14}}
+{"frame":3834,"time":"2026-10-19T04:05:09.606Z","type":"pass","data":{"name":"心锁 4 开始播放","actual":true,"expected":true}}
+{"frame":3834,"time":"2026-10-19T04:05:09.607Z","type":"pass","data":{"name":"当前播放段号=4","actual":4,"expected":4}}
+{"frame":3934,"time":"2026-10-19T04:05:11.206Z","type":"pass","data":{"name":"心锁 4 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":3934,"time":"2026-10-19T04:05:11.207Z","type":"shotState","data":{"name":"b5_06_memlock04_forest.png","mapId":14,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[0,0,0,180],"pictures":[{"name":"记忆底框_4x3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0},{"name":"Memory_4","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":4,"frame":101,"busy":true}}}
+{"frame":3934,"time":"2026-10-19T04:05:11.240Z","type":"screenshot","data":{"name":"b5_06_memlock04_forest.png","bytes":389930,"via":"canvas","canvas":"816x624"}}
+{"frame":4323,"time":"2026-10-19T04:05:17.477Z","type":"pass","data":{"name":"心锁 4 播放完毕","actual":true,"expected":true}}
+{"frame":4323,"time":"2026-10-19T04:05:17.478Z","type":"pass","data":{"name":"心锁 4 已记录 S24","actual":true,"expected":true}}
+{"frame":4323,"time":"2026-10-19T04:05:17.479Z","type":"pass","data":{"name":"心锁计数 V18=4","actual":4,"expected":4}}
+{"frame":4323,"time":"2026-10-19T04:05:17.493Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-1"},"mapId":14}}
+{"frame":4353,"time":"2026-10-19T04:05:17.958Z","type":"pass","data":{"name":"心锁4 后 S49=ON","actual":true,"expected":true}}
+{"frame":4354,"time":"2026-10-19T04:05:17.974Z","type":"startEvent","data":{"mapId":14,"eventId":2,"label":"离开森林·第2夜","page":1}}
+{"frame":4354,"time":"2026-10-19T04:05:17.989Z","type":"text","data":"（沿着这条小路，能走出森林。）"}
+{"frame":4364,"time":"2026-10-19T04:05:18.138Z","type":"choice","data":{"index":0,"text":"离开森林","choices":["离开森林","再待一会儿"]}}
+{"frame":4364,"time":"2026-10-19T04:05:18.149Z","type":"text","data":"沙尔文：你不该在林子中间停下。"}
+{"frame":4380,"time":"2026-10-19T04:05:18.405Z","type":"text","data":"雪儿：……又是你。"}
+{"frame":4406,"time":"2026-10-19T04:05:18.822Z","type":"text","data":"沙尔文：这里的东西，都是你自己放在这儿的。"}
+{"frame":4432,"time":"2026-10-19T04:05:19.238Z","type":"text","data":"雪儿：我听不懂。"}
+{"frame":4458,"time":"2026-10-19T04:05:19.654Z","type":"text","data":"沙尔文：（停了很久）……那就算了。"}
+{"frame":4484,"time":"2026-10-19T04:05:20.070Z","type":"plugin","data":{"pluginName":"XueEr_Monologue","commandName":"night","args":{"night":"2","variant":"1"},"mapId":14}}
+{"frame":4493,"time":"2026-10-19T04:05:20.246Z","type":"pass","data":{"name":"第 2 夜独白打开","actual":true,"expected":true}}
+{"frame":4553,"time":"2026-10-19T04:05:21.191Z","type":"shotState","data":{"name":"b5_07_night2.png","mapId":14,"scene":"Scene_Monologue","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[-45,-45,-35,60],"pictures":[null,null],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":4,"frame":490,"busy":false}}}
+{"frame":4553,"time":"2026-10-19T04:05:21.233Z","type":"screenshot","data":{"name":"b5_07_night2.png","bytes":518514,"via":"canvas","canvas":"816x624"}}
+{"frame":4575,"time":"2026-10-19T04:05:21.624Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"3"},"mapId":14}}
+{"frame":4575,"time":"2026-10-19T04:05:21.626Z","type":"fadeTrace","data":{"dir":"out","duration":24,"mapId":14,"eventId":2,"brightness":255,"stack":["    at Game_Screen.startFadeOut (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:74:73)","    at Game_Interpreter.command221 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10639:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":4579,"time":"2026-10-19T04:05:21.669Z","type":"pass","data":{"name":"第 2 夜已读 S34","actual":true,"expected":true}}
+{"frame":4579,"time":"2026-10-19T04:05:21.670Z","type":"pass","data":{"name":"第2夜变体1","actual":true,"expected":true}}
+{"frame":4599,"time":"2026-10-19T04:05:21.991Z","type":"brightnessEdge","data":{"from":10.625,"to":0,"mapId":14,"eventId":2,"brightness":0,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":4627,"time":"2026-10-19T04:05:22.473Z","type":"pass","data":{"name":"第2夜后进入 Map020","actual":true,"expected":true}}
+{"frame":4627,"time":"2026-10-19T04:05:22.474Z","type":"phase","data":"P3 第三章：莲城、心锁5、工厂、心锁6、公寓、心锁7/8、第3夜"}
+{"frame":4630,"time":"2026-10-19T04:05:22.660Z","type":"fadeTrace","data":{"dir":"in","duration":24,"mapId":20,"eventId":2,"brightness":0,"stack":["    at Game_Screen.startFadeIn (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:79:72)","    at Game_Interpreter.command222 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10649:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":4631,"time":"2026-10-19T04:05:22.661Z","type":"brightnessEdge","data":{"from":0,"to":10.625,"mapId":20,"eventId":2,"brightness":10.625,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":4654,"time":"2026-10-19T04:05:23.032Z","type":"text","data":"（莲城的街上很吵。）"}
+{"frame":4664,"time":"2026-10-19T04:05:23.190Z","type":"text","data":"路人甲：你个杀千刀的，车开那么快干嘛，赶着去投胎啊！"}
+{"frame":4690,"time":"2026-10-19T04:05:23.606Z","type":"text","data":"路人乙：你个死抱怨，你车子害了病啦？"}
+{"frame":4716,"time":"2026-10-19T04:05:24.022Z","type":"text","data":"路人乙：不晓得的，以为你开的是碰碰车呢。"}
+{"frame":4742,"time":"2026-10-19T04:05:24.438Z","type":"text","data":"（他们吵了很久。没有人劝。）"}
+{"frame":4768,"time":"2026-10-19T04:05:24.854Z","type":"text","data":"（她站在旁边，一直听到他们吵完。）"}
+{"frame":4794,"time":"2026-10-19T04:05:25.269Z","type":"text","data":"雪儿：……"}
+{"frame":4820,"time":"2026-10-19T04:05:25.685Z","type":"text","data":"（然后她才想起来，自己是要去哪儿的。）"}
+{"frame":4846,"time":"2026-10-19T04:05:26.101Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"5","images":"Memory_5","silent":"false"},"mapId":20}}
+{"frame":4847,"time":"2026-10-19T04:05:26.104Z","type":"pass","data":{"name":"心锁 5 开始播放","actual":true,"expected":true}}
+{"frame":4847,"time":"2026-10-19T04:05:26.104Z","type":"pass","data":{"name":"当前播放段号=5","actual":5,"expected":5}}
+{"frame":4864,"time":"2026-10-19T04:05:26.374Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":20,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":true,"msgOpen":false,"choiceOpen":false}}}
+{"frame":4947,"time":"2026-10-19T04:05:27.702Z","type":"pass","data":{"name":"心锁 5 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":4947,"time":"2026-10-19T04:05:27.704Z","type":"shotState","data":{"name":"b5_08_memlock05_city.png","mapId":20,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[0,0,0,180],"pictures":[{"name":"记忆底框_4x3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0},{"name":"Memory_5","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":5,"frame":101,"busy":true}}}
+{"frame":4947,"time":"2026-10-19T04:05:27.745Z","type":"screenshot","data":{"name":"b5_08_memlock05_city.png","bytes":379903,"via":"canvas","canvas":"816x624"}}
+{"frame":5336,"time":"2026-10-19T04:05:33.957Z","type":"pass","data":{"name":"心锁 5 播放完毕","actual":true,"expected":true}}
+{"frame":5336,"time":"2026-10-19T04:05:33.958Z","type":"pass","data":{"name":"心锁 5 已记录 S25","actual":true,"expected":true}}
+{"frame":5336,"time":"2026-10-19T04:05:33.960Z","type":"pass","data":{"name":"心锁计数 V18=5","actual":5,"expected":5}}
+{"frame":5336,"time":"2026-10-19T04:05:33.973Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-3"},"mapId":20}}
+{"frame":5366,"time":"2026-10-19T04:05:34.439Z","type":"pass","data":{"name":"心锁5 后 S25=ON","actual":true,"expected":true}}
+{"frame":5366,"time":"2026-10-19T04:05:34.439Z","type":"pass","data":{"name":"心锁5 后仍在 Map020","actual":20,"expected":20}}
+{"frame":5367,"time":"2026-10-19T04:05:34.454Z","type":"startEvent","data":{"mapId":20,"eventId":3,"label":"去工厂","page":1}}
+{"frame":5394,"time":"2026-10-19T04:05:35.015Z","type":"pass","data":{"name":"莲城 → Map030","actual":true,"expected":true}}
+{"frame":5421,"time":"2026-10-19T04:05:35.558Z","type":"startEvent","data":{"mapId":30,"eventId":1,"label":"工厂入口","page":1}}
+{"frame":5449,"time":"2026-10-19T04:05:36.061Z","type":"pass","data":{"name":"Map030 → Map032","actual":true,"expected":true}}
+{"frame":5477,"time":"2026-10-19T04:05:36.566Z","type":"startEvent","data":{"mapId":32,"eventId":9,"label":"工人3·心锁6","page":1}}
+{"frame":5477,"time":"2026-10-19T04:05:36.582Z","type":"text","data":"看来只有信了拂晓之神，才能过上好日子！"}
+{"frame":5487,"time":"2026-10-19T04:05:36.741Z","type":"text","data":"工人3：（他笑了一下，笑得挺真的）……反正也没别的地方可去了。"}
+{"frame":5513,"time":"2026-10-19T04:05:37.158Z","type":"text","data":"（他胸口别着一枚工牌。照片上的人，比他年轻很多。）"}
+{"frame":5539,"time":"2026-10-19T04:05:37.574Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"6","images":"Memory_6","silent":"false"},"mapId":32}}
+{"frame":5540,"time":"2026-10-19T04:05:37.576Z","type":"pass","data":{"name":"心锁 6 开始播放","actual":true,"expected":true}}
+{"frame":5540,"time":"2026-10-19T04:05:37.577Z","type":"pass","data":{"name":"当前播放段号=6","actual":6,"expected":6}}
+{"frame":5640,"time":"2026-10-19T04:05:39.254Z","type":"pass","data":{"name":"心锁 6 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":5640,"time":"2026-10-19T04:05:39.256Z","type":"shotState","data":{"name":"b5_09_memlock06_factory.png","mapId":32,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[0,0,0,180],"pictures":[{"name":"记忆底框_4x3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0},{"name":"Memory_6","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":6,"frame":101,"busy":true}}}
+{"frame":5640,"time":"2026-10-19T04:05:39.306Z","type":"screenshot","data":{"name":"b5_09_memlock06_factory.png","bytes":378647,"via":"canvas","canvas":"816x624"}}
+{"frame":5717,"time":"2026-10-19T04:05:40.517Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":32,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":true,"msgOpen":false,"choiceOpen":false}}}
+{"frame":6029,"time":"2026-10-19T04:05:45.525Z","type":"pass","data":{"name":"心锁 6 播放完毕","actual":true,"expected":true}}
+{"frame":6029,"time":"2026-10-19T04:05:45.526Z","type":"pass","data":{"name":"心锁 6 已记录 S26","actual":true,"expected":true}}
+{"frame":6029,"time":"2026-10-19T04:05:45.527Z","type":"pass","data":{"name":"心锁计数 V18=6","actual":6,"expected":6}}
+{"frame":6029,"time":"2026-10-19T04:05:45.541Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-2"},"mapId":32}}
+{"frame":6059,"time":"2026-10-19T04:05:46.006Z","type":"pass","data":{"name":"心锁6 后 S26=ON","actual":true,"expected":true}}
+{"frame":6060,"time":"2026-10-19T04:05:46.022Z","type":"startEvent","data":{"mapId":32,"eventId":1,"label":"工厂出口","page":1}}
+{"frame":6088,"time":"2026-10-19T04:05:46.500Z","type":"pass","data":{"name":"Map032 → Map033","actual":true,"expected":true}}
+{"frame":6089,"time":"2026-10-19T04:05:46.602Z","type":"text","data":"一进入这个厂房，包裹里面的那把样式奇怪的锁好像闪烁了一下。"}
+{"frame":6099,"time":"2026-10-19T04:05:46.760Z","type":"text","data":"（……又不动了。）"}
+{"frame":6125,"time":"2026-10-19T04:05:47.177Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-2"},"mapId":33}}
+{"frame":6150,"time":"2026-10-19T04:05:47.558Z","type":"startEvent","data":{"mapId":33,"eventId":1,"label":"阿兰入队","page":1}}
+{"frame":6150,"time":"2026-10-19T04:05:47.574Z","type":"text","data":"你遇到我的姐姐了吗！"}
+{"frame":6160,"time":"2026-10-19T04:05:47.734Z","type":"text","data":"我找不到我的姐姐了。我可以加入你们的队伍，"}
+{"frame":6160,"time":"2026-10-19T04:05:47.734Z","type":"text","data":"去找我的姐姐吗？"}
+{"frame":6186,"time":"2026-10-19T04:05:48.150Z","type":"text","data":"雪儿：……你的孩子，多大了。"}
+{"frame":6212,"time":"2026-10-19T04:05:48.566Z","type":"text","data":"阿兰：（低头笑了一下）还没到会说话的年纪。所以他现在说什么，都是我替他说的。"}
+{"frame":6238,"time":"2026-10-19T04:05:48.990Z","type":"text","data":"（阿兰加入了你的队伍。）"}
+{"frame":6289,"time":"2026-10-19T04:05:49.782Z","type":"pass","data":{"name":"阿兰入队 S50=ON","actual":true,"expected":true}}
+{"frame":6289,"time":"2026-10-19T04:05:49.783Z","type":"pass","data":{"name":"队伍中有阿兰","actual":true,"expected":true}}
+{"frame":6289,"time":"2026-10-19T04:05:49.783Z","type":"pass","data":{"name":"阿兰入队文本","actual":true,"expected":true}}
+{"frame":6290,"time":"2026-10-19T04:05:49.797Z","type":"startEvent","data":{"mapId":33,"eventId":2,"label":"离开厂房","page":1}}
+{"frame":6319,"time":"2026-10-19T04:05:50.296Z","type":"pass","data":{"name":"Map033 → Map036","actual":true,"expected":true}}
+{"frame":6346,"time":"2026-10-19T04:05:50.757Z","type":"startEvent","data":{"mapId":36,"eventId":1,"label":"文学哥","page":1}}
+{"frame":6346,"time":"2026-10-19T04:05:50.773Z","type":"text","data":"雪儿，如果累了的话，就早点回来吧，"}
+{"frame":6356,"time":"2026-10-19T04:05:50.934Z","type":"text","data":"雪儿，不要再到处乱跑，岳母和我会担心你的！"}
+{"frame":6382,"time":"2026-10-19T04:05:51.359Z","type":"text","data":"雪儿：（这里，好熟。）"}
+{"frame":6408,"time":"2026-10-19T04:05:51.765Z","type":"text","data":"（可她确定，自己没有来过。）"}
+{"frame":6454,"time":"2026-10-19T04:05:52.486Z","type":"pass","data":{"name":"公寓熟悉感台词","actual":true,"expected":true}}
+{"frame":6459,"time":"2026-10-19T04:05:52.566Z","type":"startEvent","data":{"mapId":36,"eventId":3,"label":"抽屉·心锁7","page":1}}
+{"frame":6459,"time":"2026-10-19T04:05:52.581Z","type":"text","data":"（抽屉里有一张折起来的单子。）"}
+{"frame":6469,"time":"2026-10-19T04:05:52.745Z","type":"text","data":"（……氟西汀。签名那一栏，写着「穆兰雪」。）"}
+{"frame":6495,"time":"2026-10-19T04:05:53.160Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"7","images":"Memory_7","silent":"false"},"mapId":36}}
+{"frame":6496,"time":"2026-10-19T04:05:53.164Z","type":"pass","data":{"name":"心锁 7 开始播放","actual":true,"expected":true}}
+{"frame":6496,"time":"2026-10-19T04:05:53.165Z","type":"pass","data":{"name":"当前播放段号=7","actual":7,"expected":7}}
+{"frame":6596,"time":"2026-10-19T04:05:54.759Z","type":"pass","data":{"name":"心锁 7 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":6596,"time":"2026-10-19T04:05:54.762Z","type":"shotState","data":{"name":"b5_10_memlock07_prescription.png","mapId":36,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[0,0,0,180],"pictures":[{"name":"记忆底框_4x3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0},{"name":"Memory_7","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":7,"frame":101,"busy":true}}}
+{"frame":6596,"time":"2026-10-19T04:05:54.822Z","type":"screenshot","data":{"name":"b5_10_memlock07_prescription.png","bytes":350950,"via":"canvas","canvas":"816x624"}}
+{"frame":6699,"time":"2026-10-19T04:05:56.453Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":36,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":true,"msgOpen":false,"choiceOpen":false}}}
+{"frame":6985,"time":"2026-10-19T04:06:01.030Z","type":"pass","data":{"name":"心锁 7 播放完毕","actual":true,"expected":true}}
+{"frame":6985,"time":"2026-10-19T04:06:01.031Z","type":"pass","data":{"name":"心锁 7 已记录 S27","actual":true,"expected":true}}
+{"frame":6985,"time":"2026-10-19T04:06:01.031Z","type":"pass","data":{"name":"心锁计数 V18=7","actual":7,"expected":7}}
+{"frame":6985,"time":"2026-10-19T04:06:01.046Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-10"},"mapId":36}}
+{"frame":6985,"time":"2026-10-19T04:06:01.047Z","type":"text","data":"雪儿：……不是我的。"}
+{"frame":6995,"time":"2026-10-19T04:06:01.206Z","type":"text","data":"（可签名那一栏，是她自己的字。）"}
+{"frame":7051,"time":"2026-10-19T04:06:02.085Z","type":"pass","data":{"name":"心锁7 后 S38=ON","actual":true,"expected":true}}
+{"frame":7051,"time":"2026-10-19T04:06:02.086Z","type":"pass","data":{"name":"药单文本","actual":true,"expected":true}}
+{"frame":7052,"time":"2026-10-19T04:06:02.103Z","type":"startEvent","data":{"mapId":36,"eventId":4,"label":"桌子·心锁8","page":1}}
+{"frame":7052,"time":"2026-10-19T04:06:02.118Z","type":"text","data":"（桌上放着两个杯子。）"}
+{"frame":7062,"time":"2026-10-19T04:06:02.277Z","type":"text","data":"（一个是空的。）"}
+{"frame":7088,"time":"2026-10-19T04:06:02.694Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"8","images":"Memory_8","silent":"false"},"mapId":36}}
+{"frame":7089,"time":"2026-10-19T04:06:02.696Z","type":"pass","data":{"name":"心锁 8 开始播放","actual":true,"expected":true}}
+{"frame":7089,"time":"2026-10-19T04:06:02.697Z","type":"pass","data":{"name":"当前播放段号=8","actual":8,"expected":8}}
+{"frame":7189,"time":"2026-10-19T04:06:04.310Z","type":"pass","data":{"name":"心锁 8 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":7189,"time":"2026-10-19T04:06:04.311Z","type":"shotState","data":{"name":"b5_11_memlock08_cups.png","mapId":36,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[0,0,0,180],"pictures":[{"name":"记忆底框_4x3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0},{"name":"Memory_8","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":8,"frame":101,"busy":true}}}
+{"frame":7189,"time":"2026-10-19T04:06:04.350Z","type":"screenshot","data":{"name":"b5_11_memlock08_cups.png","bytes":366402,"via":"canvas","canvas":"816x624"}}
+{"frame":7292,"time":"2026-10-19T04:06:05.974Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":36,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":true,"msgOpen":false,"choiceOpen":false}}}
+{"frame":7578,"time":"2026-10-19T04:06:11.174Z","type":"pass","data":{"name":"心锁 8 播放完毕","actual":true,"expected":true}}
+{"frame":7578,"time":"2026-10-19T04:06:11.175Z","type":"pass","data":{"name":"心锁 8 已记录 S28","actual":true,"expected":true}}
+{"frame":7578,"time":"2026-10-19T04:06:11.175Z","type":"pass","data":{"name":"心锁计数 V18=8","actual":8,"expected":8}}
+{"frame":7578,"time":"2026-10-19T04:06:11.189Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-1"},"mapId":36}}
+{"frame":7608,"time":"2026-10-19T04:06:11.654Z","type":"pass","data":{"name":"心锁8 后 S28=ON","actual":true,"expected":true}}
+{"frame":7609,"time":"2026-10-19T04:06:11.670Z","type":"startEvent","data":{"mapId":36,"eventId":2,"label":"离开公寓","page":1}}
+{"frame":7637,"time":"2026-10-19T04:06:12.157Z","type":"pass","data":{"name":"Map036 → Map018","actual":true,"expected":true}}
+{"frame":7664,"time":"2026-10-19T04:06:12.662Z","type":"startEvent","data":{"mapId":18,"eventId":4,"label":"兰雪入队","page":1}}
+{"frame":7664,"time":"2026-10-19T04:06:12.678Z","type":"text","data":"你名字里也有一个雪，我觉得这是上天的缘分。"}
+{"frame":7664,"time":"2026-10-19T04:06:12.678Z","type":"text","data":"让你带我离开这个牢笼，带我出去冒险吧！"}
+{"frame":7674,"time":"2026-10-19T04:06:12.838Z","type":"text","data":"兰雪：这琴……本来就不是我的。"}
+{"frame":7700,"time":"2026-10-19T04:06:13.254Z","type":"text","data":"雪儿：那是谁的？"}
+{"frame":7726,"time":"2026-10-19T04:06:13.670Z","type":"text","data":"兰雪：一个住过这里的女人。她走了，琴没带走。"}
+{"frame":7752,"time":"2026-10-19T04:06:14.102Z","type":"text","data":"雪儿：（女租户……）"}
+{"frame":7778,"time":"2026-10-19T04:06:14.518Z","type":"text","data":"兰雪砸掉了琴，好像是和从前说再见了。"}
+{"frame":7804,"time":"2026-10-19T04:06:14.938Z","type":"text","data":"（兰雪加入你的队伍。）"}
+{"frame":7855,"time":"2026-10-19T04:06:15.751Z","type":"pass","data":{"name":"兰雪入队 S51=ON","actual":true,"expected":true}}
+{"frame":7855,"time":"2026-10-19T04:06:15.769Z","type":"pass","data":{"name":"队伍中有兰雪","actual":true,"expected":true}}
+{"frame":7855,"time":"2026-10-19T04:06:15.770Z","type":"pass","data":{"name":"兰雪入队文本","actual":true,"expected":true}}
+{"frame":7856,"time":"2026-10-19T04:06:15.774Z","type":"startEvent","data":{"mapId":18,"eventId":1,"label":"下楼·第3夜","page":1}}
+{"frame":7856,"time":"2026-10-19T04:06:15.782Z","type":"plugin","data":{"pluginName":"XueEr_Monologue","commandName":"night","args":{"night":"3","variant":"1"},"mapId":18}}
+{"frame":7859,"time":"2026-10-19T04:06:15.994Z","type":"pass","data":{"name":"第 3 夜独白打开","actual":true,"expected":true}}
+{"frame":7919,"time":"2026-10-19T04:06:17.014Z","type":"shotState","data":{"name":"b5_12_night3.png","mapId":18,"scene":"Scene_Monologue","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[-75,-75,-60,120],"pictures":[null,null],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":8,"frame":490,"busy":false}}}
+{"frame":7919,"time":"2026-10-19T04:06:17.077Z","type":"screenshot","data":{"name":"b5_12_night3.png","bytes":532530,"via":"canvas","canvas":"816x624"}}
+{"frame":7941,"time":"2026-10-19T04:06:17.477Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"3"},"mapId":18}}
+{"frame":7941,"time":"2026-10-19T04:06:17.479Z","type":"fadeTrace","data":{"dir":"out","duration":24,"mapId":18,"eventId":1,"brightness":255,"stack":["    at Game_Screen.startFadeOut (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:74:73)","    at Game_Interpreter.command221 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10639:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":7945,"time":"2026-10-19T04:06:17.510Z","type":"pass","data":{"name":"第 3 夜已读 S35","actual":true,"expected":true}}
+{"frame":7945,"time":"2026-10-19T04:06:17.511Z","type":"pass","data":{"name":"第3夜变体1","actual":true,"expected":true}}
+{"frame":7965,"time":"2026-10-19T04:06:17.878Z","type":"brightnessEdge","data":{"from":10.625,"to":0,"mapId":18,"eventId":1,"brightness":0,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":7993,"time":"2026-10-19T04:06:18.360Z","type":"pass","data":{"name":"第3夜后进入 Map031","actual":true,"expected":true}}
+{"frame":7995,"time":"2026-10-19T04:06:18.551Z","type":"fadeTrace","data":{"dir":"in","duration":24,"mapId":31,"eventId":1,"brightness":0,"stack":["    at Game_Screen.startFadeIn (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:79:72)","    at Game_Interpreter.command222 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10649:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":7996,"time":"2026-10-19T04:06:18.551Z","type":"brightnessEdge","data":{"from":0,"to":10.625,"mapId":31,"eventId":1,"brightness":10.625,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":8019,"time":"2026-10-19T04:06:18.918Z","type":"text","data":"到了酒馆之后，雪儿发现刚才平息下去的心锁，"}
+{"frame":8019,"time":"2026-10-19T04:06:18.918Z","type":"text","data":"似乎又开始震动起来，还伴着很亮的光泽。"}
+{"frame":8059,"time":"2026-10-19T04:06:19.542Z","type":"pass","data":{"name":"酒馆开场文本","actual":true,"expected":true}}
+{"frame":8059,"time":"2026-10-19T04:06:19.542Z","type":"phase","data":"P4 第四章：酒馆、心锁10、战斗、心锁11、心锁9、第4夜"}
+{"frame":8060,"time":"2026-10-19T04:06:19.558Z","type":"startEvent","data":{"mapId":31,"eventId":8,"label":"酒馆老板·心锁10","page":1}}
+{"frame":8060,"time":"2026-10-19T04:06:19.574Z","type":"text","data":"这位美女，想要喝点什么？"}
+{"frame":8070,"time":"2026-10-19T04:06:19.723Z","type":"choice","data":{"index":0,"text":"聊天","choices":["聊天","买酒"]}}
+{"frame":8070,"time":"2026-10-19T04:06:19.734Z","type":"text","data":"好久之前有一次，村里的守护者来酒馆喝酒。"}
+{"frame":8086,"time":"2026-10-19T04:06:19.990Z","type":"text","data":"老猎人称，外面世界已经发生大灾变，"}
+{"frame":8112,"time":"2026-10-19T04:06:20.406Z","type":"text","data":"多出了许多的妖魔鬼怪、精灵异兽。"}
+{"frame":8138,"time":"2026-10-19T04:06:20.822Z","type":"text","data":"（雪儿在吧台前坐了很久。）"}
+{"frame":8164,"time":"2026-10-19T04:06:21.238Z","type":"text","data":"（老板没有赶她。）"}
+{"frame":8190,"time":"2026-10-19T04:06:21.705Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"10","images":"Memory_10","silent":"false"},"mapId":31}}
+{"frame":8191,"time":"2026-10-19T04:06:21.709Z","type":"pass","data":{"name":"心锁 10 开始播放","actual":true,"expected":true}}
+{"frame":8191,"time":"2026-10-19T04:06:21.709Z","type":"pass","data":{"name":"当前播放段号=10","actual":10,"expected":10}}
+{"frame":8291,"time":"2026-10-19T04:06:23.302Z","type":"pass","data":{"name":"心锁 10 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":8291,"time":"2026-10-19T04:06:23.303Z","type":"shotState","data":{"name":"b5_13_memlock10_tavern.png","mapId":31,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[0,0,0,180],"pictures":[{"name":"记忆底框_4x3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0},{"name":"Memory_10","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":10,"frame":101,"busy":true}}}
+{"frame":8291,"time":"2026-10-19T04:06:23.340Z","type":"screenshot","data":{"name":"b5_13_memlock10_tavern.png","bytes":331556,"via":"canvas","canvas":"816x624"}}
+{"frame":8300,"time":"2026-10-19T04:06:23.463Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":31,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":true,"msgOpen":false,"choiceOpen":false}}}
+{"frame":8680,"time":"2026-10-19T04:06:29.543Z","type":"pass","data":{"name":"心锁 10 播放完毕","actual":true,"expected":true}}
+{"frame":8680,"time":"2026-10-19T04:06:29.621Z","type":"pass","data":{"name":"心锁 10 已记录 S30","actual":true,"expected":true}}
+{"frame":8680,"time":"2026-10-19T04:06:29.622Z","type":"pass","data":{"name":"心锁计数 V18=9","actual":9,"expected":9}}
+{"frame":8680,"time":"2026-10-19T04:06:29.626Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-2"},"mapId":31}}
+{"frame":8710,"time":"2026-10-19T04:06:30.086Z","type":"pass","data":{"name":"心锁10 后 S30=ON","actual":true,"expected":true}}
+{"frame":8711,"time":"2026-10-19T04:06:30.102Z","type":"startEvent","data":{"mapId":31,"eventId":9,"label":"岚哥","page":1}}
+{"frame":8711,"time":"2026-10-19T04:06:30.118Z","type":"text","data":"小姑娘，也来喝酒吗？要是不能喝的话，就早点离开呀！"}
+{"frame":8746,"time":"2026-10-19T04:06:30.663Z","type":"pass","data":{"name":"与岚哥说话后 S19=ON","actual":true,"expected":true}}
+{"frame":8747,"time":"2026-10-19T04:06:30.678Z","type":"startEvent","data":{"mapId":31,"eventId":14,"label":"醉鬼战斗","page":2}}
+{"frame":8747,"time":"2026-10-19T04:06:30.694Z","type":"text","data":"好酒好酒，今朝有酒今朝醉。让明天什么的都去见鬼吧。"}
+{"frame":8757,"time":"2026-10-19T04:06:30.855Z","type":"text","data":"不了吧，大哥，我不会喝酒哦。"}
+{"frame":8783,"time":"2026-10-19T04:06:31.271Z","type":"text","data":"什么，不喝，看来我得替神使教训你一顿了。"}
+{"frame":8809,"time":"2026-10-19T04:06:31.690Z","type":"battle","data":{"troopId":21,"members":[{"name":"拂晓教信徒Ａ","hp":100},{"name":"拂晓教信徒","hp":100},{"name":"拂晓教信徒Ｂ","hp":100}]}}
+{"frame":8810,"time":"2026-10-19T04:06:31.696Z","type":"pass","data":{"name":"触发酒馆战斗","actual":true,"expected":true}}
+{"frame":8906,"time":"2026-10-19T04:06:33.434Z","type":"text","data":"雪儿的队伍胜利了！"}
+{"frame":8906,"time":"2026-10-19T04:06:33.434Z","type":"text","data":"\\.获得了 500 点经验值！"}
+{"frame":8906,"time":"2026-10-19T04:06:33.435Z","type":"text","data":"\\.获得了 500%金币！"}
+{"frame":8974,"time":"2026-10-19T04:06:34.618Z","type":"pass","data":{"name":"战斗结束并打开 S52","actual":true,"expected":true}}
+{"frame":9013,"time":"2026-10-19T04:06:35.254Z","type":"pass","data":{"name":"战斗结束 S52=ON","actual":true,"expected":true}}
+{"frame":9014,"time":"2026-10-19T04:06:35.271Z","type":"startEvent","data":{"mapId":31,"eventId":18,"label":"去隐秘村落","page":1}}
+{"frame":9042,"time":"2026-10-19T04:06:35.756Z","type":"pass","data":{"name":"Map031 → Map041","actual":true,"expected":true}}
+{"frame":9070,"time":"2026-10-19T04:06:36.391Z","type":"startEvent","data":{"mapId":41,"eventId":2,"label":"路口·心锁11","page":1}}
+{"frame":9070,"time":"2026-10-19T04:06:36.416Z","type":"text","data":"（路口。左边是来时的路，右边停着一辆车。）"}
+{"frame":9080,"time":"2026-10-19T04:06:36.566Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"11","images":"Memory_11","silent":"false"},"mapId":41}}
+{"frame":9081,"time":"2026-10-19T04:06:36.569Z","type":"pass","data":{"name":"心锁 11 开始播放","actual":true,"expected":true}}
+{"frame":9081,"time":"2026-10-19T04:06:36.570Z","type":"pass","data":{"name":"当前播放段号=11","actual":11,"expected":11}}
+{"frame":9181,"time":"2026-10-19T04:06:38.166Z","type":"pass","data":{"name":"心锁 11 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":9181,"time":"2026-10-19T04:06:38.168Z","type":"shotState","data":{"name":"b5_14_memlock11_road.png","mapId":41,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[0,0,0,180],"pictures":[{"name":"记忆底框_4x3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0},{"name":"Memory_11","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":11,"frame":101,"busy":true}}}
+{"frame":9181,"time":"2026-10-19T04:06:38.213Z","type":"screenshot","data":{"name":"b5_14_memlock11_road.png","bytes":388332,"via":"canvas","canvas":"816x624"}}
+{"frame":9310,"time":"2026-10-19T04:06:40.262Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":41,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":true,"msgOpen":false,"choiceOpen":false}}}
+{"frame":9570,"time":"2026-10-19T04:06:44.422Z","type":"pass","data":{"name":"心锁 11 播放完毕","actual":true,"expected":true}}
+{"frame":9570,"time":"2026-10-19T04:06:44.422Z","type":"pass","data":{"name":"心锁 11 已记录 S31","actual":true,"expected":true}}
+{"frame":9570,"time":"2026-10-19T04:06:44.422Z","type":"pass","data":{"name":"心锁计数 V18=10","actual":10,"expected":10}}
+{"frame":9570,"time":"2026-10-19T04:06:44.438Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-2"},"mapId":41}}
+{"frame":9600,"time":"2026-10-19T04:06:44.902Z","type":"pass","data":{"name":"心锁11 后 S31=ON","actual":true,"expected":true}}
+{"frame":9601,"time":"2026-10-19T04:06:44.918Z","type":"startEvent","data":{"mapId":41,"eventId":1,"label":"回岚哥家","page":1}}
+{"frame":9629,"time":"2026-10-19T04:06:45.397Z","type":"pass","data":{"name":"Map041 → Map003","actual":true,"expected":true}}
+{"frame":9656,"time":"2026-10-19T04:06:45.878Z","type":"startEvent","data":{"mapId":3,"eventId":3,"label":"心锁9","page":1}}
+{"frame":9656,"time":"2026-10-19T04:06:45.946Z","type":"text","data":"一进屋，雪儿就发现包裹里的那把锁又开始震动了"}
+{"frame":9656,"time":"2026-10-19T04:06:45.947Z","type":"text","data":"，而且频率很快。"}
+{"frame":9666,"time":"2026-10-19T04:06:46.102Z","type":"text","data":"什么情况。这一路上好几次了。"}
+{"frame":9666,"time":"2026-10-19T04:06:46.103Z","type":"text","data":"这把锁……到底什么情况。"}
+{"frame":9692,"time":"2026-10-19T04:06:46.518Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"9","images":"Memory_9","silent":"false"},"mapId":3}}
+{"frame":9693,"time":"2026-10-19T04:06:46.520Z","type":"pass","data":{"name":"心锁 9 开始播放","actual":true,"expected":true}}
+{"frame":9693,"time":"2026-10-19T04:06:46.521Z","type":"pass","data":{"name":"当前播放段号=9","actual":9,"expected":9}}
+{"frame":9793,"time":"2026-10-19T04:06:48.118Z","type":"pass","data":{"name":"心锁 9 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":9793,"time":"2026-10-19T04:06:48.119Z","type":"shotState","data":{"name":"b5_15_memlock09_home.png","mapId":3,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[0,0,0,180],"pictures":[{"name":"记忆底框_4x3","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0},{"name":"Memory_9","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":9,"frame":101,"busy":true}}}
+{"frame":9793,"time":"2026-10-19T04:06:48.149Z","type":"screenshot","data":{"name":"b5_15_memlock09_home.png","bytes":357703,"via":"canvas","canvas":"816x624"}}
+{"frame":9896,"time":"2026-10-19T04:06:49.781Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":3,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":true,"msgOpen":false,"choiceOpen":false}}}
+{"frame":10182,"time":"2026-10-19T04:06:54.357Z","type":"pass","data":{"name":"心锁 9 播放完毕","actual":true,"expected":true}}
+{"frame":10182,"time":"2026-10-19T04:06:54.358Z","type":"pass","data":{"name":"心锁 9 已记录 S29","actual":true,"expected":true}}
+{"frame":10182,"time":"2026-10-19T04:06:54.358Z","type":"pass","data":{"name":"心锁计数 V18=11","actual":11,"expected":11}}
+{"frame":10182,"time":"2026-10-19T04:06:54.374Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-3"},"mapId":3}}
+{"frame":10212,"time":"2026-10-19T04:06:54.838Z","type":"pass","data":{"name":"心锁9 后 S29=ON","actual":true,"expected":true}}
+{"frame":10213,"time":"2026-10-19T04:06:54.853Z","type":"startEvent","data":{"mapId":3,"eventId":2,"label":"岚哥入队","page":1}}
+{"frame":10213,"time":"2026-10-19T04:06:54.870Z","type":"text","data":"喝多了，就想不起以前的事了。"}
+{"frame":10213,"time":"2026-10-19T04:06:54.870Z","type":"text","data":"不，好像不喝酒也想不起以前的事了。"}
+{"frame":10223,"time":"2026-10-19T04:06:55.030Z","type":"text","data":"岚哥，我过去的事情也有些想不起来呢，"}
+{"frame":10223,"time":"2026-10-19T04:06:55.030Z","type":"text","data":"不知道是什么情况。"}
+{"frame":10249,"time":"2026-10-19T04:06:55.447Z","type":"text","data":"雪儿：岚哥，你……今年多大？"}
+{"frame":10275,"time":"2026-10-19T04:06:55.862Z","type":"text","data":"岚哥：忘了。你就当我很老吧。"}
+{"frame":10301,"time":"2026-10-19T04:06:56.277Z","type":"text","data":"小姑娘，你是叫兰雪吗？我很喜欢这个名字。"}
+{"frame":10301,"time":"2026-10-19T04:06:56.278Z","type":"text","data":"好像从心里就觉得，这个名字就应该是你的。"}
+{"frame":10327,"time":"2026-10-19T04:06:56.694Z","type":"text","data":"岚哥，你以后有什么打算呢？"}
+{"frame":10353,"time":"2026-10-19T04:06:57.110Z","type":"text","data":"我们刚才在酒馆打了一架，村子里已经待不下去了"}
+{"frame":10353,"time":"2026-10-19T04:06:57.110Z","type":"text","data":"。要不，我陪你们结伴而行吧。"}
+{"frame":10379,"time":"2026-10-19T04:06:57.526Z","type":"text","data":"好，那我们说定了，就一起出去闯一闯。"}
+{"frame":10405,"time":"2026-10-19T04:06:57.944Z","type":"text","data":"真好，感觉浑身充满了干劲呢。"}
+{"frame":10405,"time":"2026-10-19T04:06:57.944Z","type":"text","data":"不过要小心拂晓教那帮人，我总感觉她们好像在做"}
+{"frame":10405,"time":"2026-10-19T04:06:57.944Z","type":"text","data":"什么了不得的大事。今天酒馆里那两个闹事的信徒"}
+{"frame":10405,"time":"2026-10-19T04:06:57.945Z","type":"text","data":"，倒好像是蓄意而为。"}
+{"frame":10431,"time":"2026-10-19T04:06:58.358Z","type":"text","data":"嗯，确实。我们得小心行事，尤其是遇到拂晓教的人。"}
+{"frame":10453,"time":"2026-10-19T04:06:58.693Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":3,"info":{"msgBusy":true,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":false,"msgOpen":false,"choiceOpen":false}}}
+{"frame":10482,"time":"2026-10-19T04:06:59.158Z","type":"pass","data":{"name":"岚哥入队 S20=ON","actual":true,"expected":true}}
+{"frame":10482,"time":"2026-10-19T04:06:59.159Z","type":"pass","data":{"name":"队伍中有岚哥","actual":true,"expected":true}}
+{"frame":10483,"time":"2026-10-19T04:06:59.174Z","type":"startEvent","data":{"mapId":3,"eventId":1,"label":"进终章·第4夜","page":1}}
+{"frame":10483,"time":"2026-10-19T04:06:59.190Z","type":"plugin","data":{"pluginName":"XueEr_Monologue","commandName":"night","args":{"night":"4","variant":"1"},"mapId":3}}
+{"frame":10486,"time":"2026-10-19T04:06:59.239Z","type":"pass","data":{"name":"第 4 夜独白打开","actual":true,"expected":true}}
+{"frame":10546,"time":"2026-10-19T04:07:00.198Z","type":"shotState","data":{"name":"b5_16_night4.png","mapId":3,"scene":"Scene_Monologue","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[-75,-75,-60,120],"pictures":[null,null],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":9,"frame":490,"busy":false}}}
+{"frame":10546,"time":"2026-10-19T04:07:00.240Z","type":"screenshot","data":{"name":"b5_16_night4.png","bytes":539047,"via":"canvas","canvas":"816x624"}}
+{"frame":10568,"time":"2026-10-19T04:07:00.629Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"3"},"mapId":3}}
+{"frame":10568,"time":"2026-10-19T04:07:00.631Z","type":"fadeTrace","data":{"dir":"out","duration":24,"mapId":3,"eventId":1,"brightness":255,"stack":["    at Game_Screen.startFadeOut (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:74:73)","    at Game_Interpreter.command221 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10639:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":10572,"time":"2026-10-19T04:07:00.662Z","type":"pass","data":{"name":"第 4 夜已读 S36","actual":true,"expected":true}}
+{"frame":10572,"time":"2026-10-19T04:07:00.662Z","type":"pass","data":{"name":"第4夜变体1","actual":true,"expected":true}}
+{"frame":10592,"time":"2026-10-19T04:07:00.982Z","type":"brightnessEdge","data":{"from":10.625,"to":0,"mapId":3,"eventId":1,"brightness":0,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":10620,"time":"2026-10-19T04:07:01.449Z","type":"pass","data":{"name":"第4夜后进入 Map021","actual":true,"expected":true}}
+{"frame":10620,"time":"2026-10-19T04:07:01.450Z","type":"phase","data":"P5 终章：心锁12、星空小岛、第5夜、尾声"}
+{"frame":10621,"time":"2026-10-19T04:07:01.523Z","type":"fadeTrace","data":{"dir":"in","duration":24,"mapId":21,"eventId":1,"brightness":0,"stack":["    at Game_Screen.startFadeIn (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:79:72)","    at Game_Interpreter.command222 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10649:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":10622,"time":"2026-10-19T04:07:01.524Z","type":"brightnessEdge","data":{"from":0,"to":10.625,"mapId":21,"eventId":1,"brightness":10.625,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":10645,"time":"2026-10-19T04:07:01.894Z","type":"text","data":"咦，这间屋子怎么没有出路的。"}
+{"frame":10655,"time":"2026-10-19T04:07:02.057Z","type":"plugin","data":{"pluginName":"XueEr_MentalLock","commandName":"play","args":{"id":"12","silent":"true","images":"Memory_12"},"mapId":21}}
+{"frame":10656,"time":"2026-10-19T04:07:02.060Z","type":"pass","data":{"name":"心锁 12 开始播放","actual":true,"expected":true}}
+{"frame":10656,"time":"2026-10-19T04:07:02.061Z","type":"pass","data":{"name":"当前播放段号=12","actual":12,"expected":12}}
+{"frame":10756,"time":"2026-10-19T04:07:03.654Z","type":"pass","data":{"name":"心锁 12 画面可见（亮度>0）","actual":true,"expected":true}}
+{"frame":10756,"time":"2026-10-19T04:07:03.655Z","type":"shotState","data":{"name":"b5_17_memlock12_heartroom.png","mapId":21,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[-75,-75,-60,120],"pictures":[null,{"name":"Memory_12","x":404,"y":308,"opacity":255,"scaleX":100,"scaleY":100,"blend":0}],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":12,"frame":101,"busy":true}}}
+{"frame":10756,"time":"2026-10-19T04:07:03.710Z","type":"screenshot","data":{"name":"b5_17_memlock12_heartroom.png","bytes":415263,"via":"canvas","canvas":"816x624"}}
+{"frame":10857,"time":"2026-10-19T04:07:05.302Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":21,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":true,"msgOpen":false,"choiceOpen":false}}}
+{"frame":10965,"time":"2026-10-19T04:07:07.126Z","type":"pass","data":{"name":"心锁 12 播放完毕","actual":true,"expected":true}}
+{"frame":10965,"time":"2026-10-19T04:07:07.128Z","type":"pass","data":{"name":"心锁 12 已记录 S32","actual":true,"expected":true}}
+{"frame":10965,"time":"2026-10-19T04:07:07.129Z","type":"pass","data":{"name":"心锁计数 V18=12","actual":12,"expected":12}}
+{"frame":10965,"time":"2026-10-19T04:07:07.142Z","type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"add","args":{"value":"-5"},"mapId":21}}
+{"frame":11000,"time":"2026-10-19T04:07:07.686Z","type":"pass","data":{"name":"心锁12 后 S32=ON","actual":true,"expected":true}}
+{"frame":11000,"time":"2026-10-19T04:07:07.686Z","type":"pass","data":{"name":"12 段心锁后 V18=12","actual":12,"expected":12}}
+{"frame":11001,"time":"2026-10-19T04:07:07.702Z","type":"startEvent","data":{"mapId":21,"eventId":3,"label":"墙体2","page":1}}
+{"frame":11001,"time":"2026-10-19T04:07:07.718Z","type":"text","data":"这儿的墙体好像脆弱，不知道这里是不是有什么机关，"}
+{"frame":11011,"time":"2026-10-19T04:07:07.869Z","type":"choice","data":{"index":0,"text":"是否砸开这面墙壁，是","choices":["是否砸开这面墙壁，是","否"]}}
+{"frame":11011,"time":"2026-10-19T04:07:07.878Z","type":"text","data":"墙面好像会发生些什么变化，"}
+{"frame":11027,"time":"2026-10-19T04:07:08.134Z","type":"text","data":"出现了一道通向未知黑暗的门……"}
+{"frame":11071,"time":"2026-10-19T04:07:08.843Z","type":"choice","data":{"index":0,"text":"是否进行传送","choices":["是否进行传送","否"]}}
+{"frame":11099,"time":"2026-10-19T04:07:09.356Z","type":"pass","data":{"name":"墙体2 传送到 Map019","actual":true,"expected":true}}
+{"frame":11131,"time":"2026-10-19T04:07:10.054Z","type":"pass","data":{"name":"到达星空小岛 Map019","actual":19,"expected":19}}
+{"frame":11131,"time":"2026-10-19T04:07:10.055Z","type":"pass","data":{"name":"Map019 地图名为星空小岛","actual":"星空小岛","expected":"星空小岛"}}
+{"frame":11131,"time":"2026-10-19T04:07:10.055Z","type":"pass","data":{"name":"小地图插件未加载","actual":"undefined","expected":"undefined"}}
+{"frame":11131,"time":"2026-10-19T04:07:10.055Z","type":"pass","data":{"name":"任务 UI 开关 S12 保持 OFF","actual":false,"expected":false}}
+{"frame":11151,"time":"2026-10-19T04:07:10.375Z","type":"shotState","data":{"name":"b5_18_map19_starisland.png","mapId":19,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[-75,-75,-60,120],"pictures":[null,null],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":12,"frame":310,"busy":false}}}
+{"frame":11151,"time":"2026-10-19T04:07:10.418Z","type":"screenshot","data":{"name":"b5_18_map19_starisland.png","bytes":294879,"via":"canvas","canvas":"816x624"}}
+{"frame":11152,"time":"2026-10-19T04:07:10.421Z","type":"startEvent","data":{"mapId":19,"eventId":3,"label":"梦中的自己","page":1}}
+{"frame":11152,"time":"2026-10-19T04:07:10.423Z","type":"text","data":"穆兰雪，你可以醒来了。"}
+{"frame":11162,"time":"2026-10-19T04:07:10.587Z","type":"text","data":"你……你是那时候帮我传送回家的人。你到底是谁。"}
+{"frame":11188,"time":"2026-10-19T04:07:10.998Z","type":"text","data":"不重要了……我想，你心中应该是有答案了吧。"}
+{"frame":11214,"time":"2026-10-19T04:07:11.414Z","type":"text","data":"我的那些伙伴呢，怎么都不见了。"}
+{"frame":11214,"time":"2026-10-19T04:07:11.414Z","type":"text","data":"又是拂晓教那帮人搞的鬼吗。"}
+{"frame":11240,"time":"2026-10-19T04:07:11.830Z","type":"text","data":"他们一直都在。他们都是你。"}
+{"frame":11266,"time":"2026-10-19T04:07:12.247Z","type":"text","data":"……我知道了。"}
+{"frame":11292,"time":"2026-10-19T04:07:12.663Z","type":"text","data":"拂晓教那帮人，不会再做坏事了。"}
+{"frame":11318,"time":"2026-10-19T04:07:13.078Z","type":"text","data":"从后面的那扇门走吧，你会明白一切的。"}
+{"frame":11344,"time":"2026-10-19T04:07:13.497Z","type":"text","data":"（雪儿把锁放在了地上。）"}
+{"frame":11370,"time":"2026-10-19T04:07:13.911Z","type":"text","data":"（她没有打开它。）"}
+{"frame":11392,"time":"2026-10-19T04:07:14.246Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":19,"info":{"msgBusy":true,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":false,"msgOpen":false,"choiceOpen":false}}}
+{"frame":11426,"time":"2026-10-19T04:07:14.790Z","type":"pass","data":{"name":"「他们都是你」","actual":true,"expected":true}}
+{"frame":11426,"time":"2026-10-19T04:07:14.790Z","type":"pass","data":{"name":"「……我知道了。」","actual":true,"expected":true}}
+{"frame":11426,"time":"2026-10-19T04:07:14.791Z","type":"pass","data":{"name":"「雪儿把锁放在了地上」","actual":true,"expected":true}}
+{"frame":11426,"time":"2026-10-19T04:07:14.791Z","type":"pass","data":{"name":"「她没有打开它」","actual":true,"expected":true}}
+{"frame":11426,"time":"2026-10-19T04:07:14.792Z","type":"pass","data":{"name":"梦中的自己事件已结束","actual":true,"expected":true}}
+{"frame":11427,"time":"2026-10-19T04:07:14.806Z","type":"startEvent","data":{"mapId":19,"eventId":4,"label":"推开门·第5夜","page":1}}
+{"frame":11427,"time":"2026-10-19T04:07:14.822Z","type":"text","data":"门就在前面。"}
+{"frame":11437,"time":"2026-10-19T04:07:14.968Z","type":"choice","data":{"index":0,"text":"推开门","choices":["推开门","再等等"]}}
+{"frame":11437,"time":"2026-10-19T04:07:14.982Z","type":"plugin","data":{"pluginName":"XueEr_Monologue","commandName":"night","args":{"night":"5","variant":"1"},"mapId":19}}
+{"frame":11446,"time":"2026-10-19T04:07:15.143Z","type":"pass","data":{"name":"第 5 夜独白打开","actual":true,"expected":true}}
+{"frame":11506,"time":"2026-10-19T04:07:16.086Z","type":"shotState","data":{"name":"b5_19_night5.png","mapId":19,"scene":"Scene_Monologue","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[-75,-75,-60,120],"pictures":[null,null],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":12,"frame":310,"busy":false}}}
+{"frame":11506,"time":"2026-10-19T04:07:16.125Z","type":"screenshot","data":{"name":"b5_19_night5.png","bytes":490818,"via":"canvas","canvas":"816x624"}}
+{"frame":11528,"time":"2026-10-19T04:07:16.497Z","type":"fadeTrace","data":{"dir":"out","duration":24,"mapId":19,"eventId":4,"brightness":255,"stack":["    at Game_Screen.startFadeOut (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:74:73)","    at Game_Interpreter.command221 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10639:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":11532,"time":"2026-10-19T04:07:16.535Z","type":"pass","data":{"name":"第 5 夜已读 S37","actual":true,"expected":true}}
+{"frame":11533,"time":"2026-10-19T04:07:16.551Z","type":"pass","data":{"name":"第5夜后打开 S48","actual":true,"expected":true}}
+{"frame":11533,"time":"2026-10-19T04:07:16.551Z","type":"pass","data":{"name":"结局分档=1","actual":1,"expected":1}}
+{"frame":11533,"time":"2026-10-19T04:07:16.552Z","type":"pass","data":{"name":"结局分档开关 S40=ON","actual":true,"expected":true}}
+{"frame":11533,"time":"2026-10-19T04:07:16.552Z","type":"pass","data":{"name":"尾声开关 S48=ON","actual":true,"expected":true}}
+{"frame":11533,"time":"2026-10-19T04:07:16.553Z","type":"pass","data":{"name":"第5夜变体1","actual":true,"expected":true}}
+{"frame":11552,"time":"2026-10-19T04:07:16.854Z","type":"brightnessEdge","data":{"from":10.625,"to":0,"mapId":19,"eventId":4,"brightness":0,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":11580,"time":"2026-10-19T04:07:17.324Z","type":"pass","data":{"name":"推门后进入 Map036 尾声","actual":true,"expected":true}}
+{"frame":11582,"time":"2026-10-19T04:07:17.420Z","type":"fadeTrace","data":{"dir":"in","duration":24,"mapId":36,"eventId":5,"brightness":0,"stack":["    at Game_Screen.startFadeIn (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:79:72)","    at Game_Interpreter.command222 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10649:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":11583,"time":"2026-10-19T04:07:17.420Z","type":"brightnessEdge","data":{"from":0,"to":10.625,"mapId":36,"eventId":5,"brightness":10.625,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":11607,"time":"2026-10-19T04:07:17.798Z","type":"pass","data":{"name":"尾声图片「尾声_醒来」已显示","actual":true,"expected":true}}
+{"frame":11727,"time":"2026-10-19T04:07:19.735Z","type":"shotState","data":{"name":"b5_20_epilogue_awake.png","mapId":36,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[-75,-75,-60,120],"pictures":[null,null],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":12,"frame":310,"busy":false}}}
+{"frame":11727,"time":"2026-10-19T04:07:19.803Z","type":"screenshot","data":{"name":"b5_20_epilogue_awake.png","bytes":1048375,"via":"canvas","canvas":"816x624"}}
+{"frame":11817,"time":"2026-10-19T04:07:21.223Z","type":"busyDiag","data":{"streak":240,"idle":0,"scene":"Scene_Map","mapId":36,"info":{"msgBusy":false,"scrollMode":false,"interpreter":true,"transfer":false,"mapScroll":false,"mindTalk":false,"monologue":false,"mentalLock":false,"msgOpen":false,"choiceOpen":false}}}
+{"frame":12056,"time":"2026-10-19T04:07:25.064Z","type":"fadeTrace","data":{"dir":"out","duration":24,"mapId":36,"eventId":5,"brightness":255,"stack":["    at Game_Screen.startFadeOut (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:74:73)","    at Game_Interpreter.command221 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10639:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":12080,"time":"2026-10-19T04:07:25.430Z","type":"brightnessEdge","data":{"from":10.625,"to":0,"mapId":36,"eventId":5,"brightness":0,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":12080,"time":"2026-10-19T04:07:25.446Z","type":"fadeTrace","data":{"dir":"in","duration":24,"mapId":36,"eventId":5,"brightness":0,"stack":["    at Game_Screen.startFadeIn (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:79:72)","    at Game_Interpreter.command222 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10649:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":12081,"time":"2026-10-19T04:07:25.447Z","type":"brightnessEdge","data":{"from":0,"to":10.625,"mapId":36,"eventId":5,"brightness":10.625,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":12104,"time":"2026-10-19T04:07:25.830Z","type":"text","data":"一位抑郁症患者的独白"}
+{"frame":12104,"time":"2026-10-19T04:07:25.830Z","type":"text","data":"策划 / 剧本 / 程序：葛银"}
+{"frame":12104,"time":"2026-10-19T04:07:25.831Z","type":"text","data":"地图素材：RPG Maker MZ"}
+{"frame":12104,"time":"2026-10-19T04:07:25.831Z","type":"text","data":"插件：RPG Maker MZ 社区"}
+{"frame":12104,"time":"2026-10-19T04:07:25.831Z","type":"text","data":"谢谢你陪她走到这里。"}
+{"frame":12105,"time":"2026-10-19T04:07:25.831Z","type":"pass","data":{"name":"尾声名单滚动开始","actual":true,"expected":true}}
+{"frame":12195,"time":"2026-10-19T04:07:27.278Z","type":"shotState","data":{"name":"b5_21_epilogue_credits.png","mapId":36,"scene":"Scene_Map","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":255,"tone":[-255,-255,-255,0],"pictures":[null,null],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":12,"frame":310,"busy":false}}}
+{"frame":12195,"time":"2026-10-19T04:07:27.356Z","type":"screenshot","data":{"name":"b5_21_epilogue_credits.png","bytes":19060,"via":"canvas","canvas":"816x624"}}
+{"frame":12256,"time":"2026-10-19T04:07:28.326Z","type":"fadeTrace","data":{"dir":"out","duration":24,"mapId":36,"eventId":5,"brightness":255,"stack":["    at Game_Screen.startFadeOut (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:74:73)","    at Game_Interpreter.command221 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10639:17)","    at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34)","    at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)","    at Game_Map.updateInterpreter (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6787:27)","    at Game_Map.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:6691:14)","    at Scene_Map.updateMain (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_scenes.js:733:14)"]}}
+{"frame":12280,"time":"2026-10-19T04:07:28.694Z","type":"brightnessEdge","data":{"from":10.625,"to":0,"mapId":36,"eventId":5,"brightness":0,"stack":["    at watchBrightness (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:88:83)","    at Function.SceneManager.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1069:9)","    at chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B5Test.js:1056:34"]}}
+{"frame":12330,"time":"2026-10-19T04:07:29.559Z","type":"pass","data":{"name":"尾声结束后回到标题","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.471Z","type":"shotState","data":{"name":"b5_22_title.png","mapId":36,"scene":"Scene_Title","fadeSign":1,"fadeOpacity":0,"fadeDuration":0,"brightness":0,"tone":[-255,-255,-255,0],"pictures":[null,null],"canvasStyle":{"opacity":"","filter":"","display":""},"lock":{"id":12,"frame":310,"busy":false}}}
+{"frame":12450,"time":"2026-10-19T04:07:31.530Z","type":"screenshot","data":{"name":"b5_22_title.png","bytes":1198597,"via":"canvas","canvas":"816x624"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.531Z","type":"pass","data":{"name":"名单包含「谢谢你陪她走到这里。」","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.531Z","type":"pass","data":{"name":"最终 V18=12","actual":12,"expected":12}}
+{"frame":12450,"time":"2026-10-19T04:07:31.531Z","type":"pass","data":{"name":"最终 V24=2","actual":2,"expected":2}}
+{"frame":12450,"time":"2026-10-19T04:07:31.532Z","type":"pass","data":{"name":"最终 V27=1","actual":1,"expected":1}}
+{"frame":12450,"time":"2026-10-19T04:07:31.532Z","type":"pass","data":{"name":"最终 S40=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.532Z","type":"pass","data":{"name":"最终 S48=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.533Z","type":"pass","data":{"name":"最终心锁开关 S21=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.533Z","type":"pass","data":{"name":"最终心锁开关 S22=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.533Z","type":"pass","data":{"name":"最终心锁开关 S23=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.534Z","type":"pass","data":{"name":"最终心锁开关 S24=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.534Z","type":"pass","data":{"name":"最终心锁开关 S25=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.534Z","type":"pass","data":{"name":"最终心锁开关 S26=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.535Z","type":"pass","data":{"name":"最终心锁开关 S27=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.535Z","type":"pass","data":{"name":"最终心锁开关 S28=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.536Z","type":"pass","data":{"name":"最终心锁开关 S29=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.536Z","type":"pass","data":{"name":"最终心锁开关 S30=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.537Z","type":"pass","data":{"name":"最终心锁开关 S31=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.537Z","type":"pass","data":{"name":"最终心锁开关 S32=ON","actual":true,"expected":true}}
+{"frame":12450,"time":"2026-10-19T04:07:31.538Z","type":"info","data":{"message":"心锁播放调用总数（含已读跳过）","calls":12,"distinct":12}}
+{"frame":12450,"time":"2026-10-19T04:07:31.538Z","type":"pass","data":{"name":"12 段心锁均有播放调用","actual":12,"expected":12}}
+{"frame":12450,"time":"2026-10-19T04:07:31.538Z","type":"pass","data":{"name":"心锁 1 使用 Memory_1","actual":"Memory_1","expected":"Memory_1"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.539Z","type":"pass","data":{"name":"心锁 2 使用 Memory_2","actual":"Memory_2","expected":"Memory_2"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.539Z","type":"pass","data":{"name":"心锁 3 使用 Memory_3","actual":"Memory_3","expected":"Memory_3"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.539Z","type":"pass","data":{"name":"心锁 4 使用 Memory_4","actual":"Memory_4","expected":"Memory_4"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.540Z","type":"pass","data":{"name":"心锁 5 使用 Memory_5","actual":"Memory_5","expected":"Memory_5"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.540Z","type":"pass","data":{"name":"心锁 6 使用 Memory_6","actual":"Memory_6","expected":"Memory_6"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.541Z","type":"pass","data":{"name":"心锁 7 使用 Memory_7","actual":"Memory_7","expected":"Memory_7"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.541Z","type":"pass","data":{"name":"心锁 8 使用 Memory_8","actual":"Memory_8","expected":"Memory_8"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.541Z","type":"pass","data":{"name":"心锁 9 使用 Memory_9","actual":"Memory_9","expected":"Memory_9"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.542Z","type":"pass","data":{"name":"心锁 10 使用 Memory_10","actual":"Memory_10","expected":"Memory_10"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.542Z","type":"pass","data":{"name":"心锁 11 使用 Memory_11","actual":"Memory_11","expected":"Memory_11"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.543Z","type":"pass","data":{"name":"心锁 12 使用 Memory_12","actual":"Memory_12","expected":"Memory_12"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.543Z","type":"pass","data":{"name":"心锁12 安静模式","actual":"true","expected":"true"}}
+{"frame":12450,"time":"2026-10-19T04:07:31.544Z","type":"summary","data":{"total":206,"failed":[],"screenshots":22}}
