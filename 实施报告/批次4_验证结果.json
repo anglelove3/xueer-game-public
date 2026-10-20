@@ -1,0 +1,6443 @@
+{
+  "status": "PASS",
+  "finishedAt": "2026-10-18T15:25:28.217Z",
+  "durationFrames": 3448,
+  "checks": [
+    {
+      "name": "进入 Map004",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "Map004 情绪初始为 55",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "Map004 开场独白已播放",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "序章自动转场到 Map005",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "序章结束后情绪为 55",
+      "actual": 55,
+      "expected": 55,
+      "ok": true
+    },
+    {
+      "name": "心魔1 出现三个选项",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "心魔1 结束后打开 S42",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "心魔1 后情绪为 49",
+      "actual": 49,
+      "expected": 49,
+      "ok": true
+    },
+    {
+      "name": "心魔1 收尾文本存在",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "心魔1 不出现胜利/失败字样",
+      "actual": false,
+      "expected": false,
+      "ok": true
+    },
+    {
+      "name": "心魔2 结束后打开 S43",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "心魔2 后情绪为 38",
+      "actual": 38,
+      "expected": 38,
+      "ok": true
+    },
+    {
+      "name": "心魔2 低语1",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "心魔2 低语2",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "进入 Map007",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "第一章起点 Map007",
+      "actual": 7,
+      "expected": 7,
+      "ok": true
+    },
+    {
+      "name": "食物前 V15=0",
+      "actual": 0,
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "name": "食物 1 增加 V15",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "食物 2 增加 V15",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "食物 3 增加 V15",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "三份食物后 V15=3",
+      "actual": 3,
+      "expected": 3,
+      "ok": true
+    },
+    {
+      "name": "三份食物后情绪为 41",
+      "actual": 41,
+      "expected": 41,
+      "ok": true
+    },
+    {
+      "name": "进入 Map002",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "村庄 Map002",
+      "actual": 2,
+      "expected": 2,
+      "ok": true
+    },
+    {
+      "name": "无任务时不获得发卡",
+      "actual": 0,
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "name": "无任务时只提示草丛里有东西",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "拒绝小娟后 S41=ON",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "拒绝小娟后情绪为 39",
+      "actual": 39,
+      "expected": 39,
+      "ok": true
+    },
+    {
+      "name": "帮助小娟后 S41=OFF",
+      "actual": false,
+      "expected": false,
+      "ok": true
+    },
+    {
+      "name": "帮助小娟后接取任务 2",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "有任务时获得发卡",
+      "actual": 1,
+      "expected": 1,
+      "ok": true
+    },
+    {
+      "name": "发卡任务完成",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "发卡事件自开关 A",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "交任务奖励后情绪为 41",
+      "actual": 41,
+      "expected": 41,
+      "ok": true
+    },
+    {
+      "name": "小娟事件自开关 B",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "蜜饯页 4 后自开关 C",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "蜜饯只获得一次",
+      "actual": 1,
+      "expected": 1,
+      "ok": true
+    },
+    {
+      "name": "蜜饯后情绪为 43",
+      "actual": 43,
+      "expected": 43,
+      "ok": true
+    },
+    {
+      "name": "蜜饯事件自开关 D",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "蜜饯不可重复领取",
+      "actual": 1,
+      "expected": 1,
+      "ok": true
+    },
+    {
+      "name": "重复对话后情绪仍为 43",
+      "actual": 43,
+      "expected": 43,
+      "ok": true
+    },
+    {
+      "name": "回到 Map007 床边",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "睡前情绪为 43",
+      "actual": 43,
+      "expected": 43,
+      "ok": true
+    },
+    {
+      "name": "睡前 V15=3",
+      "actual": 3,
+      "expected": 3,
+      "ok": true
+    },
+    {
+      "name": "第 1 夜独白打开",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "第 1 夜后进入 Map021",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "终章 Map021",
+      "actual": 21,
+      "expected": 21,
+      "ok": true
+    },
+    {
+      "name": "第 1 夜已读 S33",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "时间跳转后情绪为 28",
+      "actual": 28,
+      "expected": 28,
+      "ok": true
+    },
+    {
+      "name": "睡前 S41 应为 OFF",
+      "actual": false,
+      "expected": false,
+      "ok": true
+    },
+    {
+      "name": "第 1 夜变体=1（吃过三样且未拒绝小娟）",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "Map021 自动播放心锁 12",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "心锁 12 播放完成",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "心锁 12 已播 S32",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "心锁计数 V18=1（切片只播第12段）",
+      "actual": 1,
+      "expected": 1,
+      "ok": true
+    },
+    {
+      "name": "心锁后情绪为 23",
+      "actual": 23,
+      "expected": 23,
+      "ok": true
+    },
+    {
+      "name": "心锁 12 使用占位图且安静模式",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "墙体1 不打开 S10",
+      "actual": false,
+      "expected": false,
+      "ok": true
+    },
+    {
+      "name": "墙体1 提示不是出口",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "墙体2 传送到 Map019",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "墙体2 打开 S10",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "星空小岛 Map019",
+      "actual": 19,
+      "expected": 19,
+      "ok": true
+    },
+    {
+      "name": "梦中的自己自开关 A",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "新增台词「他们都是你」",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "新增台词「……我知道了。」",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "锁放在地上",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "她没有打开锁",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "走到门前",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "推门后回到标题",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "终夜已读 S37",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "终夜变体=2（情绪 23）",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "名单滚动文本已播放",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "第 1 夜变体=3（拒绝过小娟）",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "终夜变体=1（情绪 65）",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "终夜变体=3（情绪 10）",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    }
+  ],
+  "screenshots": [
+    "b4rt_01_prologue_map5.png",
+    "b4rt_02_mindtalk_choice.png",
+    "b4rt_03_monologue_night1.png",
+    "b4rt_04_map21_memlock.png",
+    "b4rt_05_map19_door.png",
+    "b4rt_06_title.png"
+  ],
+  "finalState": {
+    "mapId": 19,
+    "scene": "Scene_Title",
+    "mood": 23,
+    "V15": 3,
+    "V18": 1,
+    "S10": true,
+    "S32": true,
+    "S33": true,
+    "S37": true,
+    "S41": false,
+    "S42": true,
+    "S43": true,
+    "S21": false,
+    "S31": false,
+    "item101": 1,
+    "item102": 1,
+    "task2": true,
+    "task2done": true
+  },
+  "events": [
+    {
+      "frame": 0,
+      "time": "2026-10-18T15:24:22.439Z",
+      "type": "boot",
+      "data": {
+        "cwd": "工程",
+        "logPath": "工程/_b4_test_log.jsonl"
+      }
+    },
+    {
+      "frame": 0,
+      "time": "2026-10-18T15:24:22.443Z",
+      "type": "boot",
+      "data": "window moved offscreen"
+    },
+    {
+      "frame": 6,
+      "time": "2026-10-18T15:24:23.690Z",
+      "type": "boot",
+      "data": "startNormalGame override"
+    },
+    {
+      "frame": 6,
+      "time": "2026-10-18T15:24:23.710Z",
+      "type": "boot",
+      "data": {
+        "message": "goto Scene_Map",
+        "mapId": 0
+      }
+    },
+    {
+      "frame": 9,
+      "time": "2026-10-18T15:24:23.954Z",
+      "type": "phase",
+      "data": "P0 序章"
+    },
+    {
+      "frame": 10,
+      "time": "2026-10-18T15:24:24.019Z",
+      "type": "pass",
+      "data": {
+        "name": "进入 Map004",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 11,
+      "time": "2026-10-18T15:24:24.117Z",
+      "type": "pass",
+      "data": {
+        "name": "Map004 情绪初始为 55",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 13,
+      "time": "2026-10-18T15:24:24.465Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "set",
+        "args": {
+          "value": "55"
+        },
+        "mapId": 4
+      }
+    },
+    {
+      "frame": 13,
+      "time": "2026-10-18T15:24:24.465Z",
+      "type": "text",
+      "data": "\\C[3]不知道为什么，雪儿最近总感觉自己有什么东西忘记了，现在的一切"
+    },
+    {
+      "frame": 13,
+      "time": "2026-10-18T15:24:24.466Z",
+      "type": "text",
+      "data": "变得和从前不一样了……"
+    },
+    {
+      "frame": 14,
+      "time": "2026-10-18T15:24:24.493Z",
+      "type": "pass",
+      "data": {
+        "name": "Map004 开场独白已播放",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 39,
+      "time": "2026-10-18T15:24:25.000Z",
+      "type": "pass",
+      "data": {
+        "name": "序章自动转场到 Map005",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 41,
+      "time": "2026-10-18T15:24:25.152Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "set",
+        "args": {
+          "value": "55"
+        },
+        "mapId": 5
+      }
+    },
+    {
+      "frame": 60,
+      "time": "2026-10-18T15:24:25.446Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": false,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 6,
+        "interpIndex": 2,
+        "interpWait": "",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 14,
+        "playerY": 40
+      }
+    },
+    {
+      "frame": 101,
+      "time": "2026-10-18T15:24:26.145Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 3,
+        "eventId": 6,
+        "text": "雪儿"
+      }
+    },
+    {
+      "frame": 101,
+      "time": "2026-10-18T15:24:26.145Z",
+      "type": "text",
+      "data": "\\C[4]这到底是哪里，我怎么会在这里！"
+    },
+    {
+      "frame": 102,
+      "time": "2026-10-18T15:24:26.157Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "\\C[4]这到底是哪里，我怎么会在这里！"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 111,
+      "time": "2026-10-18T15:24:26.289Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "\\C[4]这到底是哪里，我怎么会在这里！"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 120,
+      "time": "2026-10-18T15:24:26.444Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 120,
+        "scene": "Scene_Map",
+        "mapId": 5,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 180,
+      "time": "2026-10-18T15:24:27.463Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": false,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 6,
+        "interpIndex": 6,
+        "interpWait": "route",
+        "playerRoute": true,
+        "routeIndex": 6,
+        "routeLen": 10,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 14,
+        "playerY": 41
+      }
+    },
+    {
+      "frame": 240,
+      "time": "2026-10-18T15:24:28.495Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 240,
+        "scene": "Scene_Map",
+        "mapId": 5,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 300,
+      "time": "2026-10-18T15:24:29.540Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": false,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 6,
+        "interpIndex": 16,
+        "interpWait": "",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 17,
+        "playerY": 41
+      }
+    },
+    {
+      "frame": 360,
+      "time": "2026-10-18T15:24:30.623Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 360,
+        "scene": "Scene_Map",
+        "mapId": 5,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 378,
+      "time": "2026-10-18T15:24:30.971Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 17,
+        "eventId": 6,
+        "text": "雪儿"
+      }
+    },
+    {
+      "frame": 378,
+      "time": "2026-10-18T15:24:30.972Z",
+      "type": "text",
+      "data": "怎么会有飞在天空中的城堡？这瀑布怎么是从天上"
+    },
+    {
+      "frame": 378,
+      "time": "2026-10-18T15:24:30.972Z",
+      "type": "text",
+      "data": "往下流的……我到底来到哪儿了。"
+    },
+    {
+      "frame": 379,
+      "time": "2026-10-18T15:24:30.987Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "怎么会有飞在天空中的城堡？这瀑布怎么是从天上",
+          "往下流的……我到底来到哪儿了。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 388,
+      "time": "2026-10-18T15:24:31.125Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "怎么会有飞在天空中的城堡？这瀑布怎么是从天上",
+          "往下流的……我到底来到哪儿了。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 420,
+      "time": "2026-10-18T15:24:31.685Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": false,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 6,
+        "interpIndex": 21,
+        "interpWait": "",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 17,
+        "playerY": 41
+      }
+    },
+    {
+      "frame": 448,
+      "time": "2026-10-18T15:24:32.200Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 21,
+        "eventId": 6,
+        "text": "雪儿"
+      }
+    },
+    {
+      "frame": 448,
+      "time": "2026-10-18T15:24:32.200Z",
+      "type": "text",
+      "data": "算了。我先不想那么多，往前探索吧。"
+    },
+    {
+      "frame": 449,
+      "time": "2026-10-18T15:24:32.217Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "算了。我先不想那么多，往前探索吧。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 458,
+      "time": "2026-10-18T15:24:32.369Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "算了。我先不想那么多，往前探索吧。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 480,
+      "time": "2026-10-18T15:24:32.756Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 480,
+        "scene": "Scene_Map",
+        "mapId": 5,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 540,
+      "time": "2026-10-18T15:24:33.813Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": false,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 6,
+        "interpIndex": 24,
+        "interpWait": "route",
+        "playerRoute": true,
+        "routeIndex": 6,
+        "routeLen": 11,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 14,
+        "playerY": 38
+      }
+    },
+    {
+      "frame": 600,
+      "time": "2026-10-18T15:24:34.843Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 600,
+        "scene": "Scene_Map",
+        "mapId": 5,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 649,
+      "time": "2026-10-18T15:24:35.718Z",
+      "type": "pass",
+      "data": {
+        "name": "序章结束后情绪为 55",
+        "actual": 55,
+        "expected": 55
+      }
+    },
+    {
+      "frame": 696,
+      "time": "2026-10-18T15:24:36.505Z",
+      "type": "screenshot",
+      "data": "b4rt_01_prologue_map5.png"
+    },
+    {
+      "frame": 696,
+      "time": "2026-10-18T15:24:36.506Z",
+      "type": "phase",
+      "data": "P1 心魔1"
+    },
+    {
+      "frame": 696,
+      "time": "2026-10-18T15:24:36.506Z",
+      "type": "selfSwitch",
+      "data": {
+        "mapId": 5,
+        "eventId": 2,
+        "letter": "A",
+        "value": true
+      }
+    },
+    {
+      "frame": 698,
+      "time": "2026-10-18T15:24:36.544Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 5,
+        "eventId": 2,
+        "label": "心魔1",
+        "page": 3,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 698,
+      "time": "2026-10-18T15:24:36.556Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MindTalk",
+        "commandName": "start",
+        "args": {
+          "strength": "2",
+          "set": "心魔"
+        },
+        "mapId": 5
+      }
+    },
+    {
+      "frame": 698,
+      "time": "2026-10-18T15:24:36.562Z",
+      "type": "text",
+      "data": "你拖累了所有人。"
+    },
+    {
+      "frame": 699,
+      "time": "2026-10-18T15:24:36.575Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "你拖累了所有人。"
+        ],
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 707,
+      "time": "2026-10-18T15:24:36.708Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ],
+        "msgOpen": true
+      }
+    },
+    {
+      "frame": 708,
+      "time": "2026-10-18T15:24:36.724Z",
+      "type": "pass",
+      "data": {
+        "name": "心魔1 出现三个选项",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 720,
+      "time": "2026-10-18T15:24:36.938Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": true,
+        "scrollMode": false,
+        "hasText": true,
+        "choices": 3,
+        "mapInterp": true,
+        "interpEventId": 2,
+        "interpIndex": 1,
+        "interpWait": "XueErMindTalk",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": true,
+        "msgVisible": true,
+        "msgOpenness": 255,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [
+          "你拖累了所有人。"
+        ],
+        "msgChoiceList": [
+          "反驳",
+          "认同",
+          "沉默"
+        ],
+        "choiceActive": true,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": true,
+        "mindTalk": true,
+        "mono": false,
+        "lock": false,
+        "playerX": 14,
+        "playerY": 34
+      }
+    },
+    {
+      "frame": 720,
+      "time": "2026-10-18T15:24:36.938Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 720,
+        "scene": "Scene_Map",
+        "mapId": 5,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 754,
+      "time": "2026-10-18T15:24:37.516Z",
+      "type": "screenshot",
+      "data": "b4rt_02_mindtalk_choice.png"
+    },
+    {
+      "frame": 755,
+      "time": "2026-10-18T15:24:37.523Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "反驳",
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ]
+      }
+    },
+    {
+      "frame": 755,
+      "time": "2026-10-18T15:24:37.524Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 755,
+      "time": "2026-10-18T15:24:37.526Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "你拖累了所有人。"
+        ],
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 784,
+      "time": "2026-10-18T15:24:38.019Z",
+      "type": "text",
+      "data": "她撑住了今天。"
+    },
+    {
+      "frame": 785,
+      "time": "2026-10-18T15:24:38.038Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "她撑住了今天。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 794,
+      "time": "2026-10-18T15:24:38.170Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "她撑住了今天。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 826,
+      "time": "2026-10-18T15:24:38.721Z",
+      "type": "pass",
+      "data": {
+        "name": "心魔1 结束后打开 S42",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 840,
+      "time": "2026-10-18T15:24:38.958Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 840,
+        "scene": "Scene_Map",
+        "mapId": 5,
+        "idle": 15,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 845,
+      "time": "2026-10-18T15:24:39.038Z",
+      "type": "pass",
+      "data": {
+        "name": "心魔1 后情绪为 49",
+        "actual": 49,
+        "expected": 49
+      }
+    },
+    {
+      "frame": 845,
+      "time": "2026-10-18T15:24:39.039Z",
+      "type": "pass",
+      "data": {
+        "name": "心魔1 收尾文本存在",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 845,
+      "time": "2026-10-18T15:24:39.040Z",
+      "type": "pass",
+      "data": {
+        "name": "心魔1 不出现胜利/失败字样",
+        "actual": false,
+        "expected": false
+      }
+    },
+    {
+      "frame": 845,
+      "time": "2026-10-18T15:24:39.040Z",
+      "type": "phase",
+      "data": "P2 心魔2"
+    },
+    {
+      "frame": 845,
+      "time": "2026-10-18T15:24:39.041Z",
+      "type": "selfSwitch",
+      "data": {
+        "mapId": 5,
+        "eventId": 3,
+        "letter": "A",
+        "value": true
+      }
+    },
+    {
+      "frame": 851,
+      "time": "2026-10-18T15:24:39.140Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 5,
+        "eventId": 3,
+        "label": "心魔2",
+        "page": 3,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 851,
+      "time": "2026-10-18T15:24:39.150Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MindTalk",
+        "commandName": "start",
+        "args": {
+          "strength": "3",
+          "set": "心魔"
+        },
+        "mapId": 5
+      }
+    },
+    {
+      "frame": 851,
+      "time": "2026-10-18T15:24:39.153Z",
+      "type": "text",
+      "data": "你不值得被爱。"
+    },
+    {
+      "frame": 852,
+      "time": "2026-10-18T15:24:39.168Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "你不值得被爱。"
+        ],
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 860,
+      "time": "2026-10-18T15:24:39.302Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ],
+        "msgOpen": true
+      }
+    },
+    {
+      "frame": 861,
+      "time": "2026-10-18T15:24:39.305Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "反驳",
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ]
+      }
+    },
+    {
+      "frame": 861,
+      "time": "2026-10-18T15:24:39.306Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 861,
+      "time": "2026-10-18T15:24:39.307Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "你不值得被爱。"
+        ],
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 890,
+      "time": "2026-10-18T15:24:39.797Z",
+      "type": "text",
+      "data": "他们只是客气。"
+    },
+    {
+      "frame": 891,
+      "time": "2026-10-18T15:24:39.813Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "他们只是客气。"
+        ],
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 899,
+      "time": "2026-10-18T15:24:39.960Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ],
+        "msgOpen": true
+      }
+    },
+    {
+      "frame": 900,
+      "time": "2026-10-18T15:24:39.963Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "反驳",
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ]
+      }
+    },
+    {
+      "frame": 900,
+      "time": "2026-10-18T15:24:39.964Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 900,
+      "time": "2026-10-18T15:24:39.966Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "他们只是客气。"
+        ],
+        "choices": [
+          "反驳",
+          "认同",
+          "沉默"
+        ],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 900,
+      "time": "2026-10-18T15:24:39.966Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": false,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 3,
+        "interpIndex": 1,
+        "interpWait": "XueErMindTalk",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": true,
+        "msgVisible": true,
+        "msgOpenness": 255,
+        "msgOpening": false,
+        "msgClosing": true,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": true,
+        "mono": false,
+        "lock": false,
+        "playerX": 14,
+        "playerY": 34
+      }
+    },
+    {
+      "frame": 929,
+      "time": "2026-10-18T15:24:40.456Z",
+      "type": "text",
+      "data": "她撑住了今天。"
+    },
+    {
+      "frame": 930,
+      "time": "2026-10-18T15:24:40.465Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "她撑住了今天。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 939,
+      "time": "2026-10-18T15:24:40.594Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "她撑住了今天。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 960,
+      "time": "2026-10-18T15:24:40.954Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 960,
+        "scene": "Scene_Map",
+        "mapId": 5,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 970,
+      "time": "2026-10-18T15:24:41.137Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 1,
+        "eventId": 3,
+        "text": ""
+      }
+    },
+    {
+      "frame": 970,
+      "time": "2026-10-18T15:24:41.138Z",
+      "type": "text",
+      "data": "（很远的地方，有个声音。）"
+    },
+    {
+      "frame": 971,
+      "time": "2026-10-18T15:24:41.147Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "（很远的地方，有个声音。）"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 980,
+      "time": "2026-10-18T15:24:41.277Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "（很远的地方，有个声音。）"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 980,
+      "time": "2026-10-18T15:24:41.293Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 3,
+        "eventId": 3,
+        "text": ""
+      }
+    },
+    {
+      "frame": 980,
+      "time": "2026-10-18T15:24:41.293Z",
+      "type": "text",
+      "data": "「别怕，我带你回家。」"
+    },
+    {
+      "frame": 997,
+      "time": "2026-10-18T15:24:41.576Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "「别怕，我带你回家。」"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1006,
+      "time": "2026-10-18T15:24:41.710Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "「别怕，我带你回家。」"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1007,
+      "time": "2026-10-18T15:24:41.732Z",
+      "type": "pass",
+      "data": {
+        "name": "心魔2 结束后打开 S43",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1026,
+      "time": "2026-10-18T15:24:42.046Z",
+      "type": "pass",
+      "data": {
+        "name": "心魔2 后情绪为 38",
+        "actual": 38,
+        "expected": 38
+      }
+    },
+    {
+      "frame": 1026,
+      "time": "2026-10-18T15:24:42.046Z",
+      "type": "pass",
+      "data": {
+        "name": "心魔2 低语1",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1026,
+      "time": "2026-10-18T15:24:42.047Z",
+      "type": "pass",
+      "data": {
+        "name": "心魔2 低语2",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1026,
+      "time": "2026-10-18T15:24:42.047Z",
+      "type": "phase",
+      "data": "P3 第一章"
+    },
+    {
+      "frame": 1031,
+      "time": "2026-10-18T15:24:42.130Z",
+      "type": "transfer",
+      "data": {
+        "mapId": 7,
+        "x": 22,
+        "y": 12,
+        "direction": 2
+      }
+    },
+    {
+      "frame": 1068,
+      "time": "2026-10-18T15:24:43.006Z",
+      "type": "pass",
+      "data": {
+        "name": "进入 Map007",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1080,
+      "time": "2026-10-18T15:24:43.201Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 1080,
+        "scene": "Scene_Map",
+        "mapId": 7,
+        "idle": 23,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 1097,
+      "time": "2026-10-18T15:24:43.503Z",
+      "type": "pass",
+      "data": {
+        "name": "第一章起点 Map007",
+        "actual": 7,
+        "expected": 7
+      }
+    },
+    {
+      "frame": 1097,
+      "time": "2026-10-18T15:24:43.504Z",
+      "type": "pass",
+      "data": {
+        "name": "食物前 V15=0",
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "frame": 1099,
+      "time": "2026-10-18T15:24:43.540Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 7,
+        "eventId": 11,
+        "label": "食物 1",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1099,
+      "time": "2026-10-18T15:24:43.557Z",
+      "type": "cmd",
+      "data": {
+        "code": 102,
+        "index": 0,
+        "eventId": 11,
+        "busyBefore": false,
+        "result": true
+      }
+    },
+    {
+      "frame": 1100,
+      "time": "2026-10-18T15:24:43.572Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "是否选择吃这个",
+          "否"
+        ],
+        "msgOpen": false
+      }
+    },
+    {
+      "frame": 1101,
+      "time": "2026-10-18T15:24:43.576Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "是否选择吃这个",
+        "choices": [
+          "是否选择吃这个",
+          "否"
+        ]
+      }
+    },
+    {
+      "frame": 1101,
+      "time": "2026-10-18T15:24:43.577Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 1101,
+      "time": "2026-10-18T15:24:43.578Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [],
+        "choices": [
+          "是否选择吃这个",
+          "否"
+        ],
+        "openness": 0,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1101,
+      "time": "2026-10-18T15:24:43.588Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 2,
+        "eventId": 11,
+        "text": "雪儿"
+      }
+    },
+    {
+      "frame": 1101,
+      "time": "2026-10-18T15:24:43.589Z",
+      "type": "text",
+      "data": "真好吃！"
+    },
+    {
+      "frame": 1102,
+      "time": "2026-10-18T15:24:43.600Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "真好吃！"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1111,
+      "time": "2026-10-18T15:24:43.734Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "真好吃！"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1111,
+      "time": "2026-10-18T15:24:43.753Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "add",
+        "args": {
+          "value": "1"
+        },
+        "mapId": 7
+      }
+    },
+    {
+      "frame": 1112,
+      "time": "2026-10-18T15:24:43.756Z",
+      "type": "pass",
+      "data": {
+        "name": "食物 1 增加 V15",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1137,
+      "time": "2026-10-18T15:24:44.167Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 7,
+        "eventId": 12,
+        "label": "食物 2",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1137,
+      "time": "2026-10-18T15:24:44.185Z",
+      "type": "cmd",
+      "data": {
+        "code": 102,
+        "index": 0,
+        "eventId": 12,
+        "busyBefore": false,
+        "result": true
+      }
+    },
+    {
+      "frame": 1138,
+      "time": "2026-10-18T15:24:44.198Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "是否选择吃这个",
+          "否"
+        ],
+        "msgOpen": false
+      }
+    },
+    {
+      "frame": 1139,
+      "time": "2026-10-18T15:24:44.202Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "是否选择吃这个",
+        "choices": [
+          "是否选择吃这个",
+          "否"
+        ]
+      }
+    },
+    {
+      "frame": 1139,
+      "time": "2026-10-18T15:24:44.203Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 1139,
+      "time": "2026-10-18T15:24:44.203Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [],
+        "choices": [
+          "是否选择吃这个",
+          "否"
+        ],
+        "openness": 0,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1139,
+      "time": "2026-10-18T15:24:44.215Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 2,
+        "eventId": 12,
+        "text": "雪儿"
+      }
+    },
+    {
+      "frame": 1139,
+      "time": "2026-10-18T15:24:44.215Z",
+      "type": "text",
+      "data": "真好吃！"
+    },
+    {
+      "frame": 1140,
+      "time": "2026-10-18T15:24:44.216Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": true,
+        "scrollMode": false,
+        "hasText": true,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 12,
+        "interpIndex": 4,
+        "interpWait": "message",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [
+          "真好吃！"
+        ],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 22,
+        "playerY": 12
+      }
+    },
+    {
+      "frame": 1140,
+      "time": "2026-10-18T15:24:44.231Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "真好吃！"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1149,
+      "time": "2026-10-18T15:24:44.367Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "真好吃！"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1149,
+      "time": "2026-10-18T15:24:44.401Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "add",
+        "args": {
+          "value": "1"
+        },
+        "mapId": 7
+      }
+    },
+    {
+      "frame": 1150,
+      "time": "2026-10-18T15:24:44.406Z",
+      "type": "pass",
+      "data": {
+        "name": "食物 2 增加 V15",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1175,
+      "time": "2026-10-18T15:24:44.816Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 7,
+        "eventId": 13,
+        "label": "食物 3",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1175,
+      "time": "2026-10-18T15:24:44.830Z",
+      "type": "cmd",
+      "data": {
+        "code": 102,
+        "index": 0,
+        "eventId": 13,
+        "busyBefore": false,
+        "result": true
+      }
+    },
+    {
+      "frame": 1176,
+      "time": "2026-10-18T15:24:44.846Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "是否选择吃这个",
+          "否"
+        ],
+        "msgOpen": false
+      }
+    },
+    {
+      "frame": 1177,
+      "time": "2026-10-18T15:24:44.850Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "是否选择吃这个",
+        "choices": [
+          "是否选择吃这个",
+          "否"
+        ]
+      }
+    },
+    {
+      "frame": 1177,
+      "time": "2026-10-18T15:24:44.851Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 1177,
+      "time": "2026-10-18T15:24:44.852Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [],
+        "choices": [
+          "是否选择吃这个",
+          "否"
+        ],
+        "openness": 0,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1177,
+      "time": "2026-10-18T15:24:44.863Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 2,
+        "eventId": 13,
+        "text": "雪儿"
+      }
+    },
+    {
+      "frame": 1177,
+      "time": "2026-10-18T15:24:44.864Z",
+      "type": "text",
+      "data": "真好吃！"
+    },
+    {
+      "frame": 1178,
+      "time": "2026-10-18T15:24:44.880Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "真好吃！"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1187,
+      "time": "2026-10-18T15:24:45.014Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "真好吃！"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1187,
+      "time": "2026-10-18T15:24:45.029Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "add",
+        "args": {
+          "value": "1"
+        },
+        "mapId": 7
+      }
+    },
+    {
+      "frame": 1188,
+      "time": "2026-10-18T15:24:45.033Z",
+      "type": "pass",
+      "data": {
+        "name": "食物 3 增加 V15",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1200,
+      "time": "2026-10-18T15:24:45.229Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 1200,
+        "scene": "Scene_Map",
+        "mapId": 7,
+        "idle": 13,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 1202,
+      "time": "2026-10-18T15:24:45.266Z",
+      "type": "pass",
+      "data": {
+        "name": "三份食物后 V15=3",
+        "actual": 3,
+        "expected": 3
+      }
+    },
+    {
+      "frame": 1202,
+      "time": "2026-10-18T15:24:45.267Z",
+      "type": "pass",
+      "data": {
+        "name": "三份食物后情绪为 41",
+        "actual": 41,
+        "expected": 41
+      }
+    },
+    {
+      "frame": 1212,
+      "time": "2026-10-18T15:24:45.431Z",
+      "type": "transfer",
+      "data": {
+        "mapId": 2,
+        "x": 12,
+        "y": 14,
+        "direction": 8
+      }
+    },
+    {
+      "frame": 1249,
+      "time": "2026-10-18T15:24:46.229Z",
+      "type": "pass",
+      "data": {
+        "name": "进入 Map002",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1288,
+      "time": "2026-10-18T15:24:46.878Z",
+      "type": "pass",
+      "data": {
+        "name": "村庄 Map002",
+        "actual": 2,
+        "expected": 2
+      }
+    },
+    {
+      "frame": 1290,
+      "time": "2026-10-18T15:24:46.909Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 2,
+        "eventId": 15,
+        "label": "发卡（无任务）",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1290,
+      "time": "2026-10-18T15:24:46.928Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 16,
+        "eventId": 15,
+        "text": ""
+      }
+    },
+    {
+      "frame": 1290,
+      "time": "2026-10-18T15:24:46.929Z",
+      "type": "text",
+      "data": "（草丛里有个亮晶晶的东西，被草压住了。）"
+    },
+    {
+      "frame": 1291,
+      "time": "2026-10-18T15:24:46.941Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "（草丛里有个亮晶晶的东西，被草压住了。）"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1300,
+      "time": "2026-10-18T15:24:47.075Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "（草丛里有个亮晶晶的东西，被草压住了。）"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1320,
+      "time": "2026-10-18T15:24:47.410Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 1320,
+        "scene": "Scene_Map",
+        "mapId": 2,
+        "idle": 20,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 1320,
+      "time": "2026-10-18T15:24:47.417Z",
+      "type": "pass",
+      "data": {
+        "name": "无任务时不获得发卡",
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "frame": 1320,
+      "time": "2026-10-18T15:24:47.418Z",
+      "type": "pass",
+      "data": {
+        "name": "无任务时只提示草丛里有东西",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1326,
+      "time": "2026-10-18T15:24:47.524Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 2,
+        "eventId": 9,
+        "label": "小娟（拒绝）",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1326,
+      "time": "2026-10-18T15:24:47.539Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 9,
+        "text": "小娟"
+      }
+    },
+    {
+      "frame": 1326,
+      "time": "2026-10-18T15:24:47.540Z",
+      "type": "text",
+      "data": "我的发卡不见了……好难过。"
+    },
+    {
+      "frame": 1327,
+      "time": "2026-10-18T15:24:47.555Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "我的发卡不见了……好难过。"
+        ],
+        "choices": [
+          "帮她寻找发卡",
+          "不帮"
+        ],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1335,
+      "time": "2026-10-18T15:24:47.690Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "帮她寻找发卡",
+          "不帮"
+        ],
+        "msgOpen": true
+      }
+    },
+    {
+      "frame": 1336,
+      "time": "2026-10-18T15:24:47.724Z",
+      "type": "choice",
+      "data": {
+        "index": 1,
+        "text": "不帮",
+        "choices": [
+          "帮她寻找发卡",
+          "不帮"
+        ]
+      }
+    },
+    {
+      "frame": 1336,
+      "time": "2026-10-18T15:24:47.725Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 1
+      }
+    },
+    {
+      "frame": 1336,
+      "time": "2026-10-18T15:24:47.726Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "我的发卡不见了……好难过。"
+        ],
+        "choices": [
+          "帮她寻找发卡",
+          "不帮"
+        ],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1336,
+      "time": "2026-10-18T15:24:47.743Z",
+      "type": "sw41",
+      "data": {
+        "value": true,
+        "mapId": 2,
+        "stack": "    at Game_Interpreter.command121 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10154:23) |     at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34) |     at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)"
+      }
+    },
+    {
+      "frame": 1336,
+      "time": "2026-10-18T15:24:47.744Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "add",
+        "args": {
+          "value": "-2"
+        },
+        "mapId": 2
+      }
+    },
+    {
+      "frame": 1336,
+      "time": "2026-10-18T15:24:47.745Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 22,
+        "eventId": 9,
+        "text": "小娟"
+      }
+    },
+    {
+      "frame": 1336,
+      "time": "2026-10-18T15:24:47.746Z",
+      "type": "text",
+      "data": "雪儿姐姐最讨厌了，永远都不跟雪儿姐姐玩了。"
+    },
+    {
+      "frame": 1343,
+      "time": "2026-10-18T15:24:47.856Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "雪儿姐姐最讨厌了，永远都不跟雪儿姐姐玩了。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1352,
+      "time": "2026-10-18T15:24:48.002Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "雪儿姐姐最讨厌了，永远都不跟雪儿姐姐玩了。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1372,
+      "time": "2026-10-18T15:24:48.358Z",
+      "type": "pass",
+      "data": {
+        "name": "拒绝小娟后 S41=ON",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1372,
+      "time": "2026-10-18T15:24:48.359Z",
+      "type": "pass",
+      "data": {
+        "name": "拒绝小娟后情绪为 39",
+        "actual": 39,
+        "expected": 39
+      }
+    },
+    {
+      "frame": 1378,
+      "time": "2026-10-18T15:24:48.455Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 2,
+        "eventId": 9,
+        "label": "小娟（帮助）",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1378,
+      "time": "2026-10-18T15:24:48.472Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 9,
+        "text": "小娟"
+      }
+    },
+    {
+      "frame": 1378,
+      "time": "2026-10-18T15:24:48.475Z",
+      "type": "text",
+      "data": "我的发卡不见了……好难过。"
+    },
+    {
+      "frame": 1379,
+      "time": "2026-10-18T15:24:48.487Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "我的发卡不见了……好难过。"
+        ],
+        "choices": [
+          "帮她寻找发卡",
+          "不帮"
+        ],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1380,
+      "time": "2026-10-18T15:24:48.489Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": true,
+        "scrollMode": false,
+        "hasText": true,
+        "choices": 2,
+        "mapInterp": true,
+        "interpEventId": 9,
+        "interpIndex": 3,
+        "interpWait": "message",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": true,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": true,
+        "msgTexts": [
+          "我的发卡不见了……好难过。"
+        ],
+        "msgChoiceList": [
+          "帮她寻找发卡",
+          "不帮"
+        ],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 12,
+        "playerY": 14
+      }
+    },
+    {
+      "frame": 1387,
+      "time": "2026-10-18T15:24:48.621Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "帮她寻找发卡",
+          "不帮"
+        ],
+        "msgOpen": true
+      }
+    },
+    {
+      "frame": 1388,
+      "time": "2026-10-18T15:24:48.627Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "帮她寻找发卡",
+        "choices": [
+          "帮她寻找发卡",
+          "不帮"
+        ]
+      }
+    },
+    {
+      "frame": 1388,
+      "time": "2026-10-18T15:24:48.628Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 1388,
+      "time": "2026-10-18T15:24:48.629Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "我的发卡不见了……好难过。"
+        ],
+        "choices": [
+          "帮她寻找发卡",
+          "不帮"
+        ],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1388,
+      "time": "2026-10-18T15:24:48.639Z",
+      "type": "sw41",
+      "data": {
+        "value": false,
+        "mapId": 2,
+        "stack": "    at Game_Interpreter.command121 (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:10154:23) |     at Game_Interpreter.executeCommand (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9652:34) |     at Game_Interpreter.update (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_objects.js:9557:19)"
+      }
+    },
+    {
+      "frame": 1388,
+      "time": "2026-10-18T15:24:48.642Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 7,
+        "eventId": 9,
+        "text": ""
+      }
+    },
+    {
+      "frame": 1388,
+      "time": "2026-10-18T15:24:48.643Z",
+      "type": "text",
+      "data": "（接取了关于小娟的发卡任务。）"
+    },
+    {
+      "frame": 1395,
+      "time": "2026-10-18T15:24:48.755Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "（接取了关于小娟的发卡任务。）"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1404,
+      "time": "2026-10-18T15:24:48.904Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "（接取了关于小娟的发卡任务。）"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1424,
+      "time": "2026-10-18T15:24:49.241Z",
+      "type": "pass",
+      "data": {
+        "name": "帮助小娟后 S41=OFF",
+        "actual": false,
+        "expected": false
+      }
+    },
+    {
+      "frame": 1424,
+      "time": "2026-10-18T15:24:49.243Z",
+      "type": "pass",
+      "data": {
+        "name": "帮助小娟后接取任务 2",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1430,
+      "time": "2026-10-18T15:24:49.337Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 2,
+        "eventId": 15,
+        "label": "发卡（有任务）",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1430,
+      "time": "2026-10-18T15:24:49.351Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 5,
+        "eventId": 15,
+        "text": ""
+      }
+    },
+    {
+      "frame": 1430,
+      "time": "2026-10-18T15:24:49.352Z",
+      "type": "text",
+      "data": "（发现了一个卡通发卡。）"
+    },
+    {
+      "frame": 1431,
+      "time": "2026-10-18T15:24:49.368Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "（发现了一个卡通发卡。）"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1440,
+      "time": "2026-10-18T15:24:49.507Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "（发现了一个卡通发卡。）"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1440,
+      "time": "2026-10-18T15:24:49.509Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 1440,
+        "scene": "Scene_Map",
+        "mapId": 2,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 1460,
+      "time": "2026-10-18T15:24:49.871Z",
+      "type": "pass",
+      "data": {
+        "name": "有任务时获得发卡",
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "frame": 1460,
+      "time": "2026-10-18T15:24:49.872Z",
+      "type": "pass",
+      "data": {
+        "name": "发卡任务完成",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1460,
+      "time": "2026-10-18T15:24:49.873Z",
+      "type": "pass",
+      "data": {
+        "name": "发卡事件自开关 A",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1466,
+      "time": "2026-10-18T15:24:49.969Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 2,
+        "eventId": 9,
+        "label": "小娟（交任务）",
+        "page": 2,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1466,
+      "time": "2026-10-18T15:24:49.983Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 1,
+        "eventId": 9,
+        "text": "小娟"
+      }
+    },
+    {
+      "frame": 1466,
+      "time": "2026-10-18T15:24:49.984Z",
+      "type": "text",
+      "data": "雪儿姐姐太棒啦！"
+    },
+    {
+      "frame": 1467,
+      "time": "2026-10-18T15:24:49.999Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "雪儿姐姐太棒啦！"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1476,
+      "time": "2026-10-18T15:24:50.135Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "雪儿姐姐太棒啦！"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1476,
+      "time": "2026-10-18T15:24:50.149Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 6,
+        "eventId": 9,
+        "text": ""
+      }
+    },
+    {
+      "frame": 1476,
+      "time": "2026-10-18T15:24:50.150Z",
+      "type": "text",
+      "data": "（获得 500 金币！）"
+    },
+    {
+      "frame": 1493,
+      "time": "2026-10-18T15:24:50.448Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "（获得 500 金币！）"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1500,
+      "time": "2026-10-18T15:24:50.548Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": true,
+        "scrollMode": false,
+        "hasText": true,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 9,
+        "interpIndex": 8,
+        "interpWait": "message",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 192,
+        "msgOpening": true,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": true,
+        "msgTexts": [
+          "（获得 500 金币！）"
+        ],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 12,
+        "playerY": 14
+      }
+    },
+    {
+      "frame": 1502,
+      "time": "2026-10-18T15:24:50.582Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "（获得 500 金币！）"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1502,
+      "time": "2026-10-18T15:24:50.598Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "add",
+        "args": {
+          "value": "2"
+        },
+        "mapId": 2
+      }
+    },
+    {
+      "frame": 1522,
+      "time": "2026-10-18T15:24:50.915Z",
+      "type": "pass",
+      "data": {
+        "name": "交任务奖励后情绪为 41",
+        "actual": 41,
+        "expected": 41
+      }
+    },
+    {
+      "frame": 1522,
+      "time": "2026-10-18T15:24:50.916Z",
+      "type": "pass",
+      "data": {
+        "name": "小娟事件自开关 B",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1528,
+      "time": "2026-10-18T15:24:51.015Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 2,
+        "eventId": 17,
+        "label": "蜜饯（过渡页）",
+        "page": 4,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1528,
+      "time": "2026-10-18T15:24:51.034Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 1,
+        "eventId": 17,
+        "text": "张英梅"
+      }
+    },
+    {
+      "frame": 1528,
+      "time": "2026-10-18T15:24:51.036Z",
+      "type": "text",
+      "data": "听说在西边的城市可以找到心仪的爱人！"
+    },
+    {
+      "frame": 1529,
+      "time": "2026-10-18T15:24:51.046Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "听说在西边的城市可以找到心仪的爱人！"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1538,
+      "time": "2026-10-18T15:24:51.181Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "听说在西边的城市可以找到心仪的爱人！"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1538,
+      "time": "2026-10-18T15:24:51.196Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 3,
+        "eventId": 17,
+        "text": "雪儿"
+      }
+    },
+    {
+      "frame": 1538,
+      "time": "2026-10-18T15:24:51.197Z",
+      "type": "text",
+      "data": "别取笑我啦，梅妈。你是不是因为文学在那儿，才这样说？"
+    },
+    {
+      "frame": 1555,
+      "time": "2026-10-18T15:24:51.484Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "别取笑我啦，梅妈。你是不是因为文学在那儿，才这样说？"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1560,
+      "time": "2026-10-18T15:24:51.562Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 1560,
+        "scene": "Scene_Map",
+        "mapId": 2,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 1564,
+      "time": "2026-10-18T15:24:51.630Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "别取笑我啦，梅妈。你是不是因为文学在那儿，才这样说？"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1564,
+      "time": "2026-10-18T15:24:51.647Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 5,
+        "eventId": 17,
+        "text": "张英梅"
+      }
+    },
+    {
+      "frame": 1564,
+      "time": "2026-10-18T15:24:51.651Z",
+      "type": "text",
+      "data": "好，好，好，不取笑，不取笑。"
+    },
+    {
+      "frame": 1564,
+      "time": "2026-10-18T15:24:51.652Z",
+      "type": "text",
+      "data": "现在已经是个大姑娘了！"
+    },
+    {
+      "frame": 1581,
+      "time": "2026-10-18T15:24:51.960Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "好，好，好，不取笑，不取笑。",
+          "现在已经是个大姑娘了！"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1590,
+      "time": "2026-10-18T15:24:52.098Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "好，好，好，不取笑，不取笑。",
+          "现在已经是个大姑娘了！"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1605,
+      "time": "2026-10-18T15:24:52.344Z",
+      "type": "pass",
+      "data": {
+        "name": "蜜饯页 4 后自开关 C",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1616,
+      "time": "2026-10-18T15:24:52.531Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 2,
+        "eventId": 17,
+        "label": "蜜饯（领取）",
+        "page": 5,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1616,
+      "time": "2026-10-18T15:24:52.543Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 17,
+        "text": "张英梅"
+      }
+    },
+    {
+      "frame": 1616,
+      "time": "2026-10-18T15:24:52.544Z",
+      "type": "text",
+      "data": "雪儿，出门在外要当心哦。这个东西你拿着！"
+    },
+    {
+      "frame": 1617,
+      "time": "2026-10-18T15:24:52.559Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "雪儿，出门在外要当心哦。这个东西你拿着！"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1620,
+      "time": "2026-10-18T15:24:52.593Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": true,
+        "scrollMode": false,
+        "hasText": true,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 17,
+        "interpIndex": 2,
+        "interpWait": "message",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 64,
+        "msgOpening": true,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": true,
+        "msgTexts": [
+          "雪儿，出门在外要当心哦。这个东西你拿着！"
+        ],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 12,
+        "playerY": 14
+      }
+    },
+    {
+      "frame": 1626,
+      "time": "2026-10-18T15:24:52.694Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "雪儿，出门在外要当心哦。这个东西你拿着！"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1626,
+      "time": "2026-10-18T15:24:52.709Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "add",
+        "args": {
+          "value": "2"
+        },
+        "mapId": 2
+      }
+    },
+    {
+      "frame": 1626,
+      "time": "2026-10-18T15:24:52.709Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 4,
+        "eventId": 17,
+        "text": ""
+      }
+    },
+    {
+      "frame": 1626,
+      "time": "2026-10-18T15:24:52.710Z",
+      "type": "text",
+      "data": "（获得了蜜饯！）"
+    },
+    {
+      "frame": 1643,
+      "time": "2026-10-18T15:24:52.992Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "（获得了蜜饯！）"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1652,
+      "time": "2026-10-18T15:24:53.126Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "（获得了蜜饯！）"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1680,
+      "time": "2026-10-18T15:24:53.590Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 1680,
+        "scene": "Scene_Map",
+        "mapId": 2,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 1740,
+      "time": "2026-10-18T15:24:54.587Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": false,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 17,
+        "interpIndex": 7,
+        "interpWait": "",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 12,
+        "playerY": 14
+      }
+    },
+    {
+      "frame": 1772,
+      "time": "2026-10-18T15:24:55.170Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 7,
+        "eventId": 17,
+        "text": "雪儿"
+      }
+    },
+    {
+      "frame": 1772,
+      "time": "2026-10-18T15:24:55.170Z",
+      "type": "text",
+      "data": "谢谢梅妈！"
+    },
+    {
+      "frame": 1773,
+      "time": "2026-10-18T15:24:55.187Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "谢谢梅妈！"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1782,
+      "time": "2026-10-18T15:24:55.318Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "谢谢梅妈！"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1800,
+      "time": "2026-10-18T15:24:55.634Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 1800,
+        "scene": "Scene_Map",
+        "mapId": 2,
+        "idle": 18,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 1802,
+      "time": "2026-10-18T15:24:55.670Z",
+      "type": "pass",
+      "data": {
+        "name": "蜜饯只获得一次",
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "frame": 1802,
+      "time": "2026-10-18T15:24:55.671Z",
+      "type": "pass",
+      "data": {
+        "name": "蜜饯后情绪为 43",
+        "actual": 43,
+        "expected": 43
+      }
+    },
+    {
+      "frame": 1802,
+      "time": "2026-10-18T15:24:55.671Z",
+      "type": "pass",
+      "data": {
+        "name": "蜜饯事件自开关 D",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1808,
+      "time": "2026-10-18T15:24:55.768Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 2,
+        "eventId": 17,
+        "label": "蜜饯（重复对话）",
+        "page": 6,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1808,
+      "time": "2026-10-18T15:24:55.783Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 17,
+        "text": ""
+      }
+    },
+    {
+      "frame": 1808,
+      "time": "2026-10-18T15:24:55.784Z",
+      "type": "text",
+      "data": "路上小心哦。"
+    },
+    {
+      "frame": 1809,
+      "time": "2026-10-18T15:24:55.799Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "路上小心哦。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1818,
+      "time": "2026-10-18T15:24:55.933Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "路上小心哦。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1838,
+      "time": "2026-10-18T15:24:56.266Z",
+      "type": "pass",
+      "data": {
+        "name": "蜜饯不可重复领取",
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "frame": 1838,
+      "time": "2026-10-18T15:24:56.267Z",
+      "type": "pass",
+      "data": {
+        "name": "重复对话后情绪仍为 43",
+        "actual": 43,
+        "expected": 43
+      }
+    },
+    {
+      "frame": 1838,
+      "time": "2026-10-18T15:24:56.267Z",
+      "type": "phase",
+      "data": "P4 第1夜独白"
+    },
+    {
+      "frame": 1843,
+      "time": "2026-10-18T15:24:56.350Z",
+      "type": "transfer",
+      "data": {
+        "mapId": 7,
+        "x": 22,
+        "y": 14,
+        "direction": 8
+      }
+    },
+    {
+      "frame": 1880,
+      "time": "2026-10-18T15:24:57.099Z",
+      "type": "pass",
+      "data": {
+        "name": "回到 Map007 床边",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1899,
+      "time": "2026-10-18T15:24:57.431Z",
+      "type": "pass",
+      "data": {
+        "name": "睡前情绪为 43",
+        "actual": 43,
+        "expected": 43
+      }
+    },
+    {
+      "frame": 1899,
+      "time": "2026-10-18T15:24:57.432Z",
+      "type": "pass",
+      "data": {
+        "name": "睡前 V15=3",
+        "actual": 3,
+        "expected": 3
+      }
+    },
+    {
+      "frame": 1901,
+      "time": "2026-10-18T15:24:57.473Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 7,
+        "eventId": 16,
+        "label": "床·休息",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 1901,
+      "time": "2026-10-18T15:24:57.497Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 16,
+        "text": ""
+      }
+    },
+    {
+      "frame": 1901,
+      "time": "2026-10-18T15:24:57.498Z",
+      "type": "text",
+      "data": "（被子叠得很整齐。）"
+    },
+    {
+      "frame": 1902,
+      "time": "2026-10-18T15:24:57.513Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "（被子叠得很整齐。）"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 1911,
+      "time": "2026-10-18T15:24:57.647Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "（被子叠得很整齐。）"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1911,
+      "time": "2026-10-18T15:24:57.662Z",
+      "type": "cmd",
+      "data": {
+        "code": 102,
+        "index": 3,
+        "eventId": 16,
+        "busyBefore": false,
+        "result": true
+      }
+    },
+    {
+      "frame": 1920,
+      "time": "2026-10-18T15:24:57.797Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": true,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 2,
+        "mapInterp": true,
+        "interpEventId": 16,
+        "interpIndex": 4,
+        "interpWait": "message",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 8,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [
+          "睡吧",
+          "还不困"
+        ],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 22,
+        "playerY": 14
+      }
+    },
+    {
+      "frame": 1920,
+      "time": "2026-10-18T15:24:57.798Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 1920,
+        "scene": "Scene_Map",
+        "mapId": 7,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 1928,
+      "time": "2026-10-18T15:24:57.944Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "睡吧",
+          "还不困"
+        ],
+        "msgOpen": false
+      }
+    },
+    {
+      "frame": 1929,
+      "time": "2026-10-18T15:24:57.946Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "睡吧",
+        "choices": [
+          "睡吧",
+          "还不困"
+        ]
+      }
+    },
+    {
+      "frame": 1929,
+      "time": "2026-10-18T15:24:57.947Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 1929,
+      "time": "2026-10-18T15:24:57.947Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [],
+        "choices": [
+          "睡吧",
+          "还不困"
+        ],
+        "openness": 0,
+        "textState": false
+      }
+    },
+    {
+      "frame": 1929,
+      "time": "2026-10-18T15:24:57.961Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_Monologue",
+        "commandName": "night",
+        "args": {
+          "night": "1",
+          "variant": "1"
+        },
+        "mapId": 7
+      }
+    },
+    {
+      "frame": 1931,
+      "time": "2026-10-18T15:24:58.022Z",
+      "type": "pass",
+      "data": {
+        "name": "第 1 夜独白打开",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2008,
+      "time": "2026-10-18T15:24:59.335Z",
+      "type": "screenshot",
+      "data": "b4rt_03_monologue_night1.png"
+    },
+    {
+      "frame": 2030,
+      "time": "2026-10-18T15:24:59.792Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "add",
+        "args": {
+          "value": "3"
+        },
+        "mapId": 7
+      }
+    },
+    {
+      "frame": 2030,
+      "time": "2026-10-18T15:24:59.793Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "set",
+        "args": {
+          "value": "28"
+        },
+        "mapId": 7
+      }
+    },
+    {
+      "frame": 2030,
+      "time": "2026-10-18T15:24:59.793Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 16,
+        "eventId": 16,
+        "text": ""
+      }
+    },
+    {
+      "frame": 2030,
+      "time": "2026-10-18T15:24:59.793Z",
+      "type": "text",
+      "data": "（那之后，雪儿离开了村子。）"
+    },
+    {
+      "frame": 2031,
+      "time": "2026-10-18T15:24:59.806Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "（那之后，雪儿离开了村子。）"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2040,
+      "time": "2026-10-18T15:24:59.940Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "（那之后，雪儿离开了村子。）"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2040,
+      "time": "2026-10-18T15:24:59.941Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": false,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 16,
+        "interpIndex": 18,
+        "interpWait": "message",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": true,
+        "msgVisible": true,
+        "msgOpenness": 255,
+        "msgOpening": false,
+        "msgClosing": true,
+        "msgWaitCount": 10,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 22,
+        "playerY": 14
+      }
+    },
+    {
+      "frame": 2040,
+      "time": "2026-10-18T15:24:59.941Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 2040,
+        "scene": "Scene_Map",
+        "mapId": 7,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 2067,
+      "time": "2026-10-18T15:25:00.444Z",
+      "type": "pass",
+      "data": {
+        "name": "第 1 夜后进入 Map021",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2067,
+      "time": "2026-10-18T15:25:00.445Z",
+      "type": "pass",
+      "data": {
+        "name": "终章 Map021",
+        "actual": 21,
+        "expected": 21
+      }
+    },
+    {
+      "frame": 2067,
+      "time": "2026-10-18T15:25:00.445Z",
+      "type": "pass",
+      "data": {
+        "name": "第 1 夜已读 S33",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2067,
+      "time": "2026-10-18T15:25:00.446Z",
+      "type": "pass",
+      "data": {
+        "name": "时间跳转后情绪为 28",
+        "actual": 28,
+        "expected": 28
+      }
+    },
+    {
+      "frame": 2067,
+      "time": "2026-10-18T15:25:00.446Z",
+      "type": "pass",
+      "data": {
+        "name": "睡前 S41 应为 OFF",
+        "actual": false,
+        "expected": false
+      }
+    },
+    {
+      "frame": 2067,
+      "time": "2026-10-18T15:25:00.447Z",
+      "type": "pass",
+      "data": {
+        "name": "第 1 夜变体=1（吃过三样且未拒绝小娟）",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2067,
+      "time": "2026-10-18T15:25:00.447Z",
+      "type": "phase",
+      "data": "P5 终章心屋"
+    },
+    {
+      "frame": 2068,
+      "time": "2026-10-18T15:25:00.541Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 1,
+        "eventId": 6,
+        "text": "雪儿"
+      }
+    },
+    {
+      "frame": 2068,
+      "time": "2026-10-18T15:25:00.542Z",
+      "type": "text",
+      "data": "咦，这间屋子怎么没有出路的。"
+    },
+    {
+      "frame": 2068,
+      "time": "2026-10-18T15:25:00.543Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "咦，这间屋子怎么没有出路的。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2077,
+      "time": "2026-10-18T15:25:00.691Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "咦，这间屋子怎么没有出路的。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2077,
+      "time": "2026-10-18T15:25:00.704Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MentalLock",
+        "commandName": "play",
+        "args": {
+          "id": "12",
+          "silent": "true",
+          "images": "Memory_Placeholder"
+        },
+        "mapId": 21
+      }
+    },
+    {
+      "frame": 2078,
+      "time": "2026-10-18T15:25:00.712Z",
+      "type": "pass",
+      "data": {
+        "name": "Map021 自动播放心锁 12",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2134,
+      "time": "2026-10-18T15:25:01.642Z",
+      "type": "screenshot",
+      "data": "b4rt_04_map21_memlock.png"
+    },
+    {
+      "frame": 2160,
+      "time": "2026-10-18T15:25:02.083Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": false,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 6,
+        "interpIndex": 4,
+        "interpWait": "XueErMentalLock",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": true,
+        "playerX": 13,
+        "playerY": 13
+      }
+    },
+    {
+      "frame": 2160,
+      "time": "2026-10-18T15:25:02.084Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 2160,
+        "scene": "Scene_Map",
+        "mapId": 21,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 2280,
+      "time": "2026-10-18T15:25:04.094Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": false,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 6,
+        "interpIndex": 4,
+        "interpWait": "XueErMentalLock",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": true,
+        "playerX": 13,
+        "playerY": 13
+      }
+    },
+    {
+      "frame": 2280,
+      "time": "2026-10-18T15:25:04.095Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 2280,
+        "scene": "Scene_Map",
+        "mapId": 21,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 2387,
+      "time": "2026-10-18T15:25:05.924Z",
+      "type": "pass",
+      "data": {
+        "name": "心锁 12 播放完成",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2387,
+      "time": "2026-10-18T15:25:05.938Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "add",
+        "args": {
+          "value": "-5"
+        },
+        "mapId": 21
+      }
+    },
+    {
+      "frame": 2400,
+      "time": "2026-10-18T15:25:06.141Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 2400,
+        "scene": "Scene_Map",
+        "mapId": 21,
+        "idle": 13,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 2407,
+      "time": "2026-10-18T15:25:06.256Z",
+      "type": "pass",
+      "data": {
+        "name": "心锁 12 已播 S32",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2407,
+      "time": "2026-10-18T15:25:06.256Z",
+      "type": "pass",
+      "data": {
+        "name": "心锁计数 V18=1（切片只播第12段）",
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "frame": 2407,
+      "time": "2026-10-18T15:25:06.257Z",
+      "type": "pass",
+      "data": {
+        "name": "心锁后情绪为 23",
+        "actual": 23,
+        "expected": 23
+      }
+    },
+    {
+      "frame": 2407,
+      "time": "2026-10-18T15:25:06.257Z",
+      "type": "pass",
+      "data": {
+        "name": "心锁 12 使用占位图且安静模式",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2413,
+      "time": "2026-10-18T15:25:06.356Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 21,
+        "eventId": 2,
+        "label": "墙体1",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 2413,
+      "time": "2026-10-18T15:25:06.371Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 2,
+        "text": ""
+      }
+    },
+    {
+      "frame": 2413,
+      "time": "2026-10-18T15:25:06.372Z",
+      "type": "text",
+      "data": "这儿的墙体好像很脆。不知道这里是不是有什么机关。"
+    },
+    {
+      "frame": 2414,
+      "time": "2026-10-18T15:25:06.387Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "这儿的墙体好像很脆。不知道这里是不是有什么机关。"
+        ],
+        "choices": [
+          "是否砸开墙壁",
+          "否"
+        ],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2422,
+      "time": "2026-10-18T15:25:06.525Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "是否砸开墙壁",
+          "否"
+        ],
+        "msgOpen": true
+      }
+    },
+    {
+      "frame": 2423,
+      "time": "2026-10-18T15:25:06.531Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "是否砸开墙壁",
+        "choices": [
+          "是否砸开墙壁",
+          "否"
+        ]
+      }
+    },
+    {
+      "frame": 2423,
+      "time": "2026-10-18T15:25:06.533Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 2423,
+      "time": "2026-10-18T15:25:06.534Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "这儿的墙体好像很脆。不知道这里是不是有什么机关。"
+        ],
+        "choices": [
+          "是否砸开墙壁",
+          "否"
+        ],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2423,
+      "time": "2026-10-18T15:25:06.579Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 4,
+        "eventId": 2,
+        "text": ""
+      }
+    },
+    {
+      "frame": 2423,
+      "time": "2026-10-18T15:25:06.580Z",
+      "type": "text",
+      "data": "这面墙纹丝不动。好像不是从这里出去。"
+    },
+    {
+      "frame": 2430,
+      "time": "2026-10-18T15:25:06.686Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "这面墙纹丝不动。好像不是从这里出去。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2439,
+      "time": "2026-10-18T15:25:06.821Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "这面墙纹丝不动。好像不是从这里出去。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2459,
+      "time": "2026-10-18T15:25:07.153Z",
+      "type": "pass",
+      "data": {
+        "name": "墙体1 不打开 S10",
+        "actual": false,
+        "expected": false
+      }
+    },
+    {
+      "frame": 2459,
+      "time": "2026-10-18T15:25:07.154Z",
+      "type": "pass",
+      "data": {
+        "name": "墙体1 提示不是出口",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2465,
+      "time": "2026-10-18T15:25:07.253Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 21,
+        "eventId": 3,
+        "label": "墙体2",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 2465,
+      "time": "2026-10-18T15:25:07.268Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 3,
+        "text": ""
+      }
+    },
+    {
+      "frame": 2465,
+      "time": "2026-10-18T15:25:07.268Z",
+      "type": "text",
+      "data": "这儿的墙体好像脆弱，不知道这里是不是有什么机关，"
+    },
+    {
+      "frame": 2466,
+      "time": "2026-10-18T15:25:07.285Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "这儿的墙体好像脆弱，不知道这里是不是有什么机关，"
+        ],
+        "choices": [
+          "是否砸开这面墙壁，是",
+          "否"
+        ],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2474,
+      "time": "2026-10-18T15:25:07.424Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "是否砸开这面墙壁，是",
+          "否"
+        ],
+        "msgOpen": true
+      }
+    },
+    {
+      "frame": 2475,
+      "time": "2026-10-18T15:25:07.430Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "是否砸开这面墙壁，是",
+        "choices": [
+          "是否砸开这面墙壁，是",
+          "否"
+        ]
+      }
+    },
+    {
+      "frame": 2475,
+      "time": "2026-10-18T15:25:07.432Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 2475,
+      "time": "2026-10-18T15:25:07.433Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "这儿的墙体好像脆弱，不知道这里是不是有什么机关，"
+        ],
+        "choices": [
+          "是否砸开这面墙壁，是",
+          "否"
+        ],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2475,
+      "time": "2026-10-18T15:25:07.452Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 4,
+        "eventId": 3,
+        "text": ""
+      }
+    },
+    {
+      "frame": 2475,
+      "time": "2026-10-18T15:25:07.453Z",
+      "type": "text",
+      "data": "墙面好像会发生些什么变化，"
+    },
+    {
+      "frame": 2482,
+      "time": "2026-10-18T15:25:07.568Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "墙面好像会发生些什么变化，"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2491,
+      "time": "2026-10-18T15:25:07.701Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "墙面好像会发生些什么变化，"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2491,
+      "time": "2026-10-18T15:25:07.718Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 7,
+        "eventId": 3,
+        "text": ""
+      }
+    },
+    {
+      "frame": 2491,
+      "time": "2026-10-18T15:25:07.718Z",
+      "type": "text",
+      "data": "出现了一道通向未知黑暗的门……"
+    },
+    {
+      "frame": 2508,
+      "time": "2026-10-18T15:25:08.000Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "出现了一道通向未知黑暗的门……"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2517,
+      "time": "2026-10-18T15:25:08.134Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "出现了一道通向未知黑暗的门……"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2517,
+      "time": "2026-10-18T15:25:08.150Z",
+      "type": "cmd",
+      "data": {
+        "code": 102,
+        "index": 0,
+        "eventId": 3,
+        "busyBefore": false,
+        "result": true
+      }
+    },
+    {
+      "frame": 2520,
+      "time": "2026-10-18T15:25:08.183Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": true,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 2,
+        "mapInterp": true,
+        "interpEventId": 3,
+        "interpIndex": 1,
+        "interpWait": "message",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 159,
+        "msgOpening": false,
+        "msgClosing": true,
+        "msgWaitCount": 10,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [
+          "是否进行传送",
+          "否"
+        ],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 13,
+        "playerY": 13
+      }
+    },
+    {
+      "frame": 2520,
+      "time": "2026-10-18T15:25:08.183Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 2520,
+        "scene": "Scene_Map",
+        "mapId": 21,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 2534,
+      "time": "2026-10-18T15:25:08.432Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "是否进行传送",
+          "否"
+        ],
+        "msgOpen": false
+      }
+    },
+    {
+      "frame": 2535,
+      "time": "2026-10-18T15:25:08.435Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "是否进行传送",
+        "choices": [
+          "是否进行传送",
+          "否"
+        ]
+      }
+    },
+    {
+      "frame": 2535,
+      "time": "2026-10-18T15:25:08.436Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 2535,
+      "time": "2026-10-18T15:25:08.436Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [],
+        "choices": [
+          "是否进行传送",
+          "否"
+        ],
+        "openness": 0,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2562,
+      "time": "2026-10-18T15:25:08.953Z",
+      "type": "pass",
+      "data": {
+        "name": "墙体2 传送到 Map019",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2594,
+      "time": "2026-10-18T15:25:09.714Z",
+      "type": "pass",
+      "data": {
+        "name": "墙体2 打开 S10",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2594,
+      "time": "2026-10-18T15:25:09.715Z",
+      "type": "pass",
+      "data": {
+        "name": "星空小岛 Map019",
+        "actual": 19,
+        "expected": 19
+      }
+    },
+    {
+      "frame": 2594,
+      "time": "2026-10-18T15:25:09.715Z",
+      "type": "phase",
+      "data": "P6 星空小岛"
+    },
+    {
+      "frame": 2596,
+      "time": "2026-10-18T15:25:09.765Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 19,
+        "eventId": 3,
+        "label": "梦中的自己",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 2596,
+      "time": "2026-10-18T15:25:09.783Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 3,
+        "text": "另一个雪儿"
+      }
+    },
+    {
+      "frame": 2596,
+      "time": "2026-10-18T15:25:09.783Z",
+      "type": "text",
+      "data": "穆兰雪，你可以醒来了。"
+    },
+    {
+      "frame": 2597,
+      "time": "2026-10-18T15:25:09.797Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "穆兰雪，你可以醒来了。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2606,
+      "time": "2026-10-18T15:25:09.930Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "穆兰雪，你可以醒来了。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2606,
+      "time": "2026-10-18T15:25:09.945Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 2,
+        "eventId": 3,
+        "text": "雪儿"
+      }
+    },
+    {
+      "frame": 2606,
+      "time": "2026-10-18T15:25:09.946Z",
+      "type": "text",
+      "data": "你……你是那时候帮我传送回家的人。你到底是谁。"
+    },
+    {
+      "frame": 2623,
+      "time": "2026-10-18T15:25:10.236Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "你……你是那时候帮我传送回家的人。你到底是谁。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2632,
+      "time": "2026-10-18T15:25:10.378Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "你……你是那时候帮我传送回家的人。你到底是谁。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2632,
+      "time": "2026-10-18T15:25:10.394Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 4,
+        "eventId": 3,
+        "text": "另一个雪儿"
+      }
+    },
+    {
+      "frame": 2632,
+      "time": "2026-10-18T15:25:10.395Z",
+      "type": "text",
+      "data": "不重要了……我想，你心中应该是有答案了吧。"
+    },
+    {
+      "frame": 2640,
+      "time": "2026-10-18T15:25:10.510Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": true,
+        "scrollMode": false,
+        "hasText": true,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 3,
+        "interpIndex": 6,
+        "interpWait": "message",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 0,
+        "msgOpening": false,
+        "msgClosing": false,
+        "msgWaitCount": 9,
+        "msgPause": false,
+        "msgTextState": false,
+        "msgTexts": [
+          "不重要了……我想，你心中应该是有答案了吧。"
+        ],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 21,
+        "playerY": 22
+      }
+    },
+    {
+      "frame": 2640,
+      "time": "2026-10-18T15:25:10.511Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 2640,
+        "scene": "Scene_Map",
+        "mapId": 19,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 2649,
+      "time": "2026-10-18T15:25:10.679Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "不重要了……我想，你心中应该是有答案了吧。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2658,
+      "time": "2026-10-18T15:25:10.818Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "不重要了……我想，你心中应该是有答案了吧。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2658,
+      "time": "2026-10-18T15:25:10.843Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 6,
+        "eventId": 3,
+        "text": "雪儿"
+      }
+    },
+    {
+      "frame": 2658,
+      "time": "2026-10-18T15:25:10.844Z",
+      "type": "text",
+      "data": "我的那些伙伴呢，怎么都不见了。"
+    },
+    {
+      "frame": 2658,
+      "time": "2026-10-18T15:25:10.844Z",
+      "type": "text",
+      "data": "又是拂晓教那帮人搞的鬼吗。"
+    },
+    {
+      "frame": 2675,
+      "time": "2026-10-18T15:25:11.145Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "我的那些伙伴呢，怎么都不见了。",
+          "又是拂晓教那帮人搞的鬼吗。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2684,
+      "time": "2026-10-18T15:25:11.296Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "我的那些伙伴呢，怎么都不见了。",
+          "又是拂晓教那帮人搞的鬼吗。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2684,
+      "time": "2026-10-18T15:25:11.311Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 9,
+        "eventId": 3,
+        "text": "另一个雪儿"
+      }
+    },
+    {
+      "frame": 2684,
+      "time": "2026-10-18T15:25:11.312Z",
+      "type": "text",
+      "data": "他们一直都在。他们都是你。"
+    },
+    {
+      "frame": 2701,
+      "time": "2026-10-18T15:25:11.591Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "他们一直都在。他们都是你。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2710,
+      "time": "2026-10-18T15:25:11.724Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "他们一直都在。他们都是你。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2710,
+      "time": "2026-10-18T15:25:11.749Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 11,
+        "eventId": 3,
+        "text": ""
+      }
+    },
+    {
+      "frame": 2710,
+      "time": "2026-10-18T15:25:11.751Z",
+      "type": "text",
+      "data": "……我知道了。"
+    },
+    {
+      "frame": 2727,
+      "time": "2026-10-18T15:25:12.055Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "……我知道了。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2736,
+      "time": "2026-10-18T15:25:12.192Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "……我知道了。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2736,
+      "time": "2026-10-18T15:25:12.223Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 13,
+        "eventId": 3,
+        "text": "另一个雪儿"
+      }
+    },
+    {
+      "frame": 2736,
+      "time": "2026-10-18T15:25:12.224Z",
+      "type": "text",
+      "data": "拂晓教那帮人，不会再做坏事了。"
+    },
+    {
+      "frame": 2753,
+      "time": "2026-10-18T15:25:12.504Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "拂晓教那帮人，不会再做坏事了。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2760,
+      "time": "2026-10-18T15:25:12.621Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": true,
+        "scrollMode": false,
+        "hasText": true,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 3,
+        "interpIndex": 15,
+        "interpWait": "message",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": false,
+        "mapScrolling": false,
+        "msgOpen": false,
+        "msgVisible": true,
+        "msgOpenness": 192,
+        "msgOpening": true,
+        "msgClosing": false,
+        "msgWaitCount": 0,
+        "msgPause": false,
+        "msgTextState": true,
+        "msgTexts": [
+          "拂晓教那帮人，不会再做坏事了。"
+        ],
+        "msgChoiceList": [],
+        "choiceActive": false,
+        "choiceOpening": false,
+        "numInputActive": false,
+        "itemChoiceActive": false,
+        "scrollOpen": true,
+        "choiceOpen": false,
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 21,
+        "playerY": 22
+      }
+    },
+    {
+      "frame": 2760,
+      "time": "2026-10-18T15:25:12.622Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 2760,
+        "scene": "Scene_Map",
+        "mapId": 19,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 2762,
+      "time": "2026-10-18T15:25:12.656Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "拂晓教那帮人，不会再做坏事了。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2762,
+      "time": "2026-10-18T15:25:12.670Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 15,
+        "eventId": 3,
+        "text": "另一个雪儿"
+      }
+    },
+    {
+      "frame": 2762,
+      "time": "2026-10-18T15:25:12.671Z",
+      "type": "text",
+      "data": "从后面的那扇门走吧，你会明白一切的。"
+    },
+    {
+      "frame": 2779,
+      "time": "2026-10-18T15:25:12.953Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "从后面的那扇门走吧，你会明白一切的。"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2788,
+      "time": "2026-10-18T15:25:13.088Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "从后面的那扇门走吧，你会明白一切的。"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2788,
+      "time": "2026-10-18T15:25:13.103Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 17,
+        "eventId": 3,
+        "text": ""
+      }
+    },
+    {
+      "frame": 2788,
+      "time": "2026-10-18T15:25:13.103Z",
+      "type": "text",
+      "data": "（雪儿把锁放在了地上。）"
+    },
+    {
+      "frame": 2805,
+      "time": "2026-10-18T15:25:13.385Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "（雪儿把锁放在了地上。）"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2814,
+      "time": "2026-10-18T15:25:13.521Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "（雪儿把锁放在了地上。）"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2814,
+      "time": "2026-10-18T15:25:13.535Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 19,
+        "eventId": 3,
+        "text": ""
+      }
+    },
+    {
+      "frame": 2814,
+      "time": "2026-10-18T15:25:13.535Z",
+      "type": "text",
+      "data": "（她没有打开它。）"
+    },
+    {
+      "frame": 2831,
+      "time": "2026-10-18T15:25:13.817Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "（她没有打开它。）"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2840,
+      "time": "2026-10-18T15:25:13.953Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "（她没有打开它。）"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2865,
+      "time": "2026-10-18T15:25:14.376Z",
+      "type": "pass",
+      "data": {
+        "name": "梦中的自己自开关 A",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2865,
+      "time": "2026-10-18T15:25:14.379Z",
+      "type": "pass",
+      "data": {
+        "name": "新增台词「他们都是你」",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2865,
+      "time": "2026-10-18T15:25:14.384Z",
+      "type": "pass",
+      "data": {
+        "name": "新增台词「……我知道了。」",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2865,
+      "time": "2026-10-18T15:25:14.386Z",
+      "type": "pass",
+      "data": {
+        "name": "锁放在地上",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2865,
+      "time": "2026-10-18T15:25:14.388Z",
+      "type": "pass",
+      "data": {
+        "name": "她没有打开锁",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2866,
+      "time": "2026-10-18T15:25:14.403Z",
+      "type": "transfer",
+      "data": {
+        "mapId": 19,
+        "x": 18,
+        "y": 10,
+        "direction": 8
+      }
+    },
+    {
+      "frame": 2880,
+      "time": "2026-10-18T15:25:14.634Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 2880,
+        "scene": "Scene_Map",
+        "mapId": 19,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 2903,
+      "time": "2026-10-18T15:25:15.167Z",
+      "type": "pass",
+      "data": {
+        "name": "走到门前",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 2947,
+      "time": "2026-10-18T15:25:15.907Z",
+      "type": "screenshot",
+      "data": "b4rt_05_map19_door.png"
+    },
+    {
+      "frame": 2949,
+      "time": "2026-10-18T15:25:15.942Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 19,
+        "eventId": 4,
+        "label": "推开那扇门",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 2949,
+      "time": "2026-10-18T15:25:15.965Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 4,
+        "text": ""
+      }
+    },
+    {
+      "frame": 2949,
+      "time": "2026-10-18T15:25:15.967Z",
+      "type": "text",
+      "data": "门就在前面。"
+    },
+    {
+      "frame": 2950,
+      "time": "2026-10-18T15:25:15.979Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "门就在前面。"
+        ],
+        "choices": [
+          "推开门",
+          "再等等"
+        ],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 2958,
+      "time": "2026-10-18T15:25:16.112Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "推开门",
+          "再等等"
+        ],
+        "msgOpen": true
+      }
+    },
+    {
+      "frame": 2959,
+      "time": "2026-10-18T15:25:16.115Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "推开门",
+        "choices": [
+          "推开门",
+          "再等等"
+        ]
+      }
+    },
+    {
+      "frame": 2959,
+      "time": "2026-10-18T15:25:16.116Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 2959,
+      "time": "2026-10-18T15:25:16.117Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "门就在前面。"
+        ],
+        "choices": [
+          "推开门",
+          "再等等"
+        ],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 2959,
+      "time": "2026-10-18T15:25:16.128Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_Monologue",
+        "commandName": "night",
+        "args": {
+          "night": "5",
+          "variant": "2"
+        },
+        "mapId": 19
+      }
+    },
+    {
+      "frame": 2991,
+      "time": "2026-10-18T15:25:16.778Z",
+      "type": "text",
+      "data": "一位抑郁症患者的独白"
+    },
+    {
+      "frame": 2991,
+      "time": "2026-10-18T15:25:16.779Z",
+      "type": "text",
+      "data": "策划 / 剧本 / 程序：葛银"
+    },
+    {
+      "frame": 2991,
+      "time": "2026-10-18T15:25:16.779Z",
+      "type": "text",
+      "data": "地图素材：RPG Maker MZ"
+    },
+    {
+      "frame": 2991,
+      "time": "2026-10-18T15:25:16.780Z",
+      "type": "text",
+      "data": "插件：RPG Maker MZ 社区"
+    },
+    {
+      "frame": 2991,
+      "time": "2026-10-18T15:25:16.780Z",
+      "type": "text",
+      "data": "谢谢你陪她走到这里。"
+    },
+    {
+      "frame": 3000,
+      "time": "2026-10-18T15:25:16.909Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 3000,
+        "scene": "Scene_Map",
+        "mapId": 19,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 3042,
+      "time": "2026-10-18T15:25:17.682Z",
+      "type": "pass",
+      "data": {
+        "name": "推门后回到标题",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 3102,
+      "time": "2026-10-18T15:25:18.773Z",
+      "type": "pass",
+      "data": {
+        "name": "终夜已读 S37",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 3102,
+      "time": "2026-10-18T15:25:18.774Z",
+      "type": "pass",
+      "data": {
+        "name": "终夜变体=2（情绪 23）",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 3102,
+      "time": "2026-10-18T15:25:18.774Z",
+      "type": "pass",
+      "data": {
+        "name": "名单滚动文本已播放",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 3120,
+      "time": "2026-10-18T15:25:19.086Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 3120,
+        "scene": "Scene_Title",
+        "mapId": 19,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 3123,
+      "time": "2026-10-18T15:25:19.154Z",
+      "type": "screenshot",
+      "data": "b4rt_06_title.png"
+    },
+    {
+      "frame": 3123,
+      "time": "2026-10-18T15:25:19.155Z",
+      "type": "phase",
+      "data": "P7 独白变体回归"
+    },
+    {
+      "frame": 3123,
+      "time": "2026-10-18T15:25:19.158Z",
+      "type": "phase",
+      "data": "变体回归启动 · night1-v3"
+    },
+    {
+      "frame": 3127,
+      "time": "2026-10-18T15:25:19.359Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "set",
+        "args": {
+          "value": "55"
+        },
+        "mapId": 4
+      }
+    },
+    {
+      "frame": 3127,
+      "time": "2026-10-18T15:25:19.360Z",
+      "type": "text",
+      "data": "\\C[3]不知道为什么，雪儿最近总感觉自己有什么东西忘记了，现在的一切"
+    },
+    {
+      "frame": 3127,
+      "time": "2026-10-18T15:25:19.360Z",
+      "type": "text",
+      "data": "变得和从前不一样了……"
+    },
+    {
+      "frame": 3135,
+      "time": "2026-10-18T15:25:19.477Z",
+      "type": "transfer",
+      "data": {
+        "mapId": 7,
+        "x": 22,
+        "y": 14,
+        "direction": 8,
+        "raw": true
+      }
+    },
+    {
+      "frame": 3188,
+      "time": "2026-10-18T15:25:20.803Z",
+      "type": "sw41",
+      "data": {
+        "value": true,
+        "mapId": 7,
+        "stack": "    at variantMatrix (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B4Test.js:665:27) |     at async main (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/_B4Test.js:1053:13)"
+      }
+    },
+    {
+      "frame": 3190,
+      "time": "2026-10-18T15:25:20.838Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 7,
+        "eventId": 16,
+        "label": "床·休息（S41=ON）",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 3190,
+      "time": "2026-10-18T15:25:20.849Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 16,
+        "text": ""
+      }
+    },
+    {
+      "frame": 3190,
+      "time": "2026-10-18T15:25:20.850Z",
+      "type": "text",
+      "data": "（被子叠得很整齐。）"
+    },
+    {
+      "frame": 3191,
+      "time": "2026-10-18T15:25:20.869Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "（被子叠得很整齐。）"
+        ],
+        "choices": [],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 3200,
+      "time": "2026-10-18T15:25:20.999Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "（被子叠得很整齐。）"
+        ],
+        "choices": [],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 3200,
+      "time": "2026-10-18T15:25:21.016Z",
+      "type": "cmd",
+      "data": {
+        "code": 102,
+        "index": 3,
+        "eventId": 16,
+        "busyBefore": false,
+        "result": true
+      }
+    },
+    {
+      "frame": 3217,
+      "time": "2026-10-18T15:25:21.426Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "睡吧",
+          "还不困"
+        ],
+        "msgOpen": false
+      }
+    },
+    {
+      "frame": 3218,
+      "time": "2026-10-18T15:25:21.504Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "睡吧",
+        "choices": [
+          "睡吧",
+          "还不困"
+        ]
+      }
+    },
+    {
+      "frame": 3218,
+      "time": "2026-10-18T15:25:21.509Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 3218,
+      "time": "2026-10-18T15:25:21.510Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [],
+        "choices": [
+          "睡吧",
+          "还不困"
+        ],
+        "openness": 0,
+        "textState": false
+      }
+    },
+    {
+      "frame": 3218,
+      "time": "2026-10-18T15:25:21.536Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_Monologue",
+        "commandName": "night",
+        "args": {
+          "night": "1",
+          "variant": "3"
+        },
+        "mapId": 7
+      }
+    },
+    {
+      "frame": 3219,
+      "time": "2026-10-18T15:25:21.703Z",
+      "type": "pass",
+      "data": {
+        "name": "第 1 夜变体=3（拒绝过小娟）",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 3239,
+      "time": "2026-10-18T15:25:22.217Z",
+      "type": "phase",
+      "data": "变体回归启动 · night5-v1"
+    },
+    {
+      "frame": 3240,
+      "time": "2026-10-18T15:25:22.476Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 3240,
+        "scene": "Scene_Map",
+        "mapId": 0,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 3273,
+      "time": "2026-10-18T15:25:24.036Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "set",
+        "args": {
+          "value": "55"
+        },
+        "mapId": 4
+      }
+    },
+    {
+      "frame": 3273,
+      "time": "2026-10-18T15:25:24.037Z",
+      "type": "text",
+      "data": "\\C[3]不知道为什么，雪儿最近总感觉自己有什么东西忘记了，现在的一切"
+    },
+    {
+      "frame": 3273,
+      "time": "2026-10-18T15:25:24.037Z",
+      "type": "text",
+      "data": "变得和从前不一样了……"
+    },
+    {
+      "frame": 3275,
+      "time": "2026-10-18T15:25:24.057Z",
+      "type": "transfer",
+      "data": {
+        "mapId": 19,
+        "x": 18,
+        "y": 10,
+        "direction": 8,
+        "raw": true
+      }
+    },
+    {
+      "frame": 3300,
+      "time": "2026-10-18T15:25:24.550Z",
+      "type": "busy",
+      "data": {
+        "msgBusy": false,
+        "scrollMode": false,
+        "hasText": false,
+        "choices": 0,
+        "mapInterp": true,
+        "interpEventId": 2,
+        "interpIndex": 1,
+        "interpWait": "transfer",
+        "playerRoute": false,
+        "routeIndex": 0,
+        "routeLen": null,
+        "transferring": true,
+        "mapScrolling": false,
+        "msgTextState": false,
+        "msgTexts": [],
+        "msgChoiceList": [],
+        "mindTalk": false,
+        "mono": false,
+        "lock": false,
+        "playerX": 9,
+        "playerY": 7
+      }
+    },
+    {
+      "frame": 3337,
+      "time": "2026-10-18T15:25:25.476Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 19,
+        "eventId": 4,
+        "label": "推门（V20=65）",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 3337,
+      "time": "2026-10-18T15:25:25.495Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 4,
+        "text": ""
+      }
+    },
+    {
+      "frame": 3337,
+      "time": "2026-10-18T15:25:25.495Z",
+      "type": "text",
+      "data": "门就在前面。"
+    },
+    {
+      "frame": 3338,
+      "time": "2026-10-18T15:25:25.507Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "门就在前面。"
+        ],
+        "choices": [
+          "推开门",
+          "再等等"
+        ],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 3346,
+      "time": "2026-10-18T15:25:25.639Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "推开门",
+          "再等等"
+        ],
+        "msgOpen": true
+      }
+    },
+    {
+      "frame": 3347,
+      "time": "2026-10-18T15:25:25.643Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "推开门",
+        "choices": [
+          "推开门",
+          "再等等"
+        ]
+      }
+    },
+    {
+      "frame": 3347,
+      "time": "2026-10-18T15:25:25.644Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 3347,
+      "time": "2026-10-18T15:25:25.645Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "门就在前面。"
+        ],
+        "choices": [
+          "推开门",
+          "再等等"
+        ],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 3347,
+      "time": "2026-10-18T15:25:25.664Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_Monologue",
+        "commandName": "night",
+        "args": {
+          "night": "5",
+          "variant": "1"
+        },
+        "mapId": 19
+      }
+    },
+    {
+      "frame": 3348,
+      "time": "2026-10-18T15:25:25.686Z",
+      "type": "pass",
+      "data": {
+        "name": "终夜变体=1（情绪 65）",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 3348,
+      "time": "2026-10-18T15:25:25.687Z",
+      "type": "phase",
+      "data": "变体回归启动 · night5-v3"
+    },
+    {
+      "frame": 3360,
+      "time": "2026-10-18T15:25:25.873Z",
+      "type": "heartbeat",
+      "data": {
+        "frames": 3360,
+        "scene": "Scene_Map",
+        "mapId": 0,
+        "idle": 0,
+        "hasFocus": false,
+        "gameActive": true
+      }
+    },
+    {
+      "frame": 3375,
+      "time": "2026-10-18T15:25:26.403Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "set",
+        "args": {
+          "value": "55"
+        },
+        "mapId": 4
+      }
+    },
+    {
+      "frame": 3375,
+      "time": "2026-10-18T15:25:26.403Z",
+      "type": "text",
+      "data": "\\C[3]不知道为什么，雪儿最近总感觉自己有什么东西忘记了，现在的一切"
+    },
+    {
+      "frame": 3375,
+      "time": "2026-10-18T15:25:26.405Z",
+      "type": "text",
+      "data": "变得和从前不一样了……"
+    },
+    {
+      "frame": 3384,
+      "time": "2026-10-18T15:25:26.558Z",
+      "type": "transfer",
+      "data": {
+        "mapId": 19,
+        "x": 18,
+        "y": 10,
+        "direction": 8,
+        "raw": true
+      }
+    },
+    {
+      "frame": 3437,
+      "time": "2026-10-18T15:25:27.962Z",
+      "type": "startEvent",
+      "data": {
+        "mapId": 19,
+        "eventId": 4,
+        "label": "推门（V20=10）",
+        "page": 1,
+        "pre": {
+          "msgOpen": false,
+          "msgOpenness": 0,
+          "msgTextState": false,
+          "choiceActive": false,
+          "texts": [],
+          "choices": []
+        }
+      }
+    },
+    {
+      "frame": 3437,
+      "time": "2026-10-18T15:25:28.007Z",
+      "type": "cmd",
+      "data": {
+        "code": 101,
+        "index": 0,
+        "eventId": 4,
+        "text": ""
+      }
+    },
+    {
+      "frame": 3437,
+      "time": "2026-10-18T15:25:28.008Z",
+      "type": "text",
+      "data": "门就在前面。"
+    },
+    {
+      "frame": 3438,
+      "time": "2026-10-18T15:25:28.018Z",
+      "type": "wm",
+      "data": {
+        "ev": "startMessage",
+        "texts": [
+          "门就在前面。"
+        ],
+        "choices": [
+          "推开门",
+          "再等等"
+        ],
+        "openness": 0
+      }
+    },
+    {
+      "frame": 3446,
+      "time": "2026-10-18T15:25:28.159Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "start",
+        "choices": [
+          "推开门",
+          "再等等"
+        ],
+        "msgOpen": true
+      }
+    },
+    {
+      "frame": 3447,
+      "time": "2026-10-18T15:25:28.166Z",
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "推开门",
+        "choices": [
+          "推开门",
+          "再等等"
+        ]
+      }
+    },
+    {
+      "frame": 3447,
+      "time": "2026-10-18T15:25:28.168Z",
+      "type": "choiceWin",
+      "data": {
+        "ev": "ok",
+        "index": 0
+      }
+    },
+    {
+      "frame": 3447,
+      "time": "2026-10-18T15:25:28.169Z",
+      "type": "wm",
+      "data": {
+        "ev": "terminateMessage",
+        "texts": [
+          "门就在前面。"
+        ],
+        "choices": [
+          "推开门",
+          "再等等"
+        ],
+        "openness": 255,
+        "textState": false
+      }
+    },
+    {
+      "frame": 3447,
+      "time": "2026-10-18T15:25:28.185Z",
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_Monologue",
+        "commandName": "night",
+        "args": {
+          "night": "5",
+          "variant": "3"
+        },
+        "mapId": 19
+      }
+    },
+    {
+      "frame": 3448,
+      "time": "2026-10-18T15:25:28.213Z",
+      "type": "pass",
+      "data": {
+        "name": "终夜变体=3（情绪 10）",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 3448,
+      "time": "2026-10-18T15:25:28.214Z",
+      "type": "summary",
+      "data": {
+        "total": 75,
+        "failed": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+批次 4 控制台日志摘要
+======================
+
+验收运行（23:24–23:25）与发布插件集冒烟（23:33）均未出现游戏或插件异常。
+控制台只出现 Chromium 的 USB 设备枚举警告，与工程无关。冒烟运行原文：
+
+[30284:18344:1018/233325.401:ERROR:device_event_log_impl.cc(208)] [23:33:25.400] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: <Windows 提示：系统上的设备没有发挥作用。> (0x1F)
+
+冒烟结果见 批次4_冒烟结果.json；完整验收事件与 75 项检查见 批次4_验证结果.json。
