@@ -1,0 +1,55 @@
+# ============================================================
+# 《一位抑郁症患者的独白》— RPG Maker MZ 工程
+# 仓库根 = 本目录
+# ============================================================
+
+# ---- NW.js 运行时（开发不需要：MZ 编辑器自带运行时；正式发布用"部署"重新生成）----
+工程/Game.exe
+工程/*.dll
+工程/icudtl.dat
+工程/resources.pak
+工程/nw_*_percent.pak
+工程/v8_context_snapshot.bin
+工程/locales/
+工程/swiftshader/
+工程/Dictionaries/
+工程/notification_helper.exe
+工程/debug.log
+
+# ---- 本地备份 / 玩家存档（不进仓库）----
+# 校订前的设计文档原件已在历史提交里，无需重复入库
+工程/data_backup_*/
+工程/js_backup_*/
+工程/img_backup_*/
+设计文档_完善版_backup_*/
+工程/save/
+*.bak_*
+工程/data/*.bak_*
+
+# ---- 本地临时 / 生成素材（不进仓库）----
+.tmp/
+vibe_images/
+实施报告/批次5_素材源/
+实施报告/批次7_Demo视频/raw/
+实施报告/批次7_Demo视频/edit/tmp/
+实施报告/批次7_Demo视频/edit/qa/
+
+# ---- 含个人信息的原始论文（仅本地留存）----
+游戏文档.docx
+scripts/游戏文档.txt
+
+# ---- 大体积分发包（仅本机保留）----
+*.zip
+游戏本体和使用到的附件/
+
+# ---- Demo 成片：64.5MB，作为 r2 Release 附件发布，不进 Git 历史 ----
+实施报告/批次7_Demo视频/一位抑郁症患者的独白_Demo_1080p.mp4
+
+# ---- 系统文件 ----
+Thumbs.db
+desktop.ini
+~$*
+
+# ---- Python 缓存 ----
+__pycache__/
+*.pyc
