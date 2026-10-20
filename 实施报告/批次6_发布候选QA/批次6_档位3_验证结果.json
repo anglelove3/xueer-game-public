@@ -1,0 +1,810 @@
+{
+  "status": "PASS",
+  "mode": 3,
+  "finishedAt": "2026-10-19T08:11:39.373Z",
+  "durationFrames": 9862,
+  "checks": [
+    {
+      "name": "新游戏进入 Map005",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "图片预加载：尾声_醒来 / 日记本",
+      "actual": [
+        {
+          "name": "尾声_醒来",
+          "ready": true,
+          "error": false
+        },
+        {
+          "name": "日记本",
+          "ready": true,
+          "error": false
+        }
+      ],
+      "expected": [
+        {
+          "name": "尾声_醒来",
+          "ready": true,
+          "error": false
+        },
+        {
+          "name": "日记本",
+          "ready": true,
+          "error": false
+        }
+      ],
+      "ok": true
+    },
+    {
+      "name": "标题图预加载：Title_Main",
+      "actual": {
+        "ready": true,
+        "error": false
+      },
+      "expected": {
+        "ready": true,
+        "error": false
+      },
+      "ok": true
+    },
+    {
+      "name": "到达 Map019",
+      "actual": 19,
+      "expected": 19,
+      "ok": true
+    },
+    {
+      "name": "测试前 V18",
+      "actual": 2,
+      "expected": 2,
+      "ok": true
+    },
+    {
+      "name": "测试前 V24",
+      "actual": 0,
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "name": "第 5 夜独白完整显示",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "第 5 夜",
+      "actual": 5,
+      "expected": 5,
+      "ok": true
+    },
+    {
+      "name": "第 5 夜使用变体 3",
+      "actual": 3,
+      "expected": 3,
+      "ok": true
+    },
+    {
+      "name": "第 5 夜档位文本：就到这里吧。",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "推开门的档位 V27",
+      "actual": 3,
+      "expected": 3,
+      "ok": true
+    },
+    {
+      "name": "S40 已打开",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "尾声转入 Map036",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "S48 已打开",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "尾声图片已显示",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "尾声图片原名",
+      "actual": "尾声_醒来",
+      "expected": "尾声_醒来",
+      "ok": true
+    },
+    {
+      "name": "尾声图片 origin=0",
+      "actual": 0,
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "name": "尾声图片左上角 X",
+      "actual": 0,
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "name": "尾声图片左上角 Y",
+      "actual": 0,
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "name": "尾声图片不透明度",
+      "actual": 255,
+      "expected": 255,
+      "ok": true
+    },
+    {
+      "name": "名单包含「谢谢你陪她走到这里。」",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "名单包含作者署名",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "名单结束后回到标题",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "终夜已读 S37",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    }
+  ],
+  "screenshots": [
+    "b6_t3_02_night5.png",
+    "b6_t3_03_epilogue.png",
+    "b6_t3_04_credits_a.png",
+    "b6_t3_05_credits_b.png",
+    "b6_t3_06_credits_c.png",
+    "b6_t3_07_title.png"
+  ],
+  "finalState": {
+    "mode": 3,
+    "scene": "Scene_Title",
+    "mapId": 36,
+    "playerX": 8,
+    "playerY": 18,
+    "V18": 2,
+    "V24": 0,
+    "V27": 3,
+    "S37": true,
+    "S40": true,
+    "S48": true,
+    "picture": null
+  },
+  "events": [
+    {
+      "frame": 360,
+      "time": "2026-10-19T08:11:32.034Z",
+      "mode": 3,
+      "type": "phase",
+      "data": "终章档位 3"
+    },
+    {
+      "frame": 601,
+      "time": "2026-10-19T08:11:32.188Z",
+      "mode": 3,
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "set",
+        "args": {
+          "value": "55"
+        },
+        "mapId": 4
+      }
+    },
+    {
+      "frame": 601,
+      "time": "2026-10-19T08:11:32.189Z",
+      "mode": 3,
+      "type": "text",
+      "data": "\\C[3]不知道为什么，雪儿最近总感觉自己有什么东西忘记了，现在的一切"
+    },
+    {
+      "frame": 601,
+      "time": "2026-10-19T08:11:32.189Z",
+      "mode": 3,
+      "type": "text",
+      "data": "变得和从前不一样了……"
+    },
+    {
+      "frame": 1080,
+      "time": "2026-10-19T08:11:32.644Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "新游戏进入 Map005",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 1080,
+      "time": "2026-10-19T08:11:32.745Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "图片预加载：尾声_醒来 / 日记本",
+        "actual": [
+          {
+            "name": "尾声_醒来",
+            "ready": true,
+            "error": false
+          },
+          {
+            "name": "日记本",
+            "ready": true,
+            "error": false
+          }
+        ],
+        "expected": [
+          {
+            "name": "尾声_醒来",
+            "ready": true,
+            "error": false
+          },
+          {
+            "name": "日记本",
+            "ready": true,
+            "error": false
+          }
+        ]
+      }
+    },
+    {
+      "frame": 1080,
+      "time": "2026-10-19T08:11:32.746Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "标题图预加载：Title_Main",
+        "actual": {
+          "ready": true,
+          "error": false
+        },
+        "expected": {
+          "ready": true,
+          "error": false
+        }
+      }
+    },
+    {
+      "frame": 1081,
+      "time": "2026-10-19T08:11:32.770Z",
+      "mode": 3,
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_MoodMeter",
+        "commandName": "set",
+        "args": {
+          "value": "55"
+        },
+        "mapId": 5
+      }
+    },
+    {
+      "frame": 1140,
+      "time": "2026-10-19T08:11:32.842Z",
+      "mode": 3,
+      "type": "transfer",
+      "data": {
+        "mapId": 19,
+        "x": 21,
+        "y": 22,
+        "direction": 2
+      }
+    },
+    {
+      "frame": 1320,
+      "time": "2026-10-19T08:11:33.173Z",
+      "mode": 3,
+      "type": "clearTransient",
+      "data": "Map019"
+    },
+    {
+      "frame": 1380,
+      "time": "2026-10-19T08:11:33.275Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "到达 Map019",
+        "actual": 19,
+        "expected": 19
+      }
+    },
+    {
+      "frame": 1380,
+      "time": "2026-10-19T08:11:33.275Z",
+      "mode": 3,
+      "type": "phase",
+      "data": "Map019 终章档位 3"
+    },
+    {
+      "frame": 1380,
+      "time": "2026-10-19T08:11:33.276Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "测试前 V18",
+        "actual": 2,
+        "expected": 2
+      }
+    },
+    {
+      "frame": 1380,
+      "time": "2026-10-19T08:11:33.277Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "测试前 V24",
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "frame": 4980,
+      "time": "2026-10-19T08:11:34.783Z",
+      "mode": 3,
+      "type": "timeout",
+      "data": "settle"
+    },
+    {
+      "frame": 4980,
+      "time": "2026-10-19T08:11:34.783Z",
+      "mode": 3,
+      "type": "startEvent",
+      "data": {
+        "eventId": 4,
+        "label": "推开那扇门",
+        "page": 1,
+        "mapId": 19
+      }
+    },
+    {
+      "frame": 4980,
+      "time": "2026-10-19T08:11:34.790Z",
+      "mode": 3,
+      "type": "text",
+      "data": "门就在前面。"
+    },
+    {
+      "frame": 4990,
+      "time": "2026-10-19T08:11:34.798Z",
+      "mode": 3,
+      "type": "choice",
+      "data": {
+        "index": 0,
+        "text": "推开门",
+        "choices": [
+          "推开门",
+          "再等等"
+        ]
+      }
+    },
+    {
+      "frame": 4990,
+      "time": "2026-10-19T08:11:34.800Z",
+      "mode": 3,
+      "type": "plugin",
+      "data": {
+        "pluginName": "XueEr_Monologue",
+        "commandName": "night",
+        "args": {
+          "night": "5",
+          "variant": "3"
+        },
+        "mapId": 19
+      }
+    },
+    {
+      "frame": 5109,
+      "time": "2026-10-19T08:11:34.864Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "第 5 夜独白完整显示",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 5109,
+      "time": "2026-10-19T08:11:34.864Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "第 5 夜",
+        "actual": 5,
+        "expected": 5
+      }
+    },
+    {
+      "frame": 5109,
+      "time": "2026-10-19T08:11:34.865Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "第 5 夜使用变体 3",
+        "actual": 3,
+        "expected": 3
+      }
+    },
+    {
+      "frame": 5109,
+      "time": "2026-10-19T08:11:34.865Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "第 5 夜档位文本：就到这里吧。",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 5109,
+      "time": "2026-10-19T08:11:34.865Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "推开门的档位 V27",
+        "actual": 3,
+        "expected": 3
+      }
+    },
+    {
+      "frame": 5109,
+      "time": "2026-10-19T08:11:34.866Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "S40 已打开",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 5109,
+      "time": "2026-10-19T08:11:34.866Z",
+      "mode": 3,
+      "type": "monologueText",
+      "data": {
+        "night": 5,
+        "variant": 3,
+        "text": "我把门推开了一条缝。\n风是凉的。\n……\n就到这里吧。"
+      }
+    },
+    {
+      "frame": 5110,
+      "time": "2026-10-19T08:11:35.259Z",
+      "mode": 3,
+      "type": "canvasDataUrlShort",
+      "data": 13812
+    },
+    {
+      "frame": 5110,
+      "time": "2026-10-19T08:11:35.614Z",
+      "mode": 3,
+      "type": "screenshot",
+      "data": "b6_t3_02_night5.png"
+    },
+    {
+      "frame": 5350,
+      "time": "2026-10-19T08:11:35.798Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "尾声转入 Map036",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 5350,
+      "time": "2026-10-19T08:11:35.799Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "S48 已打开",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 5436,
+      "time": "2026-10-19T08:11:35.849Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "尾声图片已显示",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 5436,
+      "time": "2026-10-19T08:11:35.850Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "尾声图片原名",
+        "actual": "尾声_醒来",
+        "expected": "尾声_醒来"
+      }
+    },
+    {
+      "frame": 5436,
+      "time": "2026-10-19T08:11:35.850Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "尾声图片 origin=0",
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "frame": 5436,
+      "time": "2026-10-19T08:11:35.851Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "尾声图片左上角 X",
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "frame": 5436,
+      "time": "2026-10-19T08:11:35.851Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "尾声图片左上角 Y",
+        "actual": 0,
+        "expected": 0
+      }
+    },
+    {
+      "frame": 5436,
+      "time": "2026-10-19T08:11:35.852Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "尾声图片不透明度",
+        "actual": 255,
+        "expected": 255
+      }
+    },
+    {
+      "frame": 5497,
+      "time": "2026-10-19T08:11:36.438Z",
+      "mode": 3,
+      "type": "canvasDataUrlShort",
+      "data": 13812
+    },
+    {
+      "frame": 5497,
+      "time": "2026-10-19T08:11:36.847Z",
+      "mode": 3,
+      "type": "screenshot",
+      "data": "b6_t3_03_epilogue.png"
+    },
+    {
+      "frame": 5933,
+      "time": "2026-10-19T08:11:36.987Z",
+      "mode": 3,
+      "type": "text",
+      "data": "一位抑郁症患者的独白"
+    },
+    {
+      "frame": 5933,
+      "time": "2026-10-19T08:11:36.988Z",
+      "mode": 3,
+      "type": "text",
+      "data": "策划 / 剧本 / 程序：葛银"
+    },
+    {
+      "frame": 5933,
+      "time": "2026-10-19T08:11:36.988Z",
+      "mode": 3,
+      "type": "text",
+      "data": "地图素材：RPG Maker MZ"
+    },
+    {
+      "frame": 5933,
+      "time": "2026-10-19T08:11:36.988Z",
+      "mode": 3,
+      "type": "text",
+      "data": "插件：RPG Maker MZ 社区"
+    },
+    {
+      "frame": 5933,
+      "time": "2026-10-19T08:11:36.988Z",
+      "mode": 3,
+      "type": "text",
+      "data": "谢谢你陪她走到这里。"
+    },
+    {
+      "frame": 6611,
+      "time": "2026-10-19T08:11:37.186Z",
+      "mode": 3,
+      "type": "creditsAt",
+      "data": {
+        "threshold": 60,
+        "originY": 60,
+        "allTextHeight": 252,
+        "windowHeight": 616
+      }
+    },
+    {
+      "frame": 6612,
+      "time": "2026-10-19T08:11:37.553Z",
+      "mode": 3,
+      "type": "canvasDataUrlShort",
+      "data": 13812
+    },
+    {
+      "frame": 6612,
+      "time": "2026-10-19T08:11:37.602Z",
+      "mode": 3,
+      "type": "screenshot",
+      "data": "b6_t3_04_credits_a.png"
+    },
+    {
+      "frame": 6691,
+      "time": "2026-10-19T08:11:37.628Z",
+      "mode": 3,
+      "type": "creditsAt",
+      "data": {
+        "threshold": 140,
+        "originY": 140,
+        "allTextHeight": 252,
+        "windowHeight": 616
+      }
+    },
+    {
+      "frame": 6692,
+      "time": "2026-10-19T08:11:38.017Z",
+      "mode": 3,
+      "type": "canvasDataUrlShort",
+      "data": 13812
+    },
+    {
+      "frame": 6692,
+      "time": "2026-10-19T08:11:38.066Z",
+      "mode": 3,
+      "type": "screenshot",
+      "data": "b6_t3_05_credits_b.png"
+    },
+    {
+      "frame": 6741,
+      "time": "2026-10-19T08:11:38.074Z",
+      "mode": 3,
+      "type": "creditsAt",
+      "data": {
+        "threshold": 190,
+        "originY": 190,
+        "allTextHeight": 252,
+        "windowHeight": 616
+      }
+    },
+    {
+      "frame": 6742,
+      "time": "2026-10-19T08:11:38.450Z",
+      "mode": 3,
+      "type": "canvasDataUrlShort",
+      "data": 13812
+    },
+    {
+      "frame": 6742,
+      "time": "2026-10-19T08:11:38.496Z",
+      "mode": 3,
+      "type": "screenshot",
+      "data": "b6_t3_06_credits_c.png"
+    },
+    {
+      "frame": 6742,
+      "time": "2026-10-19T08:11:38.498Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "名单包含「谢谢你陪她走到这里。」",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 6742,
+      "time": "2026-10-19T08:11:38.498Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "名单包含作者署名",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 6982,
+      "time": "2026-10-19T08:11:38.589Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "名单结束后回到标题",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 6982,
+      "time": "2026-10-19T08:11:38.590Z",
+      "mode": 3,
+      "type": "pass",
+      "data": {
+        "name": "终夜已读 S37",
+        "actual": true,
+        "expected": true
+      }
+    },
+    {
+      "frame": 7042,
+      "time": "2026-10-19T08:11:38.603Z",
+      "mode": 3,
+      "type": "canvasRenderFailed",
+      "data": "Cannot read property 'parent' of null"
+    },
+    {
+      "frame": 8362,
+      "time": "2026-10-19T08:11:38.977Z",
+      "mode": 3,
+      "type": "canvasDataUrlShort",
+      "data": 13812
+    },
+    {
+      "frame": 9862,
+      "time": "2026-10-19T08:11:39.372Z",
+      "mode": 3,
+      "type": "screenshot",
+      "data": "b6_t3_07_title.png"
+    },
+    {
+      "frame": 9862,
+      "time": "2026-10-19T08:11:39.373Z",
+      "mode": 3,
+      "type": "summary",
+      "data": {
+        "mode": 3,
+        "total": 24,
+        "failed": []
+      }
+    }
+  ]
+}

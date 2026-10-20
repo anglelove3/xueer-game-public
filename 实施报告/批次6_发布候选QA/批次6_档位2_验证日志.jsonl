@@ -1,0 +1,82 @@
+{"frame":300,"time":"2026-10-19T08:12:09.395Z","mode":2,"type":"phase","data":"终章档位 2"}
+{"frame":661,"time":"2026-10-19T08:12:09.589Z","mode":2,"type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"set","args":{"value":"55"},"mapId":4}}
+{"frame":661,"time":"2026-10-19T08:12:09.590Z","mode":2,"type":"text","data":"\\C[3]不知道为什么，雪儿最近总感觉自己有什么东西忘记了，现在的一切"}
+{"frame":661,"time":"2026-10-19T08:12:09.590Z","mode":2,"type":"text","data":"变得和从前不一样了……"}
+{"frame":1140,"time":"2026-10-19T08:12:10.032Z","mode":2,"type":"pass","data":{"name":"新游戏进入 Map005","actual":true,"expected":true}}
+{"frame":1140,"time":"2026-10-19T08:12:10.135Z","mode":2,"type":"pass","data":{"name":"图片预加载：尾声_醒来 / 日记本","actual":[{"name":"尾声_醒来","ready":true,"error":false},{"name":"日记本","ready":true,"error":false}],"expected":[{"name":"尾声_醒来","ready":true,"error":false},{"name":"日记本","ready":true,"error":false}]}}
+{"frame":1140,"time":"2026-10-19T08:12:10.136Z","mode":2,"type":"pass","data":{"name":"标题图预加载：Title_Main","actual":{"ready":true,"error":false},"expected":{"ready":true,"error":false}}}
+{"frame":1140,"time":"2026-10-19T08:12:10.137Z","mode":2,"type":"phase","data":"Map021 传送交互回归"}
+{"frame":1141,"time":"2026-10-19T08:12:10.167Z","mode":2,"type":"plugin","data":{"pluginName":"XueEr_MoodMeter","commandName":"set","args":{"value":"55"},"mapId":5}}
+{"frame":1200,"time":"2026-10-19T08:12:10.260Z","mode":2,"type":"transfer","data":{"mapId":21,"x":5,"y":18,"direction":8}}
+{"frame":1380,"time":"2026-10-19T08:12:10.601Z","mode":2,"type":"clearTransient","data":"Map021"}
+{"frame":1440,"time":"2026-10-19T08:12:10.610Z","mode":2,"type":"pass","data":{"name":"到达 Map021 墙前","actual":21,"expected":21}}
+{"frame":1440,"time":"2026-10-19T08:12:10.611Z","mode":2,"type":"pass","data":{"name":"墙体2 第二页改为确认键触发","actual":0,"expected":0}}
+{"frame":1440,"time":"2026-10-19T08:12:10.611Z","mode":2,"type":"pass","data":{"name":"墙体2 第二页选项文本","actual":["进去","再等等"],"expected":["进去","再等等"]}}
+{"frame":5040,"time":"2026-10-19T08:12:11.921Z","mode":2,"type":"timeout","data":"settle"}
+{"frame":5040,"time":"2026-10-19T08:12:11.922Z","mode":2,"type":"startEvent","data":{"eventId":3,"label":"墙体2：再等等","page":2,"mapId":21}}
+{"frame":5040,"time":"2026-10-19T08:12:11.928Z","mode":2,"type":"text","data":"门后没有风，也没有声音。"}
+{"frame":5101,"time":"2026-10-19T08:12:11.981Z","mode":2,"type":"pass","data":{"name":"墙体2 弹出传送询问","actual":true,"expected":true}}
+{"frame":5101,"time":"2026-10-19T08:12:11.982Z","mode":2,"type":"pass","data":{"name":"墙体2 新提示文本","actual":true,"expected":true}}
+{"frame":5102,"time":"2026-10-19T08:12:12.382Z","mode":2,"type":"canvasDataUrlShort","data":13812}
+{"frame":5102,"time":"2026-10-19T08:12:12.676Z","mode":2,"type":"screenshot","data":"b6_t2_01_map21_choice.png"}
+{"frame":5103,"time":"2026-10-19T08:12:12.687Z","mode":2,"type":"choice","data":{"index":1,"text":"再等等","choices":["进去","再等等"]}}
+{"frame":5162,"time":"2026-10-19T08:12:12.703Z","mode":2,"type":"pass","data":{"name":"选择「再等等」后事件结束","actual":true,"expected":true}}
+{"frame":5282,"time":"2026-10-19T08:12:12.738Z","mode":2,"type":"pass","data":{"name":"选择「再等等」后不再重复弹窗","actual":false,"expected":false}}
+{"frame":5282,"time":"2026-10-19T08:12:12.739Z","mode":2,"type":"pass","data":{"name":"选择「再等等」后仍停留在 Map021","actual":21,"expected":21}}
+{"frame":8882,"time":"2026-10-19T08:12:13.792Z","mode":2,"type":"timeout","data":"settle"}
+{"frame":8882,"time":"2026-10-19T08:12:13.792Z","mode":2,"type":"startEvent","data":{"eventId":3,"label":"墙体2：进去","page":2,"mapId":21}}
+{"frame":8882,"time":"2026-10-19T08:12:13.795Z","mode":2,"type":"text","data":"门后没有风，也没有声音。"}
+{"frame":8883,"time":"2026-10-19T08:12:13.795Z","mode":2,"type":"choice","data":{"index":0,"text":"进去","choices":["进去","再等等"]}}
+{"frame":9062,"time":"2026-10-19T08:12:13.857Z","mode":2,"type":"pass","data":{"name":"选择「进去」后传送到 Map019","actual":true,"expected":true}}
+{"frame":9062,"time":"2026-10-19T08:12:13.858Z","mode":2,"type":"clearTransient","data":"Map019"}
+{"frame":9122,"time":"2026-10-19T08:12:13.871Z","mode":2,"type":"pass","data":{"name":"传送落点 X","actual":21,"expected":21}}
+{"frame":9122,"time":"2026-10-19T08:12:13.872Z","mode":2,"type":"pass","data":{"name":"传送落点 Y","actual":22,"expected":22}}
+{"frame":9122,"time":"2026-10-19T08:12:13.873Z","mode":2,"type":"phase","data":"Map019 终章档位 2"}
+{"frame":9122,"time":"2026-10-19T08:12:13.873Z","mode":2,"type":"pass","data":{"name":"测试前 V18","actual":6,"expected":6}}
+{"frame":9122,"time":"2026-10-19T08:12:13.874Z","mode":2,"type":"pass","data":{"name":"测试前 V24","actual":0,"expected":0}}
+{"frame":12722,"time":"2026-10-19T08:12:15.067Z","mode":2,"type":"timeout","data":"settle"}
+{"frame":12722,"time":"2026-10-19T08:12:15.068Z","mode":2,"type":"startEvent","data":{"eventId":4,"label":"推开那扇门","page":1,"mapId":19}}
+{"frame":12722,"time":"2026-10-19T08:12:15.070Z","mode":2,"type":"text","data":"门就在前面。"}
+{"frame":12732,"time":"2026-10-19T08:12:15.074Z","mode":2,"type":"choice","data":{"index":0,"text":"推开门","choices":["推开门","再等等"]}}
+{"frame":12732,"time":"2026-10-19T08:12:15.075Z","mode":2,"type":"plugin","data":{"pluginName":"XueEr_Monologue","commandName":"night","args":{"night":"5","variant":"2"},"mapId":19}}
+{"frame":12911,"time":"2026-10-19T08:12:15.151Z","mode":2,"type":"pass","data":{"name":"第 5 夜独白完整显示","actual":true,"expected":true}}
+{"frame":12911,"time":"2026-10-19T08:12:15.151Z","mode":2,"type":"pass","data":{"name":"第 5 夜","actual":5,"expected":5}}
+{"frame":12911,"time":"2026-10-19T08:12:15.152Z","mode":2,"type":"pass","data":{"name":"第 5 夜使用变体 2","actual":2,"expected":2}}
+{"frame":12911,"time":"2026-10-19T08:12:15.152Z","mode":2,"type":"pass","data":{"name":"第 5 夜档位文本：明天我再推一次。","actual":true,"expected":true}}
+{"frame":12911,"time":"2026-10-19T08:12:15.152Z","mode":2,"type":"pass","data":{"name":"推开门的档位 V27","actual":2,"expected":2}}
+{"frame":12911,"time":"2026-10-19T08:12:15.153Z","mode":2,"type":"pass","data":{"name":"S40 已打开","actual":true,"expected":true}}
+{"frame":12911,"time":"2026-10-19T08:12:15.153Z","mode":2,"type":"monologueText","data":{"night":5,"variant":2,"text":"我把门推开了一条缝。\n风是凉的。\n明天我再推一次。"}}
+{"frame":12912,"time":"2026-10-19T08:12:15.528Z","mode":2,"type":"canvasDataUrlShort","data":13812}
+{"frame":12912,"time":"2026-10-19T08:12:15.881Z","mode":2,"type":"screenshot","data":"b6_t2_02_night5.png"}
+{"frame":13092,"time":"2026-10-19T08:12:16.042Z","mode":2,"type":"pass","data":{"name":"尾声转入 Map036","actual":true,"expected":true}}
+{"frame":13092,"time":"2026-10-19T08:12:16.043Z","mode":2,"type":"pass","data":{"name":"S48 已打开","actual":true,"expected":true}}
+{"frame":13178,"time":"2026-10-19T08:12:16.090Z","mode":2,"type":"pass","data":{"name":"尾声图片已显示","actual":true,"expected":true}}
+{"frame":13178,"time":"2026-10-19T08:12:16.091Z","mode":2,"type":"pass","data":{"name":"尾声图片原名","actual":"尾声_醒来","expected":"尾声_醒来"}}
+{"frame":13178,"time":"2026-10-19T08:12:16.091Z","mode":2,"type":"pass","data":{"name":"尾声图片 origin=0","actual":0,"expected":0}}
+{"frame":13178,"time":"2026-10-19T08:12:16.092Z","mode":2,"type":"pass","data":{"name":"尾声图片左上角 X","actual":0,"expected":0}}
+{"frame":13178,"time":"2026-10-19T08:12:16.092Z","mode":2,"type":"pass","data":{"name":"尾声图片左上角 Y","actual":0,"expected":0}}
+{"frame":13178,"time":"2026-10-19T08:12:16.092Z","mode":2,"type":"pass","data":{"name":"尾声图片不透明度","actual":255,"expected":255}}
+{"frame":13239,"time":"2026-10-19T08:12:16.667Z","mode":2,"type":"canvasDataUrlShort","data":13812}
+{"frame":13239,"time":"2026-10-19T08:12:17.072Z","mode":2,"type":"screenshot","data":"b6_t2_03_epilogue.png"}
+{"frame":13675,"time":"2026-10-19T08:12:17.211Z","mode":2,"type":"text","data":"一位抑郁症患者的独白"}
+{"frame":13675,"time":"2026-10-19T08:12:17.211Z","mode":2,"type":"text","data":"策划 / 剧本 / 程序：葛银"}
+{"frame":13675,"time":"2026-10-19T08:12:17.211Z","mode":2,"type":"text","data":"地图素材：RPG Maker MZ"}
+{"frame":13675,"time":"2026-10-19T08:12:17.211Z","mode":2,"type":"text","data":"插件：RPG Maker MZ 社区"}
+{"frame":13675,"time":"2026-10-19T08:12:17.212Z","mode":2,"type":"text","data":"谢谢你陪她走到这里。"}
+{"frame":14353,"time":"2026-10-19T08:12:17.465Z","mode":2,"type":"creditsAt","data":{"threshold":60,"originY":60,"allTextHeight":252,"windowHeight":616}}
+{"frame":14354,"time":"2026-10-19T08:12:17.843Z","mode":2,"type":"canvasDataUrlShort","data":13812}
+{"frame":14354,"time":"2026-10-19T08:12:17.901Z","mode":2,"type":"screenshot","data":"b6_t2_04_credits_a.png"}
+{"frame":14433,"time":"2026-10-19T08:12:17.922Z","mode":2,"type":"creditsAt","data":{"threshold":140,"originY":140,"allTextHeight":252,"windowHeight":616}}
+{"frame":14434,"time":"2026-10-19T08:12:18.298Z","mode":2,"type":"canvasDataUrlShort","data":13812}
+{"frame":14434,"time":"2026-10-19T08:12:18.367Z","mode":2,"type":"screenshot","data":"b6_t2_05_credits_b.png"}
+{"frame":14483,"time":"2026-10-19T08:12:18.380Z","mode":2,"type":"creditsAt","data":{"threshold":190,"originY":190,"allTextHeight":252,"windowHeight":616}}
+{"frame":14484,"time":"2026-10-19T08:12:18.773Z","mode":2,"type":"canvasDataUrlShort","data":13812}
+{"frame":14484,"time":"2026-10-19T08:12:18.840Z","mode":2,"type":"screenshot","data":"b6_t2_06_credits_c.png"}
+{"frame":14484,"time":"2026-10-19T08:12:18.841Z","mode":2,"type":"pass","data":{"name":"名单包含「谢谢你陪她走到这里。」","actual":true,"expected":true}}
+{"frame":14484,"time":"2026-10-19T08:12:18.841Z","mode":2,"type":"pass","data":{"name":"名单包含作者署名","actual":true,"expected":true}}
+{"frame":14724,"time":"2026-10-19T08:12:18.957Z","mode":2,"type":"pass","data":{"name":"名单结束后回到标题","actual":true,"expected":true}}
+{"frame":14724,"time":"2026-10-19T08:12:18.958Z","mode":2,"type":"pass","data":{"name":"终夜已读 S37","actual":true,"expected":true}}
+{"frame":14784,"time":"2026-10-19T08:12:18.974Z","mode":2,"type":"canvasRenderFailed","data":"Cannot read property 'parent' of null"}
+{"frame":15864,"time":"2026-10-19T08:12:19.336Z","mode":2,"type":"canvasDataUrlShort","data":13812}
+{"frame":17484,"time":"2026-10-19T08:12:19.871Z","mode":2,"type":"screenshot","data":"b6_t2_07_title.png"}
+{"frame":17484,"time":"2026-10-19T08:12:19.871Z","mode":2,"type":"summary","data":{"mode":2,"total":34,"failed":[]}}
