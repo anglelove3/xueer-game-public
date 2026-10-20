@@ -1,0 +1,61 @@
+### 附件1： 游戏所用插件说明.docx  段落数=60
+插件名
+基本功能
+使用方法
+2D_Cat_BeautifulSunshineFilter
+为游戏增加绮丽的日光效果滤镜
+事件插件命令中使用
+MOG_MenuBackground
+自定义菜单背景图像
+插件管理器中使用和修改参数
+MOG_MenuCursor
+讲动画光标添加到命令菜单
+插件管理器中使用和修改参数
+MOG_MenuCursorBackground
+自定义选择图像
+插件管理器中使用和修改参数
+MOG_MenuCursorBorder
+在命令选择中添加边框
+插件管理器中使用和修改参数
+MOG_MenuParticles
+将粒子效果添加到场景中
+插件管理器中使用和修改参数
+MOG_TitleLayers
+向标题画面添加多个图层
+插件管理器中使用和修改参数
+MOG_TitleMagicCircles
+向标题画面添加魔方阵
+插件管理器中使用和修改参数
+MOG_TitleParticles
+将粒子效果增加到标题画面
+插件管理器中使用和修改参数
+MOG_TitlePictureCom
+向图像添加命令已代替窗口
+插件管理器中使用和修改参数
+MOG_TitleSplashScreen
+在标题画面添加多个微标
+插件管理器中使用和修改参数
+MOG_TouchAnimation
+显示触摸动画
+插件管理器中使用和修改参数
+MOG_Weather_EX
+更换天气系统
+使用脚本，并在地图设置里修改成这样的备注：weather : 0 : 0 : 30 : 100 : 0 : Flower_01（前面几个参数是固定的最好foower可以根据你想要的天气进行修改）
+ulds
+无线图层使用
+使用脚本，并在地图设置里修改成这样的备注：
+<ulds> {
+"name": "BlueSky",
+"x": "this.rx(t)",
+"y": 50,
+"loop": true
+} </ulds>
+XdRs_TaskEditor
+在线任务编辑器
+插件管理器中打开这个插件后在测试游戏时直接使用
+XdRs_TaskSystem
+任务系统
+插件管理器中使用和修改参数，并使用脚本使用此插件
+2D_Cat_OldFilmFilter
+为游戏添加老旧电影滤镜
+具体如何使用脚本 请看每个JS插件的注释和插件管理器里面的参数值。
