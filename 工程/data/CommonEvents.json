@@ -1,0 +1,23 @@
+[
+null,
+{"id":1,"list":[{"code":108,"indent":0,"parameters":["【心锁闪回·通用演出】"]},{"code":108,"indent":0,"parameters":["由触发点直接调用插件命令：MemLock play id=<段号>"]},{"code":108,"indent":0,"parameters":["本公共事件保留为统一演出入口；段号通过事件分支选择，MZ 公共事件本身无参数。"]},{"code":108,"indent":0,"parameters":["演出结束后插件自动：V18 += 1、打开 S21–S32 对应段开关。"]},{"code":0,"indent":0,"parameters":[]}],"name":"心锁闪回","switchId":1,"trigger":0},
+{"id":2,"list":[{"code":108,"indent":0,"parameters":["【独白日记·通用入口】"]},{"code":108,"indent":0,"parameters":["由事件按夜号与变体选择文本，调用：Mono night text=<独白正文>"]},{"code":108,"indent":0,"parameters":["读完由插件打开 S33–S37 对应夜开关；事件层再执行 Mood add 3。"]},{"code":108,"indent":0,"parameters":["本公共事件保留为以后做「统一翻开日记本」演出用。"]},{"code":0,"indent":0,"parameters":[]}],"name":"独白","switchId":1,"trigger":0},
+{"id":3,"list":[{"code":108,"indent":0,"parameters":["【每日结算·骨架】"]},{"code":108,"indent":0,"parameters":["待接：若 V25 == 0 则 V24 -= 1；然后 V25 = 0、V22 = 0。"]},{"code":108,"indent":0,"parameters":["调用时机：每次进入夜间/睡觉前，由地图事件调用。"]},{"code":0,"indent":0,"parameters":[]}],"name":"每日结算","switchId":1,"trigger":0},
+{"id":4,"list":[{"code":108,"indent":0,"parameters":["【情绪刷新·骨架】"]},{"code":108,"indent":0,"parameters":["MoodMeter 默认每 30 帧自动检查 V20，因此本事件平时无需调用。"]},{"code":108,"indent":0,"parameters":["用途：剧情强制改档位后立刻刷新时，调用插件命令 Mood refresh。"]},{"code":0,"indent":0,"parameters":[]}],"name":"情绪刷新","switchId":1,"trigger":0},
+{"id":5,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":6,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":7,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":8,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":9,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":10,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":11,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":12,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":13,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":14,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":15,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":16,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":17,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":18,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":19,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":20,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+]
