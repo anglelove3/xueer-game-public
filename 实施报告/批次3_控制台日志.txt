@@ -1,0 +1,14 @@
+[console.log] [XueEr_MentalLock] 已重置 V18 与 S21–S32。
+[console.log] [XueEr_MoodMeter] V20 = 90（晴）
+[console.log] [XueEr_MoodMeter] V20 = 10（雷）
+[console.log] [XueEr_MentalLock] 第 1 段完成，V18 = 1
+[console.log] [XueEr_MentalLock] 心锁计数 V18 = 1 / 12
+[console.warning] [XueEr_MentalLock] 第 1 段已经播放过，跳过。
+[console.log] [XueEr_Monologue] 关灯：night=1，已读开关 S33
+[console.log] [XueEr_MindTalk] 开始：set=心魔, strength=2, mood=13
+[console.log] [XueEr_MindTalk] 第 1 轮：他们只是客气。（strength=2, mood=13）
+[console.log] [XueEr_MindTalk] 选择 反驳：strength=0, mood=8
+[console.log] [XueEr_MindTalk] 收尾：她撑住了今天。
+[console.log] [XueEr_MindTalk] 结束：round=1, mood=7
+[console.log] [XueEr_MindTalk] busy=false, strength=0, round=1, mood=7
+[console.log] [XueEr_Monologue] 关灯：night=1，已读开关 S33

@@ -1,0 +1,227 @@
+{
+  "generatedAt": "2026-10-18T13:29:00.216Z",
+  "map": 42,
+  "checks": {
+    "map42": true,
+    "moodSun": true,
+    "moodStorm": true,
+    "mentalLockCount": true,
+    "mentalLockSwitch": true,
+    "mentalLockRepeatSkipped": true,
+    "monologueReadSwitch": true,
+    "monologuePlayed": true,
+    "mindTalkRan": true,
+    "finalMood": true,
+    "menuHasCommand": true,
+    "replayListFiveNights": true,
+    "imagesLoaded": true,
+    "noNewExceptions": true
+  },
+  "milestones": {
+    "sun": true,
+    "sunBandOk": true,
+    "storm": true,
+    "stormBandOk": true,
+    "lock": true,
+    "mind": true,
+    "finalText": true,
+    "listState": {
+      "scene": "Scene_MonologueList",
+      "map": 42,
+      "player": [
+        16,
+        10
+      ],
+      "msg": false,
+      "choice": false,
+      "text": "",
+      "mood": 7,
+      "band": "雷",
+      "lock": false,
+      "lockId": 1,
+      "mind": false,
+      "mindRound": 1,
+      "mindStrength": 0,
+      "moodValue": 7,
+      "v18": 1,
+      "s21": true,
+      "s33": true,
+      "selfA": true,
+      "menu": null,
+      "list": [
+        {
+          "symbol": "night1",
+          "name": "第 1 夜",
+          "enabled": true
+        },
+        {
+          "symbol": "night2",
+          "name": "第 2 夜（未读）",
+          "enabled": false
+        },
+        {
+          "symbol": "night3",
+          "name": "第 3 夜（未读）",
+          "enabled": false
+        },
+        {
+          "symbol": "night4",
+          "name": "第 4 夜（未读）",
+          "enabled": false
+        },
+        {
+          "symbol": "night5",
+          "name": "终夜（未读）",
+          "enabled": false
+        }
+      ]
+    }
+  },
+  "afterEvent": {
+    "scene": "Scene_Map",
+    "map": 42,
+    "player": [
+      16,
+      10
+    ],
+    "msg": false,
+    "choice": false,
+    "text": "",
+    "mood": 7,
+    "band": "雷",
+    "lock": false,
+    "lockId": 1,
+    "mind": false,
+    "mindRound": 1,
+    "mindStrength": 0,
+    "moodValue": 7,
+    "v18": 1,
+    "s21": true,
+    "s33": true,
+    "selfA": true,
+    "menu": null,
+    "list": null
+  },
+  "finalState": {
+    "scene": "Scene_Map",
+    "map": 42,
+    "player": [
+      16,
+      10
+    ],
+    "msg": false,
+    "choice": false,
+    "text": "",
+    "mood": 7,
+    "band": "雷",
+    "lock": false,
+    "lockId": 1,
+    "mind": false,
+    "mindRound": 1,
+    "mindStrength": 0,
+    "moodValue": 7,
+    "v18": 1,
+    "s21": true,
+    "s33": true,
+    "selfA": true,
+    "menu": null,
+    "list": null
+  },
+  "menuIndex": 5,
+  "images": {
+    "frame": {
+      "name": "记忆底框_4x3",
+      "ready": true,
+      "width": 816,
+      "height": 624,
+      "error": null
+    },
+    "memory": {
+      "name": "Memory_Placeholder",
+      "ready": true,
+      "width": 640,
+      "height": 480,
+      "error": null
+    },
+    "diary": {
+      "name": "日记本",
+      "ready": true,
+      "width": 816,
+      "height": 624,
+      "error": null
+    },
+    "sun": {
+      "name": "MoodIcon_晴",
+      "ready": true,
+      "width": 32,
+      "height": 32,
+      "error": null
+    },
+    "storm": {
+      "name": "MoodIcon_雷",
+      "ready": true,
+      "width": 32,
+      "height": 32,
+      "error": null
+    }
+  },
+  "shots": [
+    {
+      "name": "01_mood_sun.png",
+      "bytes": 1532348
+    },
+    {
+      "name": "02_mood_storm.png",
+      "bytes": 1271646
+    },
+    {
+      "name": "03_mental_lock.png",
+      "bytes": 677283
+    },
+    {
+      "name": "04_monologue_typing.png",
+      "bytes": 692448
+    },
+    {
+      "name": "05_monologue_full.png",
+      "bytes": 757848
+    },
+    {
+      "name": "06_mindtalk_choice.png",
+      "bytes": 1235831
+    },
+    {
+      "name": "07_final_message.png",
+      "bytes": 1266580
+    },
+    {
+      "name": "08_menu_entry.png",
+      "bytes": 576517
+    },
+    {
+      "name": "09_monologue_list.png",
+      "bytes": 508756
+    },
+    {
+      "name": "10_monologue_replay.png",
+      "bytes": 686309
+    }
+  ],
+  "exceptions": [],
+  "console": [
+    "[console.log] [XueEr_MentalLock] 已重置 V18 与 S21–S32。",
+    "[console.log] [XueEr_MoodMeter] V20 = 90（晴）",
+    "[console.log] [XueEr_MoodMeter] V20 = 10（雷）",
+    "[console.log] [XueEr_MentalLock] 第 1 段完成，V18 = 1",
+    "[console.log] [XueEr_MentalLock] 心锁计数 V18 = 1 / 12",
+    "[console.warning] [XueEr_MentalLock] 第 1 段已经播放过，跳过。",
+    "[console.log] [XueEr_Monologue] 关灯：night=1，已读开关 S33",
+    "[console.log] [XueEr_MindTalk] 开始：set=心魔, strength=2, mood=13",
+    "[console.log] [XueEr_MindTalk] 第 1 轮：他们只是客气。（strength=2, mood=13）",
+    "[console.log] [XueEr_MindTalk] 选择 反驳：strength=0, mood=8",
+    "[console.log] [XueEr_MindTalk] 收尾：她撑住了今天。",
+    "[console.log] [XueEr_MindTalk] 结束：round=1, mood=7",
+    "[console.log] [XueEr_MindTalk] busy=false, strength=0, round=1, mood=7",
+    "[console.log] [XueEr_Monologue] 关灯：night=1，已读开关 S33"
+  ]
+}

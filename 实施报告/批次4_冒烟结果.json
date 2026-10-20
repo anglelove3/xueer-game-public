@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scene": "Scene_Title",
+  "elapsedMs": 7821,
+  "enabledPluginCount": 22,
+  "hasB4Test": false,
+  "xueerPlugins": [
+    "XueEr_MoodMeter",
+    "XueEr_MentalLock",
+    "XueEr_Monologue",
+    "XueEr_MindTalk",
+    "XueEr_KoTCCompat"
+  ],
+  "xueerCommands": [
+    "XueEr_MentalLock:count",
+    "XueEr_MentalLock:play",
+    "XueEr_MentalLock:reset",
+    "XueEr_MindTalk:get",
+    "XueEr_MindTalk:start",
+    "XueEr_Monologue:get",
+    "XueEr_Monologue:menu",
+    "XueEr_Monologue:night",
+    "XueEr_MoodMeter:add",
+    "XueEr_MoodMeter:get",
+    "XueEr_MoodMeter:refresh",
+    "XueEr_MoodMeter:set"
+  ],
+  "hasKotcCompat": true,
+  "startMapId": 4,
+  "errors": []
+}
